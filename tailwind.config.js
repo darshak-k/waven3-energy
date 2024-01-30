@@ -19,6 +19,9 @@ module.exports = {
 
         "gradient-rainblue":
           "linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%)",
+        "gradient-green":
+          "linear-gradient(90deg, #00FFA3 0%, #00FF4F 50%, #00A736 100%)",
+
       }),
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
