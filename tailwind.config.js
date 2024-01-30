@@ -23,6 +23,7 @@ module.exports = {
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
         opensans: ["Open Sans", "sans-serif"],
+        bigshoulder: ["Big Shoulders Display", "sans-serif"],
       },
       content: {
         brush: "url('./assets/brush.png')",

@@ -23,16 +23,32 @@ const Landing = ({ setSelectedPage }) => {
         className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2"
       >
         {isAboveLarge ? (
-          <img
+          <motion.img
+            initial={{ scale: 0.5, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 1 }}
+            style={{
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+            }}
             alt="profile"
-            className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
             src={SwingLogo}
+            className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
           />
         ) : (
-          <img
+          <motion.img
+            initial={{ scale: 0.5, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 1 }}
+            style={{
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+            }}
             alt="profile"
-            className="z-10 w-full max-w-[400px] md:max-w-[600px]"
             src={SwingLogo}
+            className="z-10 w-full max-w-[400px] md:max-w-[600px]"
           />
         )}
       </motion.div>
