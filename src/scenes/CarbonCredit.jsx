@@ -18,6 +18,14 @@ const CarbonCredit = () => {
           src={CarbonCreditImg}
         />
       </div>
+      <div className="">
+        <p>Hydrogen Technologies</p>
+        <p>Fertilizers</p>
+        <p>Clean fuels</p>
+        <p>Carbon capture technologies</p>
+        <p>Blockchain technology</p>
+        <p>Education</p>
+      </div>
     </section>
   );
 };
