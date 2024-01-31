@@ -1,15 +1,28 @@
 import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
+import EarthCity from "../assets/EarthCity.png";
 import { motion } from "framer-motion";
 
 const About = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
+  const imageStyles = {
+    filter:
+      "invert(54%) sepia(81%) saturate(418%) hue-rotate(90deg) brightness(96%) contrast(96%)",
+  };
   return (
     <section id="skills" className="pt-10 pb-24">
       {/* HEADER AND IMAGE SECTION */}
-      <div className="md:flex md:justify-between md:gap-16 mt-32">
+      <div className="flex flex-col md:justify-between">
+        <div className="mt-16 flex justify-center md:mt-0">
+          <img
+            alt="skills"
+            class="justify-center  z-10 max-h-[712px] max-w-[1080px]  ms-auto"
+            style={imageStyles}
+            src={EarthCity}
+          />
+        </div>
+
         <motion.div
-          className="md:w-1/3"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -35,23 +48,6 @@ const About = () => {
             future generations a better future and a greener planet."
           </p>
         </motion.div>
-
-        <div className="mt-16 md:mt-0">
-          {isAboveLarge ? (
-            <div
-              className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
-              before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
-            >
-              <img
-                alt="skills"
-                className="z-10"
-                src="assets/skills-image.png"
-              />
-            </div>
-          ) : (
-            <img alt="skills" className="z-10" src="assets/skills-image.png" />
-          )}
-        </div>
       </div>
     </section>
   );

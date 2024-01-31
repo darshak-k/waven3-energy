@@ -30,7 +30,7 @@ const Landing = ({ setSelectedPage }) => {
             style={{
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -50%)",
+              transform: "translate(-20%, -20%)",
             }}
             alt="profile"
             src={SwingLogo}
@@ -66,7 +66,7 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start">
+          <p className="text-6xl font-playfair z-10 text-center pt-16 md:text-start md:mt-20">
             JOIN US IN CHANGING THE WORLD TODAY
           </p>
 
