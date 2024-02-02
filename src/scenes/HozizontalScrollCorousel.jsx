@@ -67,10 +67,10 @@ const OpenCards = () => {
       {isAboveLarge ? (
         <div className="flex flex-row w-full">
           {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((index) => (
-            <div className={`flex flex-row gap-1  w-full h-[400px]`}>
+            <div className={`flex flex-row gap-1   w-full h-[400px]`}>
               <motion.div
                 key={index}
-                className={` border ${
+                className={`flex-grow  w-11/12 ${
                   index === expandedIndex ? "expanded" : "collapsed"
                 }`}
                 variants={cardVariants}
