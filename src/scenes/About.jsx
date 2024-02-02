@@ -34,7 +34,7 @@ const About = () => {
         >
           <img
             alt="skills"
-            class="justify-center  z-10 max-h-[712px] max-w-[1080px]  ms-auto"
+            className="justify-center z-10 max-w-[70%] h-auto "
             style={imageStyles}
             src={EarthCity}
           />
@@ -50,7 +50,7 @@ const About = () => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="mt-10 mb-7 font-bigshoulder text-3xl text-green-700 ">
+          <p className="mt-10 mb-7 font-bigshoulder md:text-3xl sm:text-xl">
             "
             <span className="text-green-950 font-extrabold tracking-wide">
               Waven3

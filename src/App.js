@@ -12,6 +12,8 @@ import { useEffect, useState } from "react";
 import Testimonials from "./scenes/Testimonials";
 import { motion } from "framer-motion";
 import CarbonCredit from "./scenes/CarbonCredit";
+import AccreditationProcess from "./scenes/AccreditationProcess";
+import Example from "./scenes/HozizontalScrollCorousel";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -73,27 +75,29 @@ function App() {
           <CarbonCredit />
         </motion.div>
       </div>
-      {/* <div className="w-5/6 mx-auto md:h-full ">
+      <LineGradient />
+
+      <div className="w-5/6 mx-auto md:h-full ">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
           onViewportEnter={() => setSelectedPage("skills")}
         >
-          <MySkills />
+          <AccreditationProcess />
         </motion.div>
       </div>
-      <LineGradient /> */}
+      <LineGradient /> 
       {/* <div className="w-5/6 mx-auto">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
           onViewportEnter={() => setSelectedPage("projects")}
         >
-          <Projects />
+          <Example />
         </motion.div>
-      </div>
+      </div> */}
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full">
+      {/* <div className="w-5/6 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -101,9 +105,9 @@ function App() {
         >
           <Testimonials />
         </motion.div>
-      </div>
+      </div> */}
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full">
+      {/* <div className="w-5/6 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
