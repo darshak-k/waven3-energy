@@ -2,6 +2,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import SwingLogo from "../assets/SwingLogo.png";
+import { TypeAnimation } from "react-type-animation";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -20,7 +21,7 @@ const Landing = ({ setSelectedPage }) => {
           hidden: { opacity: 0, x: 70, y: 70 },
           visible: { opacity: 1, x: 0 },
         }}
-        className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2"
+        className="basis-3/5 z-10 mt-32 flex justify-center md:order-2"
       >
         {isAboveLarge ? (
           <motion.img
@@ -54,7 +55,7 @@ const Landing = ({ setSelectedPage }) => {
       </motion.div>
 
       {/* MAIN TEXT */}
-      <div className="z-30 basis-3/5 mt-12 md:mt-32">
+      <div className="z-30 basis-3/5 my-20">
         {/* HEADINGS */}
         <motion.div
           initial="hidden"
@@ -66,35 +67,15 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center pt-16 md:text-start md:mt-20">
-            JOIN US IN CHANGING THE WORLD TODAY
+          <p className="font-playfair z-10 text-center pt-16 w-full">
+            <TypeAnimation
+              sequence={["JOIN US CHANGING THE WORLD TODAY"]}
+              wrapper="span"
+              cursor={false}
+              repeat={1}
+              className="text-2xl sm:text-3xl md:text-5xl"
+            />
           </p>
-
-          <p className="mt-10 mb-7 text-4xl text-center md:text-start">
-            WAVEN 3 TECH
-          </p>
-        </motion.div>
-
-        {/* CALL TO ACTIONS */}
-        <motion.div
-          className="flex mt-5 justify-center md:justify-start"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.2, duration: 0.5 }}
-          variants={{
-            hidden: { opacity: 0, x: -50 },
-            visible: { opacity: 1, x: 0 },
-          }}
-        >
-          <AnchorLink
-            className="bg-green-500 text-deep-blue rounded-sm py-3 px-7 font-bold
-              hover:bg-blue hover:text-white transition duration-500"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
-          >
-            ENTER
-          </AnchorLink>
         </motion.div>
       </div>
     </section>

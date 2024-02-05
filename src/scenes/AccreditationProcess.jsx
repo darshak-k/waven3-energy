@@ -2,7 +2,7 @@ import OpenCards from "./HozizontalScrollCorousel";
 
 const AccreditationProcess = () => {
   return (
-    <section id="skills">
+    <section id="accreditationProcess" className="mb-72">
       {/* HEADER AND IMAGE SECTION */}
       <OpenCards />
     </section>

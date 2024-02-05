@@ -1,5 +1,3 @@
-import LineGradient from "../components/LineGradient";
-import useMediaQuery from "../hooks/useMediaQuery";
 import EarthCity from "../assets/EarthCity.png";
 import { motion } from "framer-motion";
 
@@ -18,11 +16,20 @@ const About = () => {
   };
 
   return (
-    <section id="skills" className="pt-10 pb-24">
+    <section
+      id="skills"
+      className="flex flex-col pt-10 pb-24 justify-center items-center "
+    >
+      <div className="flex  w-full py-10 justify-center">
+        <p className=" font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
+          PROJECTS
+        </p>
+      </div>
+
       {/* HEADER AND IMAGE SECTION */}
-      <div className="flex flex-col md:justify-between">
+      <div className="flex flex-col max-w-[90%]">
         <motion.div
-          className="mt-16 flex justify-center md:mt-0"
+          className="flex justify-center items-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ amount: 0.5 }}
@@ -34,7 +41,7 @@ const About = () => {
         >
           <img
             alt="skills"
-            className="justify-center z-10 max-w-[70%] h-auto "
+            className="justify-center z-10 max-w-[70%]  "
             style={imageStyles}
             src={EarthCity}
           />
@@ -49,8 +56,9 @@ const About = () => {
             hidden: { opacity: 0, x: -50 },
             visible: { opacity: 1, x: 0 },
           }}
+          className="px-[10%]"
         >
-          <p className="mt-10 mb-7 font-bigshoulder md:text-3xl sm:text-xl">
+          <p className="mt-10 mb-7 font-bigshoulder text-base  sm:text-xl md:text-2xl">
             "
             <span className="text-green-950 font-extrabold tracking-wide">
               Waven3

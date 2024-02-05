@@ -3,7 +3,6 @@ import CarbonCreditImg from "../assets/CarbonCredit.png";
 import { motion } from "framer-motion";
 
 const CarbonCredit = () => {
-  const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   const imageStyles = {
     filter:
       "invert(96%) sepia(9%) saturate(1662%) hue-rotate(4deg) brightness(92%) contrast(86%)",
@@ -11,10 +10,38 @@ const CarbonCredit = () => {
   const textStyles =
     "z-0 font-bigshoulder text-2xl md:text-3xl lg:text-4xl font-bold text-center ";
 
+  const textStyle =
+    "text-2xl md:text-3xl font-bigshoulder justify-center items-center  font-semibold -center";
   return (
-    <section id="skills" className="px-24">
+    <section id="skills" className="justify-center items-center">
       {/* HEADER AND IMAGE SECTION */}
-      <div className="relative py-16">
+      <div className="flex mt-24 w-full py-10 mb-10 justify-center">
+        <p className="my=-10  font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
+          PROJECTS
+        </p>
+      </div>
+
+      <div className="flex flex-col w-full gap-10 px-[10%]  mb-20">
+        <div className={`${textStyle}`}>
+          To kickstart the{" "}
+          <span className="text-orange-900 font-extrabold tracking-wide">
+            WAVEN3 TECH PROJECT
+          </span>{" "}
+          , our company participate in innovative high technology in every
+          domain sphere.
+        </div>
+
+        <div className={`${textStyle}2`}>
+          At the same time,{" "}
+          <span className="text-orange-900 font-extrabold tracking-wide">
+            WAVEN3 TECH
+          </span>{" "}
+          is working to finance other carbon generating projects and sell their
+          carbon credits .
+        </div>
+      </div>
+
+      <div className="relative py-1 mb-40 px-20">
         <motion.div
           className="z-10 mt-32 flex justify-center"
           initial="hidden"
@@ -28,7 +55,7 @@ const CarbonCredit = () => {
         >
           <img
             alt="Carbon Credit"
-            className="justify-center z-0  max-w-[70%] h-auto md:max-w-[80%] lg:max-w-[90%]"
+            className="justify-center z-0  h-auto max-w-[100%]"
             src={CarbonCreditImg}
           />
         </motion.div>

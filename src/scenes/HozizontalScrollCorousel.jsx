@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import useMediaQuery from "../hooks/useMediaQuery";
 
 const OpenCards = () => {
@@ -67,7 +67,10 @@ const OpenCards = () => {
       {isAboveLarge ? (
         <div className="flex flex-row w-full">
           {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((index) => (
-            <div className={`flex flex-row gap-1   w-full h-[400px]`}>
+            <div
+              key={index}
+              className={`flex flex-row gap-1   w-full h-[400px]`}
+            >
               <motion.div
                 key={index}
                 className={`flex-grow  w-11/12 ${
@@ -89,7 +92,7 @@ const OpenCards = () => {
                         <p className="-rotate-90">{`0${index + 1}`}</p>
                       </div>
                       <div
-                        className={`text-2xl font-bigshoulder font-extrabold w-full py-20 whitespace-nowrap`}
+                        className={`text-2xl font-bigshoulder font-extrabold w-full py-24 whitespace-nowrap`}
                       >
                         <p className="-rotate-90 mx-0 my-0">{`${cardDescriptions[index]}`}</p>
                       </div>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
+import Waven3Tech from "../assets/Waven3Tech.png";
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.toLowerCase();
@@ -19,17 +20,19 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
-  const isDesktop = useMediaQuery("(min-width: 768px)");
+  const isDesktop = useMediaQuery("(min-width: 820px)");
   const navbarBackground = isTopOfPage ? "" : "bg-red";
 
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
-        <h4 className="font-playfair text-3xl font-bold">WAVEN3</h4>
+        <div className="items-end square w-44 md:2-56">
+          <img src={Waven3Tech} alt="" />
+        </div>
 
         {/* DESKTOP NAV */}
         {isDesktop ? (
-          <div className="flex justify-between gap-16 font-bigshoulder text-xl font-semibold">
+          <div className="flex justify-between gap-12 font-bigshoulder text-xl font-semibold">
             <Link
               page="Home"
               selectedPage={selectedPage}
@@ -37,6 +40,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             />
             <Link
               page="Projects"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="Crypto"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
@@ -78,17 +86,17 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 setSelectedPage={setSelectedPage}
               />
               <Link
-                page="Skills"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-              <Link
                 page="Projects"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
-                page="Testimonials"
+                page="Crypto"
+                selectedPage={selectedPage}
+                setSelectedPage={setSelectedPage}
+              />
+              <Link
+                page="Join Us"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
