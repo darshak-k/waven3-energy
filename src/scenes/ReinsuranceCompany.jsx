@@ -1,9 +1,3 @@
-import { motion, useAnimation } from "framer-motion";
-// import {
-//   VerticalTimeline,
-//   VerticalTimelineElement,
-// } from "react-vertical-timeline-component";
-import ReinsuranceCompanyImg from "../assets/ReinsuranceCompany.png";
 import Person1 from "../assets/person-1.jpeg";
 
 const ReinsuranceCompany = () => {
@@ -14,27 +8,68 @@ const ReinsuranceCompany = () => {
           REINSURANCE COMPANY
         </p>
         <div className=" border flex flex-col">
-          {/* <VerticalTimeline>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)",
-              }}
-              date="2011 - present"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              icon={Person1}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Creative Director
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-              <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
-              </p>
-            </VerticalTimelineElement>
-          </VerticalTimeline> */}
+          {/* <Timeline position="alternate">
+            <TimelineItem>
+              <TimelineOppositeContent
+                sx={{ m: "auto 0" }}
+                align="right"
+                variant="body2"
+                color="text.secondary"
+              >
+                9:30 am
+              </TimelineOppositeContent>
+              <TimelineSeparator>
+                <TimelineConnector />
+                <TimelineDot>
+                  <FastfoodIcon />
+                </TimelineDot>
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent sx={{ py: "12px", px: 2 }}>
+                <Typography variant="h6" component="span">
+                  Eat
+                </Typography>
+                <Typography>Because you need strength</Typography>
+              </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+              <TimelineOppositeContent
+                sx={{ m: "auto 0" }}
+                variant="body2"
+                color="text.secondary"
+              >
+                10:00 am
+              </TimelineOppositeContent>
+              <TimelineSeparator>
+                <TimelineConnector />
+                <TimelineDot color="primary">
+                  <LaptopMacIcon />
+                </TimelineDot>
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent sx={{ py: "12px", px: 2 }}>
+                <Typography variant="h6" component="span">
+                  Code
+                </Typography>
+                <Typography>Because it&apos;s awesome!</Typography>
+              </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+              <TimelineSeparator>
+                <TimelineConnector />
+                <TimelineDot color="primary" variant="outlined">
+                  <HotelIcon />
+                </TimelineDot>
+                <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
+              </TimelineSeparator>
+              <TimelineContent sx={{ py: "12px", px: 2 }}>
+                <Typography variant="h6" component="span">
+                  Sleep
+                </Typography>
+                <Typography>Because you need rest</Typography>
+              </TimelineContent>
+            </TimelineItem>
+          </Timeline> */}
         </div>
       </div>
     </section>
