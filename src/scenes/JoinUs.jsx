@@ -1,12 +1,13 @@
 import useMediaQuery from "../hooks/useMediaQuery";
 import JoinUsGraph from "../assets/JoinUsGraph.png";
 import Img15 from "../assets/Img15.png";
+import { motion } from "framer-motion";
 
 const JoinUs = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
     <section
-      id="home"
+      id="joinus"
       className="flex flex-col justify-center items-center mb-40"
     >
       <div className="py-10 pb-16">
@@ -27,12 +28,32 @@ const JoinUs = () => {
           </p>
         </div>
         <div className="flex flex-col items-center md:items-end  md:w-1/2 md:pr-40">
-          <div className="flex w-[30%] md:pr-[10%]">
+          <motion.div
+            className="flex w-[30%] md:pr-[10%]"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, x: -100 },
+              visible: { opacity: 1, x: 0 },
+            }}
+          >
             <img src={Img15} alt="15%" />
-          </div>
-          <div className="w-[60%]">
+          </motion.div>
+          <motion.div
+            className="w-[60%]"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, x: -100 },
+              visible: { opacity: 1, x: 0 },
+            }}
+          >
             <img src={JoinUsGraph} alt="InvestUs" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

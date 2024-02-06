@@ -30,6 +30,19 @@ const data = {
   ],
 };
 
+const secondData = {
+  labels: ["2022", "2023", "2024", "2025", "2026"],
+  datasets: [
+    {
+      label: "High value voluntary",
+      data: [20, 25, 30, 40, 140],
+      fill: true,
+      backgroundColor: "rgba(75,192,192,0.2)",
+      borderColor: "rgba(75,192,192,1)",
+    },
+  ],
+};
+
 const config = {
   type: "line",
   data: data,
@@ -99,7 +112,7 @@ const MarketOpportunity = () => {
                 </p>
               </div>
               <div className="App flex w-[40%] items-end">
-                <Line data={data} options={config} />
+                <Line data={secondData} options={config} />
               </div>
             </div>
           </div>
@@ -119,7 +132,7 @@ const MarketOpportunity = () => {
               Estimates).
             </div>
             <div className="flex w-[70%] py-20">
-              <Line data={data} options={config} />
+              <Line data={secondData} options={config} />
             </div>
           </div>
         )}

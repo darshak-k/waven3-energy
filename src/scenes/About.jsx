@@ -17,7 +17,7 @@ const About = () => {
 
   return (
     <section
-      id="skills"
+      id="projects"
       className="flex flex-col pt-10 pb-24 justify-center items-center "
     >
       <div className="flex  w-full py-10 justify-center">

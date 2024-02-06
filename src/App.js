@@ -17,6 +17,7 @@ import MarketOpportunity from "./scenes/MarketOpportunity";
 import CryptoToken from "./scenes/CryptoToken";
 import JoinUs from "./scenes/JoinUs";
 import ReinsuranceCompany from "./scenes/ReinsuranceCompany";
+import AMBestRating from "./scenes/AMBestRating";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -128,14 +129,14 @@ function App() {
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
-          onViewportEnter={() => setSelectedPage("skills")}
+          onViewportEnter={() => setSelectedPage("joinus")}
         >
           <JoinUs />
         </motion.div>
       </div>
       <LineGradient /> 
 
-      {/* <div className="w-5/6 mx-auto ">
+      <div className="w-5/6 mx-auto ">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -143,7 +144,18 @@ function App() {
         >
           <ReinsuranceCompany />
         </motion.div>
-      </div> */}
+      </div>
+      <LineGradient /> 
+
+      <div className="w-5/6 mx-auto ">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("skills")}
+        >
+          <AMBestRating />
+        </motion.div>
+      </div>
       <LineGradient /> 
       <Footer />
     </div>

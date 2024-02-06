@@ -8,7 +8,7 @@ const CryptoToken = () => {
   const textStyle = "text-2xl font-bigshoulder text-center";
 
   return (
-    <section id="cryptotoken" className="flex flex-col items-center gap-10 ">
+    <section id="crypto" className="flex flex-col items-center gap-10 ">
       <div className="flex mt-16 w-full py-10 justify-center">
         <p className="my=-10  font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
           CRYPTO TOKEN

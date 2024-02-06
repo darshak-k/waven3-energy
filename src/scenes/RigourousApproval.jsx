@@ -18,7 +18,7 @@ const RigourousApproval = () => {
         <p className="my-10 flex justify-center font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
           RIGOUROUS APPROVAL
         </p>
-        <div className=" border flex flex-col">
+        <div className="flex flex-col  pl-10">
           <div className="flex flex-row gap-72 px-24">
             <motion.div
               initial={{ x: "0%", y: "-100%" }}
@@ -41,7 +41,7 @@ const RigourousApproval = () => {
             </motion.div>
           </div>
 
-          <div className="flex flex-row gap-40">
+          <div className="flex flex-row gap-40  pl-10">
             <div className="items-start square max-w-md ">
               <img src={Factory} alt="Factory" />
             </div>
@@ -49,7 +49,15 @@ const RigourousApproval = () => {
               <div className="relative text-3xl font-bigshoulder top-64 h-10 font-extrabold ">
                 ENERGY SAVINGS
               </div>
-              <div className="relative top-64 h-10">Hi</div>
+              <div className="relative top-64 h-10">
+                <svg width="200" height="20">
+                  <path
+                    d="M 0,10 H 200 L 190,0 M 200,10 L 190,20"
+                    fill="none"
+                    stroke="black"
+                  />
+                </svg>
+              </div>
             </div>
             <div className="items-end square max-w-sm py-24">
               <img src={Trees} alt="Trees" />
