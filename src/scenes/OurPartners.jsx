@@ -1,5 +1,5 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useEffect, useState } from "react";
+import Marquee from "react-fast-marquee";
 import Partner1 from "../assets/Partner1.png";
 import Partner2 from "../assets/Partner2.png";
 import Partner3 from "../assets/Partner3.png";
@@ -23,36 +23,68 @@ const partners = [
 ];
 
 const Partners = () => {
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setOffset((prevOffset) =>
+        prevOffset < partners.length - 1 ? prevOffset + 1 : 0
+      );
+    }, 4000); // change the interval to control the speed of the slider
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <section className="flex flex-col">
-      <div className="mt-16 w-full py-10">
-        <p className="flex my=-10 justify-center  font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
-          OUR PARTNERS
-        </p>
-        <p className="flex mt-4 text-xl justify-center">
-          Some of our strategic partnerships include:
-        </p>
-      </div>
-      <motion.div
-        className="flex"
-        animate={{
-          x: [-100, 0, 100],
-          transition: { loop: Infinity, duration: 5 },
-        }}
-      >
-        {partners.map((partner) => (
-          <motion.div
-            key={partner.id}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: partner.id * 0.1 }}
-            className="partner"
+    // <section className="flex flex-col mb-28">
+    //   <div className="mt-16 w-full py-10">
+    //     <p className="flex my=-10 justify-center  font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
+    //       OUR PARTNERS
+    //     </p>
+    //     <p className="flex mt-4 text-xl justify-center">
+    //       Some of our strategic partnerships include:
+    //     </p>
+    //   </div>
+    //   <div className="flex overflow-x-hidden gap-20">
+    //     <motion.div
+    //       className="flex space-x-4"
+    //       animate={{ x: `${-offset * 100}%` }}
+    //       transition={{ ease: "linear", duration: 10 }} // change the duration to control the speed of the animation
+    //     >
+    //       {partners.map((partner, index) => (
+    //         <img
+    //           key={index}
+    //           src={partner.logo}
+    //           alt={`logo ${index + 1}`}
+    //           className="w-24 h-24"
+    //         />
+    //       ))}
+    //     </motion.div>
+    //   </div>
+    // </section>
+    <>
+      <section className="flex flex-col justify-center items-center">
+        <div className="mt-16 w-full py-10  font-bigshoulder">
+          <p className="flex my=-10 justify-center  font-extrabold text-5xl md:3xl sm:xl">
+            OUR PARTNERS
+          </p>
+          <p className="flex mt-4 text-xl justify-center">
+            Some of our strategic partnerships include:
+          </p>
+        </div>
+        <div>
+          <Marquee
+            pauseOnHover="true"
+            className="rounded-2xl py-3 overflow-hidden grid  "
           >
-            <img src={partner.logo} alt={partner.name} className="h-16 mx-4" />
-          </motion.div>
-        ))}
-      </motion.div>
-    </section>
+            {partners.map((partner, index) => (
+              <div className=" flex pr-10 flex-col justify-center items-center mx-5 ">
+                <img src={partner.logo} className="w-48" alt="" />
+              </div>
+            ))}
+          </Marquee>
+        </div>
+      </section>
+    </>
   );
 };
 
