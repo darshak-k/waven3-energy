@@ -18,6 +18,9 @@ import CryptoToken from "./scenes/CryptoToken";
 import JoinUs from "./scenes/JoinUs";
 import ReinsuranceCompany from "./scenes/ReinsuranceCompany";
 import AMBestRating from "./scenes/AMBestRating";
+import Partners from "./scenes/OurPartners";
+import AboutUs from "./scenes/AboutUs";
+import OurOffices from "./scenes/OurOffices";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -59,6 +62,29 @@ function App() {
         </motion.div>
       </div>
       <LineGradient />
+
+      <div className="w-5/6 mx-auto md:h-full ">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("skills")}
+        >
+          <AboutUs />
+        </motion.div>
+      </div>
+      <LineGradient />
+
+      <div className="w-5/6 mx-auto md:h-full ">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("skills")}
+        >
+          <OurOffices />
+        </motion.div>
+      </div>
+      <LineGradient />
+
       <div className="w-5/6 mx-auto md:h-full ">
         <motion.div
           margin="0 0 -200px 0"
@@ -80,6 +106,17 @@ function App() {
         </motion.div>
       </div>
       <LineGradient />
+
+      <div className="w-5/6 mx-auto ">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("joinus")}
+        >
+          <Partners />
+        </motion.div>
+      </div>
+      <LineGradient /> 
 
       <div className="w-5/6 mx-auto ">
         <motion.div

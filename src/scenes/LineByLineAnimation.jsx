@@ -68,10 +68,10 @@ const LineByLineAnimation = () => {
                 />
                 <p className="font-playfair text-4xl">“</p>
                 <div className="flex flex-col gap-4">
-                  <p className="text-center  font-semibold font-bigshoulder text-base">
+                  <p className="text-center  font-semibold font-bigshoulder text-xl">
                     {data[index].line1}
                   </p>
-                  <p className="text-center font-semibold font-bigshoulder text-base">
+                  <p className="text-center font-semibold font-bigshoulder text-xl">
                     {data[index].line2}
                   </p>
                 </div>
