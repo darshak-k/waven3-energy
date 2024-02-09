@@ -113,7 +113,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="/joinus"
+                    href="/contact"
                     class="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -156,9 +156,18 @@ const Footer = () => {
                 </li>
 
                 <li>
-                  <a href="#" class="text-gray-700 transition hover:opacity-75">
+                  <a
+                    href="/crypto"
+                    class="text-gray-700 transition hover:opacity-75"
+                  >
                     {" "}
                     Accreditation Process{" "}
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75">
+                    {" "}
+                    Residency{" "}
                   </a>
                 </li>
               </ul>
@@ -167,7 +176,7 @@ const Footer = () => {
         </div>
 
         <p class="text-xs text-gray-500">
-          &copy; 2024. Wave3 Tech. All rights reserved.
+          &copy; 2024. Waven3 Tech. All rights reserved.
         </p>
       </div>
     </footer>

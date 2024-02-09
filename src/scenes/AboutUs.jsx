@@ -12,13 +12,13 @@ const AboutUs = () => {
         <div>
           <p className=" font-extrabold text-orange-900">OUR MISSION</p>
           <p className="mt-4">
-            Unless the Lender shall have executed a written waiver, and then
-            only to the extent specifically set forth in that written waiver, no
-            act, omission or delay will be deemed to constitute a waiver of any
-            of the Lender’s rights or remedies under this Loan, and no act,
-            delay, omission or waiver on any one occasion will be deemed a bar
-            to enforcement or a waiver of the same or any other right or remedy
-            on any other occasion
+            Unless the Lender & Investor shall have executed a written waiver,
+            and then only to the extent specifically set forth in that written
+            waiver, no act, omission or delay will be deemed to constitute a
+            waiver of any of the Lender’s & Investor’s rights or remedies under
+            this Loan, and no act, delay, omission or waiver on any one occasion
+            will be deemed a bar to enforcement or a waiver of the same or any
+            other right or remedy on any other occasion
           </p>
         </div>
 

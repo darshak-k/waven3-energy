@@ -11,7 +11,7 @@ const CarbonCredit = () => {
     "z-0 font-bigshoulder text-2xl md:text-3xl lg:text-4xl font-bold text-center ";
 
   const textStyle =
-    "text-2xl md:text-3xl font-bigshoulder justify-center items-center  font-semibold -center";
+    "flex text-xl md:text-2xl font-bigshoulder justify-center items-center  font-semibold -center";
   return (
     <section id="skills" className="justify-center items-center">
       {/* HEADER AND IMAGE SECTION */}
@@ -23,21 +23,25 @@ const CarbonCredit = () => {
 
       <div className="flex flex-col w-full gap-10 px-[10%]  mb-20">
         <div className={`${textStyle}`}>
-          To kickstart the{" "}
-          <span className="text-orange-900 font-extrabold tracking-wide">
-            WAVEN3 TECH PROJECT
-          </span>{" "}
-          , our company participate in innovative high technology in every
-          domain sphere.
+          <p>
+            To kickstart the{" "}
+            <span className="text-orange-900 font-extrabold tracking-wide">
+              WAVEN3 TECH PROJECT
+            </span>{" "}
+            , our company participate in innovative high technology in every
+            domain sphere.
+          </p>
         </div>
 
         <div className={`${textStyle}2`}>
-          At the same time,{" "}
-          <span className="text-orange-900 font-extrabold tracking-wide">
-            WAVEN3 TECH
-          </span>{" "}
-          is working to finance other carbon generating projects and sell their
-          carbon credits .
+          <p>
+            At the same time,{" "}
+            <span className="text-orange-900 font-extrabold tracking-wide">
+              WAVEN3 TECH
+            </span>{" "}
+            is working to finance other carbon generating projects and sell
+            their carbon credits .
+          </p>
         </div>
       </div>
 

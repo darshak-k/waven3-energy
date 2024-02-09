@@ -20,6 +20,7 @@ import AboutUs from "./scenes/AboutUs";
 import OurOffices from "./scenes/OurOffices";
 import TheProjects from "./scenes/TheProjects";
 import NotFound404 from "./scenes/NotFound404";
+import Residency from "./scenes/Residency";
 
 const childVariants = {
   initial: {
@@ -76,7 +77,7 @@ function App() {
               element={<ProjectsFn setSelectedPage={setSelectedPage} />}
             />
             <Route
-              path="/crpto"
+              path="/crypto"
               element={<CryptoFn setSelectedPage={setSelectedPage} />}
             />
             <Route
@@ -152,13 +153,13 @@ function CryptoFn({ setSelectedPage }) {
       <motion.div
         className="mt-28"
         amount="all"
-        onViewportEnter={() => setSelectedPage("home")}
         initial="initial"
         animate="final"
         exit="exit"
       >
         <motion.div variants={childVariants} initial="initial" animate="final">
           <CryptoToken setSelectedPage={setSelectedPage} />
+          <Residency setSelectedPage={setSelectedPage} />
         </motion.div>
       </motion.div>
     </div>
