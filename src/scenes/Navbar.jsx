@@ -2,11 +2,13 @@ import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 import Waven3Tech from "../assets/Waven3Tech.png";
+import { NavLink } from "react-router-dom";
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.toLowerCase();
   return (
-    <AnchorLink
+    <NavLink
+      to={`/${lowerCasePage}`}
       className={`${
         selectedPage === lowerCasePage ? "text-green-800" : ""
       } hover:text-yellow font-extrabold transition duration-500`}
@@ -14,7 +16,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
       onClick={() => setSelectedPage(lowerCasePage)}
     >
       {page}
-    </AnchorLink>
+    </NavLink>
   );
 };
 
@@ -39,6 +41,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
+              page="Aboutus"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
               page="Projects"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
@@ -50,11 +57,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             />
             <Link
               page="JoinUs"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            />
-            <Link
-              page="Contact"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
@@ -86,6 +88,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 setSelectedPage={setSelectedPage}
               />
               <Link
+                page="Aboutus"
+                selectedPage={selectedPage}
+                setSelectedPage={setSelectedPage}
+              />
+              <Link
                 page="Projects"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
@@ -97,11 +104,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               />
               <Link
                 page="JoinUs"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-              <Link
-                page="Contact"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />

@@ -21,11 +21,6 @@ const ReinsuranceCompany = () => {
           REINSURANCE COMPANY
         </p>
         <div className="flex flex-col">
-          {/* <img
-            src={ReinsuranceCompanyImg}
-            alt="ReinsuranceCompanyImg"
-            className="max-w-[40%]"
-          /> */}
           <Timeline position="alternate" className=" font-bigshoulder">
             <TimelineItem>
               <TimelineSeparator>

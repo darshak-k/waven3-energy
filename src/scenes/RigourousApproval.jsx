@@ -19,7 +19,7 @@ const RigourousApproval = () => {
           RIGOUROUS APPROVAL
         </p>
         <div className="flex flex-col  pl-10">
-          <div className="flex flex-row gap-72 px-24">
+          <div className="flex flex-row gap-80 px-24">
             <motion.div
               initial={{ x: "0%", y: "-100%" }}
               animate={{ x: 0, y: 0 }}
@@ -42,8 +42,12 @@ const RigourousApproval = () => {
           </div>
 
           <div className="flex flex-row gap-40  pl-10">
-            <div className="items-start square max-w-md ">
+            <div className="items-end square max-w-md ">
               <img src={Factory} alt="Factory" />
+
+              <div className="flex font-bigshoulder text-4xl justify-center">
+                <p>ACTIVITY SECTOR</p>
+              </div>
             </div>
             <div className="flex flex-col">
               <div className="relative text-3xl font-bigshoulder top-64 h-10 font-extrabold ">
@@ -59,8 +63,11 @@ const RigourousApproval = () => {
                 </svg>
               </div>
             </div>
-            <div className="items-end square max-w-sm py-24">
+            <div className="items-end square max-w-sm py-32">
               <img src={Trees} alt="Trees" />
+              <div className="flex font-bigshoulder text-4xl justify-center py-16">
+                <p>CARBON CREDITS CREATED</p>
+              </div>
             </div>
           </div>
         </div>

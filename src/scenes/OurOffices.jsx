@@ -10,8 +10,8 @@ const OurOffices = () => {
           OUR OFFICES
         </p>
       </div>
-      <div className="flex flex-col md:flex-row mt-28 font-bigshoulder tracking-wide text-xl gap-10 w-[90%]">
-        <div className="flex flex-col gap-20 w-1/2 pt-20">
+      <div className="flex flex-col ss:flex-row my-28 font-bigshoulder tracking-wide text-xl gap-10 w-full px-[5%]">
+        <div className="flex flex-col gap-20 w-1/3  md:w-1/2 pt-20">
           <div>
             <p className=" font-extrabold text-orange-900">
               HEAD OFFICE - CANADA
@@ -34,7 +34,7 @@ const OurOffices = () => {
           </div>
         </div>
 
-        <div className=" w-1/2">
+        <div className="flex w-2/3 md:w-1/2 justify-center">
           <img src={Office} alt="" />
         </div>
       </div>

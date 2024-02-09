@@ -2,7 +2,6 @@ import React from "react";
 import { Chart, registerables } from "chart.js";
 import { Line } from "react-chartjs-2";
 import useMediaQuery from "../hooks/useMediaQuery";
-import "./Graph.css";
 
 Chart.register(...registerables);
 const data = {
@@ -90,7 +89,7 @@ const MarketOpportunity = () => {
         {isAboveLarge ? (
           <div className="flex flex-col w-full  gap-8 py-10 pb-48 font-semibold">
             <div className="flex flex-row h-full">
-              <div className="App flex w-[40%] items-start">
+              <div className="flex w-[40%] items-start">
                 <Line data={data} options={config} />
               </div>
               <div className="flex px-20 font-bigshoulder tracking-wider text-2xl items-center justify-center w-[60%]">
@@ -111,7 +110,7 @@ const MarketOpportunity = () => {
                   until 2030 (2021 Market Estimates).
                 </p>
               </div>
-              <div className="App flex w-[40%] items-end">
+              <div className="flex w-[40%] items-end">
                 <Line data={secondData} options={config} />
               </div>
             </div>

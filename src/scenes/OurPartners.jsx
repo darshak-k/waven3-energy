@@ -9,6 +9,8 @@ import Partner6 from "../assets/Partner6.png";
 import Partner7 from "../assets/Partner7.png";
 import Partner8 from "../assets/Partner8.png";
 import Partner9 from "../assets/Partner9.png";
+import Partner10 from "../assets/Partner10.png";
+import Partner11 from "../assets/Partner11.png";
 
 const partners = [
   { id: 1, name: "Partner A", logo: Partner1 },
@@ -20,6 +22,8 @@ const partners = [
   { id: 7, name: "Partner A", logo: Partner7 },
   { id: 8, name: "Partner B", logo: Partner8 },
   { id: 9, name: "Partner C", logo: Partner9 },
+  { id: 10, name: "Partner C", logo: Partner10 },
+  { id: 11, name: "Partner C", logo: Partner11 },
 ];
 
 const Partners = () => {
@@ -35,32 +39,6 @@ const Partners = () => {
   }, []);
 
   return (
-    // <section className="flex flex-col mb-28">
-    //   <div className="mt-16 w-full py-10">
-    //     <p className="flex my=-10 justify-center  font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
-    //       OUR PARTNERS
-    //     </p>
-    //     <p className="flex mt-4 text-xl justify-center">
-    //       Some of our strategic partnerships include:
-    //     </p>
-    //   </div>
-    //   <div className="flex overflow-x-hidden gap-20">
-    //     <motion.div
-    //       className="flex space-x-4"
-    //       animate={{ x: `${-offset * 100}%` }}
-    //       transition={{ ease: "linear", duration: 10 }} // change the duration to control the speed of the animation
-    //     >
-    //       {partners.map((partner, index) => (
-    //         <img
-    //           key={index}
-    //           src={partner.logo}
-    //           alt={`logo ${index + 1}`}
-    //           className="w-24 h-24"
-    //         />
-    //       ))}
-    //     </motion.div>
-    //   </div>
-    // </section>
     <>
       <section className="flex flex-col justify-center items-center">
         <div className="mt-16 w-full py-10  font-bigshoulder">

@@ -22,7 +22,7 @@ const About = () => {
     >
       <div className="flex  w-full py-10 justify-center">
         <p className=" font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
-          PROJECTS
+          About Us
         </p>
       </div>
 

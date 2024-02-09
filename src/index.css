@@ -13,3 +13,11 @@ body,
   background-color: #86D8AC;
   @apply text-gray-800;
 }
+
+.component {
+  font-size: 30px;
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
