@@ -2,13 +2,30 @@ import React from "react";
 
 const Residency = () => {
   return (
-    <section>
+    <section className="pb-20">
       <div className="flex  w-full py-10 justify-center">
         <p className=" font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
           RESIDENCY
         </p>
       </div>
-      <div className="flex flex-col mt-10 font-bigshoulder tracking-wide text-xl gap-10 w-[90%] pb-20">
+      <div className="flex flex-col mt-10 font-bigshoulder justify-center items-center tracking-wide text-xl gap-10 w-[90%] pb-20">
+        <div className="flex flex-col gap-10 border border-orange-900 mx-[24%] px-20 py-20 rounded-xl">
+          <div className="flex flex-col md:flex-row gap-8 ">
+            <p className=" font-extrabold text-orange-900 justify-start items-start  w-1/3">
+              AMERICAN & UAE CITIZENS{"- "}
+            </p>
+            <p className=" w-2/3">
+              CITIZENS THAT RESIDE IN THESE TERRITORIES ARE ABLE TO INVEST IN
+              OUR COMPANY.
+            </p>
+          </div>
+          <div className="flex flex-col md:flex-row gap-10">
+            <p className=" font-extrabold text-orange-900 justify-start items-start w-1/3">
+              CANADIAN CITIZENS {"       - "}
+            </p>
+            <p className="  w-2/3">WE ONLY ACCEPT LOANS</p>
+          </div>
+        </div>
         <div className="flex flex-col ">
           <p className=" font-extrabold text-orange-900 justify-start items-start">
             FULLY INSURED HIGH YIELD RETURNS
