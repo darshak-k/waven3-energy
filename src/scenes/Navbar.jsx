@@ -5,7 +5,7 @@ import Waven3Tech from "../assets/Waven3Tech.png";
 import { NavLink } from "react-router-dom";
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
-  const lowerCasePage = page.toLowerCase();
+  const lowerCasePage = page.replace(" ", "").toLowerCase();
   return (
     <NavLink
       to={`/${lowerCasePage}`}
@@ -41,7 +41,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Aboutus"
+              page="About Us"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
@@ -56,7 +56,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="JoinUs"
+              page="Join Us"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
@@ -88,7 +88,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 setSelectedPage={setSelectedPage}
               />
               <Link
-                page="Aboutus"
+                page="About Us"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
@@ -103,7 +103,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 setSelectedPage={setSelectedPage}
               />
               <Link
-                page="JoinUs"
+                page="Join Us"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />

@@ -113,7 +113,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="/contact"
+                    href="/joinus"
                     class="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}

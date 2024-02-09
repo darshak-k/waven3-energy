@@ -81,7 +81,7 @@ function App() {
               element={<CryptoFn setSelectedPage={setSelectedPage} />}
             />
             <Route
-              path="/contact"
+              path="/joinus"
               element={<ContactFn setSelectedPage={setSelectedPage} />}
             />
             <Route path="*" exact={true} element={<NotFound />} />
