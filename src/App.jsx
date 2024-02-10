@@ -142,7 +142,6 @@ function Home({ setSelectedPage }) {
 
           <ReinsuranceCompany setSelectedPage={setSelectedPage} />
           <AMBestRating setSelectedPage={setSelectedPage} />
-          <Contact setSelectedPage={setSelectedPage} />
         </motion.div>
       </motion.div>
     </div>
