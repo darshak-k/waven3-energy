@@ -103,7 +103,7 @@ const MarketOpportunity = () => {
                 <p>
                   Bubble chart showing some of{" "}
                   <span className="text-orange-900 font-extrabold tracking-wide">
-                    WAVEN3 Tech
+                    WAVEN3 Technology
                   </span>{" "}
                   market opportunities above a line chart showing a base and
                   worst case expected growth for the Voluntary Carbon Markets

@@ -26,7 +26,7 @@ const CarbonCredit = () => {
           <p>
             To kickstart the{" "}
             <span className="text-orange-900 font-extrabold tracking-wide">
-              WAVEN3 TECH PROJECT
+              WAVEN3 TECHNOLOGY PROJECT
             </span>{" "}
             , our company participate in innovative high technology in every
             domain sphere.
@@ -37,7 +37,7 @@ const CarbonCredit = () => {
           <p>
             At the same time,{" "}
             <span className="text-orange-900 font-extrabold tracking-wide">
-              WAVEN3 TECH
+              WAVEN3 TECHNOLOGY
             </span>{" "}
             is working to finance other carbon generating projects and sell
             their carbon credits .

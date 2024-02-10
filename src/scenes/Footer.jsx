@@ -179,7 +179,7 @@ const Footer = () => {
         </div>
 
         <p class="text-xs text-gray-500">
-          &copy; 2024. Waven3 Tech. All rights reserved.
+          &copy; 2024. Waven3 Technology. All rights reserved.
         </p>
       </div>
     </footer>
