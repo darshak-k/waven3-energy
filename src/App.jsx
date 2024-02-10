@@ -21,6 +21,7 @@ import OurOffices from "./scenes/OurOffices";
 import TheProjects from "./scenes/TheProjects";
 import NotFound404 from "./scenes/NotFound404";
 import Residency from "./scenes/Residency";
+import Contact from "./scenes/Contact";
 
 const childVariants = {
   initial: {
@@ -141,6 +142,7 @@ function Home({ setSelectedPage }) {
 
           <ReinsuranceCompany setSelectedPage={setSelectedPage} />
           <AMBestRating setSelectedPage={setSelectedPage} />
+          <Contact setSelectedPage={setSelectedPage} />
         </motion.div>
       </motion.div>
     </div>
@@ -198,6 +200,7 @@ function ContactFn({ setSelectedPage }) {
       >
         <motion.div variants={childVariants} initial="initial" animate="final">
           <JoinUs setSelectedPage={setSelectedPage} />
+          <Contact setSelectedPage={setSelectedPage} />
           <OurOffices setSelectedPage={setSelectedPage} />
         </motion.div>
       </motion.div>

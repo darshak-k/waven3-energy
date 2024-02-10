@@ -25,7 +25,17 @@ const OurOffices = () => {
           </div>
           <div>
             <p className=" font-extrabold text-orange-900">
-              HEAD OFFICE - CANADA
+              HEAD OFFICE - SWITZERLAND
+            </p>
+            <div className="flex flex-row gap-6 items-center">
+              <LocationOnIcon />
+              <p className="mt-4">Gartenstrasse 6 6300 Zug Switzerland</p>
+            </div>
+          </div>
+
+          <div>
+            <p className=" font-extrabold text-orange-900">
+              HEAD OFFICE - EMIRATES UNITED
             </p>
             <div className="flex flex-row gap-6 items-center">
               <LocationOnIcon />

@@ -2,7 +2,7 @@ import React from "react";
 
 const Residency = () => {
   return (
-    <section className="pb-20">
+    <section id="residency" className="pb-20">
       <div className="flex  w-full py-10 justify-center">
         <p className=" font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
           RESIDENCY

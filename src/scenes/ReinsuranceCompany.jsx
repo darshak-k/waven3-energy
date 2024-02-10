@@ -7,11 +7,17 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import CreditScoreOutlinedIcon from "@mui/icons-material/CreditScoreOutlined";
 import TimelineDot from "@mui/lab/TimelineDot";
 import StoreIcon from "@mui/icons-material/Store";
-import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 import AccountBalanceOutlinedIcon from "@mui/icons-material/AccountBalanceOutlined";
 import EmojiPeopleOutlinedIcon from "@mui/icons-material/EmojiPeopleOutlined";
 import Typography from "@mui/material/Typography";
-import ReinsuranceCompanyImg from "../assets/ReinsuranceCompany.png";
+import Partner9 from "../assets/Partner9.png";
+import Partner10 from "../assets/Partner10.png";
+import Partner11 from "../assets/Partner11.png";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
 const ReinsuranceCompany = () => {
   return (
@@ -20,75 +26,92 @@ const ReinsuranceCompany = () => {
         <p className="my-10 flex justify-center font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
           REINSURANCE COMPANY
         </p>
-        <div className="flex flex-col">
-          <Timeline position="alternate" className=" font-bigshoulder">
-            <TimelineItem>
-              <TimelineSeparator>
-                <TimelineConnector />
-                <TimelineDot color="primary" variant="outlined">
-                  <StoreIcon />
-                </TimelineDot>
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent sx={{ py: "12px", px: 2 }}>
-                <Typography variant="h6" component="span">
+        <div className="flex flex-col font-bigshoulder">
+          <VerticalTimeline lineColor={"#212121"}>
+            <VerticalTimelineElement
+              contentStyle={{
+                background: "rgb(76, 145, 115)",
+                color: "#212121",
+              }}
+              contentArrowStyle={{
+                borderRight: "7px solid  rgb(76, 145, 115)",
+              }}
+              iconStyle={{ background: "rgb(76, 145, 115)", color: "#212121" }}
+              icon={<StoreIcon />}
+            >
+              <div className="flex gap-10 mb-8">
+                <img src={Partner9} alt="" className="w-28" />
+                <img src={Partner10} alt="" className="w-28" />
+                <img src={Partner11} alt="" className="w-28" />
+              </div>
+              <div>
+                <h3 className="vertical-timeline-element-title font-bold text-xl underline">
                   Reinsurance Company
-                </Typography>
-                <Typography>
+                </h3>
+                <p>
                   Primary guarantor of the financial obligation without
                   territoriality
-                </Typography>
-              </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-              <TimelineSeparator>
-                <TimelineConnector />
-                <TimelineDot color="primary" variant="outlined">
-                  <AccountBalanceOutlinedIcon className="" />
-                </TimelineDot>
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent sx={{ py: "12px", px: 2 }}>
-                <Typography variant="h6" component="span">
-                  Afiancol S.A.
-                </Typography>
-                <Typography>
+                </p>
+              </div>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              contentStyle={{
+                background: "rgb(76, 145, 115)",
+                color: "#212121",
+              }}
+              contentArrowStyle={{
+                borderRight: "7px solid  rgb(76, 145, 115)",
+              }}
+              iconStyle={{ background: "rgb(76, 145, 115)", color: "#212121" }}
+              icon={<AccountBalanceOutlinedIcon />}
+            >
+              <div>
+                <h3 className="vertical-timeline-element-title font-bold text-xl underline">
+                  Afiancol S.A. Columbia
+                </h3>
+                <p>
                   Assignor to reinsurance payment upon first request without
                   territoriality
-                </Typography>
-              </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-              <TimelineSeparator>
-                <TimelineConnector />
-                <TimelineDot color="primary" variant="outlined">
-                  <EmojiPeopleOutlinedIcon />
-                </TimelineDot>
-                <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-              </TimelineSeparator>
-              <TimelineContent sx={{ py: "12px", px: 2 }}>
-                <Typography variant="h6" component="span">
+                </p>
+              </div>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              contentStyle={{
+                background: "rgb(76, 145, 115)",
+                color: "#212121",
+              }}
+              contentArrowStyle={{
+                borderRight: "7px solid  rgb(76, 145, 115)",
+              }}
+              iconStyle={{ background: "rgb(76, 145, 115)", color: "#212121" }}
+              icon={<EmojiPeopleOutlinedIcon />}
+            >
+              <div>
+                <h3 className="vertical-timeline-element-title font-bold text-xl underline">
                   Debtor
-                </Typography>
-                <Typography>Entrenchend debtor</Typography>
-              </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-              <TimelineSeparator>
-                <TimelineConnector />
-                <TimelineDot color="primary" variant="outlined">
-                  <CreditScoreOutlinedIcon />
-                </TimelineDot>
-                <TimelineConnector className="bg-green-700" />
-              </TimelineSeparator>
-              <TimelineContent sx={{ py: "12px", px: 2 }}>
-                <Typography variant="h6" component="span">
+                </h3>
+                <p>Entrenchend debtor</p>
+              </div>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              contentStyle={{
+                background: "rgb(76, 145, 115)",
+                color: "#212121",
+              }}
+              contentArrowStyle={{
+                borderRight: "7px solid  rgb(76, 145, 115)",
+              }}
+              iconStyle={{ background: "rgb(76, 145, 115)", color: "#212121" }}
+              icon={<CreditScoreOutlinedIcon />}
+            >
+              <div>
+                <h3 className="vertical-timeline-element-title font-bold text-xl underline">
                   Lender Loans
-                </Typography>
-                <Typography>Bail & reinsurance benefeciary</Typography>
-              </TimelineContent>
-            </TimelineItem>
-          </Timeline>
+                </h3>
+                <p>Bail & reinsurance benefeciary</p>
+              </div>
+            </VerticalTimelineElement>
+          </VerticalTimeline>
         </div>
       </div>
     </section>
