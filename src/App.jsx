@@ -83,6 +83,10 @@ function App() {
             />
             <Route
               path="/joinus"
+              element={<JoinFn setSelectedPage={setSelectedPage} />}
+            />
+            <Route
+              path="/contactus"
               element={<ContactFn setSelectedPage={setSelectedPage} />}
             />
             <Route path="*" exact={true} element={<NotFound />} />
@@ -130,17 +134,23 @@ function Home({ setSelectedPage }) {
           <Landing setSelectedPage={setSelectedPage} />
           <LineGradient />
           <About setSelectedPage={setSelectedPage} />
+          <LineGradient />
           <Partners setSelectedPage={setSelectedPage} />
           <LineGradient />
           <CarbonCredit setSelectedPage={setSelectedPage} />
           <LineGradient />
           <RigourousApproval setSelectedPage={setSelectedPage} />
+          <LineGradient />
           <AccreditationProcess setSelectedPage={setSelectedPage} />
+          <LineGradient />
           <MarketOpportunity setSelectedPage={setSelectedPage} />
 
+          <LineGradient />
           <CryptoToken setSelectedPage={setSelectedPage} />
 
+          <LineGradient />
           <ReinsuranceCompany setSelectedPage={setSelectedPage} />
+          <LineGradient />
           <AMBestRating setSelectedPage={setSelectedPage} />
         </motion.div>
       </motion.div>
@@ -186,7 +196,7 @@ function AboutFn({ setSelectedPage }) {
   );
 }
 
-function ContactFn({ setSelectedPage }) {
+function JoinFn({ setSelectedPage }) {
   return (
     <div className="w-5/6 mx-auto md:h-full">
       <motion.div
@@ -199,6 +209,25 @@ function ContactFn({ setSelectedPage }) {
       >
         <motion.div variants={childVariants} initial="initial" animate="final">
           <JoinUs setSelectedPage={setSelectedPage} />
+          <Residency setSelectedPage={setSelectedPage} />
+        </motion.div>
+      </motion.div>
+    </div>
+  );
+}
+
+function ContactFn({ setSelectedPage }) {
+  return (
+    <div className="w-5/6 mx-auto md:h-full">
+      <motion.div
+        className="mt-28"
+        amount="all"
+        onViewportEnter={() => setSelectedPage("home")}
+        initial="initial"
+        animate="final"
+        exit="exit"
+      >
+        <motion.div variants={childVariants} initial="initial" animate="final">
           <Contact setSelectedPage={setSelectedPage} />
           <OurOffices setSelectedPage={setSelectedPage} />
         </motion.div>

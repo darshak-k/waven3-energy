@@ -29,7 +29,7 @@ const JoinUs = () => {
         </div>
         <div className="flex flex-col items-center md:items-end  md:w-1/2 md:pr-40">
           <motion.div
-            className="flex w-[30%] md:pr-[10%]"
+            className="flex w-[40%] md:pr-[10%]"
             initial="hidden"
             whileInView="visible"
             viewport={{ amount: 0.5 }}
@@ -42,7 +42,7 @@ const JoinUs = () => {
             <img src={Img15} alt="15%" />
           </motion.div>
           <motion.div
-            className="w-[60%]"
+            className="w-[70%]"
             initial="hidden"
             whileInView="visible"
             viewport={{ amount: 0.5 }}

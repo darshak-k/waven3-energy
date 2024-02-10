@@ -59,19 +59,19 @@ const About = () => {
           className="px-[10%]"
         >
           <p className="mt-10 mb-7 font-bigshoulder text-base  sm:text-xl md:text-2xl">
-            "
             <span className="text-green-950 font-extrabold tracking-wide">
               Waven3
             </span>{" "}
-            Tech is a high-tech company operating in the fields of hydrogen and
-            artificial intelligence. Our mission is to fund projects that
-            generate carbon credits, thereby attracting funds for the overall
-            collective well-being of every global citizen. This entire process
-            will be channeled into the carbon credit exchange ecosystem. The
-            creation of carbon credits extends across various sectors such as
-            energy, high technology, natural resources, education, and several
-            others. Together, we provide a sustainable solution, passing on to
-            future generations a better future and a greener planet."
+            Technology is a high-tech company operating in the fields of
+            hydrogen and artificial intelligence. Our mission is to fund
+            projects that generate carbon credits, thereby attracting funds for
+            the overall collective well-being of every global citizen. This
+            entire process will be channeled into the carbon credit exchange
+            ecosystem. The creation of carbon credits extends across various
+            sectors such as energy, high technology, natural resources,
+            education, and several others. Together, we provide a sustainable
+            solution, passing on to future generations a better future and a
+            greener planet.
           </p>
         </motion.div>
       </div>

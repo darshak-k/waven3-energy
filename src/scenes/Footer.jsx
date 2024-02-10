@@ -110,14 +110,22 @@ const Footer = () => {
                     Projects{" "}
                   </a>
                 </li>
-
                 <li>
                   <a
                     href="/joinus"
                     class="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
-                    Our Offices{" "}
+                    Join us{" "}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/contactus"
+                    class="text-gray-700 transition hover:opacity-75"
+                  >
+                    {" "}
+                    Contact us{" "}
                   </a>
                 </li>
               </ul>
@@ -149,7 +157,10 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="text-gray-700 transition hover:opacity-75">
+                  <a
+                    href="/home#marketopportunity"
+                    class="text-gray-700 transition hover:opacity-75"
+                  >
                     {" "}
                     Market opportunity{" "}
                   </a>
