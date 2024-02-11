@@ -89,6 +89,18 @@ function App() {
               path="/contactus"
               element={<ContactFn setSelectedPage={setSelectedPage} />}
             />
+            <Route
+              path="/rigorousapproval"
+              element={<RegorousApprovalFn setSelectedPage={setSelectedPage} />}
+            />
+            <Route
+              path="/marketopportunity"
+              element={<MarketFn setSelectedPage={setSelectedPage} />}
+            />
+            <Route
+              path="/accreditationprocess"
+              element={<AccreditationFn setSelectedPage={setSelectedPage} />}
+            />
             <Route path="*" exact={true} element={<NotFound />} />
           </Routes>
         </LocationProvider>
@@ -100,6 +112,58 @@ function App() {
 
 function LocationProvider({ children }) {
   return <AnimatePresence>{children}</AnimatePresence>;
+}
+
+function RegorousApprovalFn({ setSelectedPage }) {
+  return (
+    <div className="w-5/6 mx-auto md:h-full">
+      <motion.div
+        className="mt-28"
+        amount="all"
+        initial="initial"
+        animate="final"
+        exit="exit"
+      >
+        <motion.div variants={childVariants} initial="initial" animate="final">
+          <RigourousApproval />
+        </motion.div>
+      </motion.div>
+    </div>
+  );
+}
+function MarketFn({ setSelectedPage }) {
+  return (
+    <div className="w-5/6 mx-auto md:h-full">
+      <motion.div
+        className="mt-28"
+        amount="all"
+        initial="initial"
+        animate="final"
+        exit="exit"
+      >
+        <motion.div variants={childVariants} initial="initial" animate="final">
+          <MarketOpportunity />
+        </motion.div>
+      </motion.div>
+    </div>
+  );
+}
+function AccreditationFn({ setSelectedPage }) {
+  return (
+    <div className="w-5/6 mx-auto md:h-full">
+      <motion.div
+        className="mt-28"
+        amount="all"
+        initial="initial"
+        animate="final"
+        exit="exit"
+      >
+        <motion.div variants={childVariants} initial="initial" animate="final">
+          <AccreditationProcess />
+        </motion.div>
+      </motion.div>
+    </div>
+  );
 }
 
 function NotFound() {
