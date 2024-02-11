@@ -3,7 +3,7 @@ import Raining from "../assets/Raining.png";
 import Factory from "../assets/Factory.png";
 import Trees from "../assets/Trees.png";
 
-const RigourousApproval = () => {
+const RigourousApproval = ({}) => {
   const arrowVariants = {
     initial: { x: "-100%" },
     animate: {

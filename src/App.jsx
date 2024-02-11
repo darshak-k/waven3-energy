@@ -136,10 +136,14 @@ function Home({ setSelectedPage }) {
           <About setSelectedPage={setSelectedPage} />
           <LineGradient />
           <Partners setSelectedPage={setSelectedPage} />
-          <LineGradient />
           <CarbonCredit setSelectedPage={setSelectedPage} />
           <LineGradient />
-          <RigourousApproval setSelectedPage={setSelectedPage} />
+          <motion.div
+            amount="all"
+            onViewportEnter={() => setSelectedPage("rigorousapproval")}
+          >
+            <RigourousApproval setSelectedPage={setSelectedPage} />
+          </motion.div>
           <LineGradient />
           <AccreditationProcess setSelectedPage={setSelectedPage} />
           <LineGradient />
@@ -170,7 +174,6 @@ function CryptoFn({ setSelectedPage }) {
       >
         <motion.div variants={childVariants} initial="initial" animate="final">
           <CryptoToken setSelectedPage={setSelectedPage} />
-          <Residency setSelectedPage={setSelectedPage} />
         </motion.div>
       </motion.div>
     </div>
@@ -230,6 +233,7 @@ function ContactFn({ setSelectedPage }) {
         <motion.div variants={childVariants} initial="initial" animate="final">
           <Contact setSelectedPage={setSelectedPage} />
           <OurOffices setSelectedPage={setSelectedPage} />
+          <AMBestRating setSelectedPage={setSelectedPage} />
         </motion.div>
       </motion.div>
     </div>

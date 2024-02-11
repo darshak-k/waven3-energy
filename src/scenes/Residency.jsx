@@ -21,7 +21,7 @@ const Residency = () => {
           </div>
           <div className="flex flex-col gap-10 items-center">
             <p className=" font-extrabold text-orange-900 ">
-              CANADIAN CITIZENS {"       - "}
+              CANADIAN CITIZENS
             </p>
             <p>WE ONLY ACCEPT LOANS</p>
           </div>

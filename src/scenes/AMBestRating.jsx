@@ -1,4 +1,4 @@
-import AMBestRatingImg from "../assets/AMBestRatingImg.png";
+import Trustee from "../assets/Trustee.png";
 import { motion } from "framer-motion";
 
 const AMBestRating = () => {
@@ -20,11 +20,7 @@ const AMBestRating = () => {
             visible: { opacity: 1, x: 0, y: 0 },
           }}
         >
-          <img
-            src={AMBestRatingImg}
-            alt="AMBestRatingImg"
-            className="max-w-[50%]"
-          />
+          <img src={Trustee} alt="AMBestRatingImg" className="max-w-[80%]" />
         </motion.div>
       </div>
     </section>
