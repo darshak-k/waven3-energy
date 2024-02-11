@@ -30,13 +30,14 @@ const ReinsuranceCompany = () => {
           <VerticalTimeline lineColor={"#212121"}>
             <VerticalTimelineElement
               contentStyle={{
-                background: "rgb(76, 145, 115)",
+                background: "rgb(134, 216, 172)",
                 color: "#212121",
+                boxShadow: "8px 8px 8px 8px rgb(111, 189, 109)",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(76, 145, 115)",
+                borderRight: "7px solid  rgb(134, 216, 172)",
               }}
-              iconStyle={{ background: "rgb(76, 145, 115)", color: "#212121" }}
+              iconStyle={{ background: "rgb(134, 216, 172)", color: "#212121" }}
               icon={<StoreIcon />}
             >
               <div className="flex gap-10 mb-8">
@@ -56,13 +57,14 @@ const ReinsuranceCompany = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               contentStyle={{
-                background: "rgb(76, 145, 115)",
+                background: "rgb(134, 216, 172)",
                 color: "#212121",
+                boxShadow: "8px 8px 8px 8px rgb(111, 189, 109)",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(76, 145, 115)",
+                borderRight: "7px solid  rgb(134, 216, 172)",
               }}
-              iconStyle={{ background: "rgb(76, 145, 115)", color: "#212121" }}
+              iconStyle={{ background: "rgb(134, 216, 172)", color: "#212121" }}
               icon={<AccountBalanceOutlinedIcon />}
             >
               <div>
@@ -77,13 +79,14 @@ const ReinsuranceCompany = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               contentStyle={{
-                background: "rgb(76, 145, 115)",
+                background: "rgb(134, 216, 172)",
                 color: "#212121",
+                boxShadow: "8px 8px 8px 8px rgb(111, 189, 109)",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(76, 145, 115)",
+                borderRight: "7px solid  rgb(134, 216, 172)",
               }}
-              iconStyle={{ background: "rgb(76, 145, 115)", color: "#212121" }}
+              iconStyle={{ background: "rgb(134, 216, 172)", color: "#212121" }}
               icon={<EmojiPeopleOutlinedIcon />}
             >
               <div>
@@ -95,13 +98,14 @@ const ReinsuranceCompany = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               contentStyle={{
-                background: "rgb(76, 145, 115)",
+                background: "rgb(134, 216, 172)",
                 color: "#212121",
+                boxShadow: "8px 8px 8px 8px rgb(111, 189, 109)",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(76, 145, 115)",
+                borderRight: "7px solid  rgb(134, 216, 172)",
               }}
-              iconStyle={{ background: "rgb(76, 145, 115)", color: "#212121" }}
+              iconStyle={{ background: "rgb(134, 216, 172)", color: "#212121" }}
               icon={<CreditScoreOutlinedIcon />}
             >
               <div>

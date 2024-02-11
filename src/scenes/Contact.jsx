@@ -77,6 +77,21 @@ const Contact = () => {
                 {errors.name.type === "maxLength" && "Max length is 100 char."}
               </p>
             )}
+            <input
+              className="w-full bg-red font-semibold placeholder-opaque-black p-3 mt-3"
+              type="text"
+              placeholder="COUNTRY"
+              {...register("name", {
+                required: true,
+                maxLength: 100,
+              })}
+            />
+            {errors.name && (
+              <p className="text-gray-800 mt-1">
+                {errors.name.type === "required" && "This field is required."}
+                {errors.name.type === "maxLength" && "Max length is 100 char."}
+              </p>
+            )}
 
             <input
               className="w-full bg-red font-semibold placeholder-opaque-black p-3 mt-5"
