@@ -68,6 +68,20 @@ const Residency = () => {
             IN AN UNCERTAIN WORLD 2.
           </p>
         </div>
+
+        <div className="flex flex-col items-center mt-20">
+          <p className="text-3xl text-orange-800 font-extrabold ">
+            Disbursed Funds Handling
+          </p>
+          <p className="pt-10  mx-[10%]">
+            The disbursed funds will be deposited into the company's trustee
+            account or the lender's or investor's trustee account, with
+            instructions specifying that the disbursement of funds to the
+            company will occur after receiving the guarantee bond from the
+            insurance company covering all executions between the parties.
+          </p>
+        </div>
+
         <div className="flex flex-col items-center mt-20">
           <p className="text-4xl text-orange-800 font-extrabold ">
             FINANCIAL GUARANTEE LOAN OR INVESTMENT FACT SHEET

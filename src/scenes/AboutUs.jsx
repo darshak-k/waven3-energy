@@ -16,9 +16,9 @@ const AboutUs = () => {
             and then only to the extent specifically set forth in that written
             waiver, no act, omission or delay will be deemed to constitute a
             waiver of any of the Lender’s & Investor’s rights or remedies under
-            this Loan, and no act, delay, omission or waiver on any one occasion
-            will be deemed a bar to enforcement or a waiver of the same or any
-            other right or remedy on any other occasion
+            this Loan or investment, and no act, delay, omission or waiver on
+            any one occasion will be deemed a bar to enforcement or a waiver of
+            the same or any other right or remedy on any other occasion
           </p>
         </div>
 
