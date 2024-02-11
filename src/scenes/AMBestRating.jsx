@@ -23,8 +23,11 @@ const AMBestRating = () => {
                   whileHover={{ scale: 1.1 }}
                 />
               </a>
-              <a href="https://news.ambest.com/PressContent.aspx?altsrc=14&refnum=28004">
-                <p className="text-center font-bigshoulder font-extrabold text-2xl md:xl sm:lg mt-8  px-10">
+              <a
+                href="https://news.ambest.com/PressContent.aspx?altsrc=14&refnum=28004"
+                className="hover:underline"
+              >
+                <p className="text-center font-bigshoulder font-extrabold text-2xl md:xl sm:lg mt-8  px-10 ">
                   AM Best Assigns Credit Ratings to Redbridge Insurance Company
                   Limited
                 </p>
@@ -42,7 +45,10 @@ const AMBestRating = () => {
                   whileHover={{ scale: 1.1 }}
                 />
               </a>
-              <a href="https://news.ambest.com/newscontent.aspx?refnum=220823&altsrc=23">
+              <a
+                href="https://news.ambest.com/newscontent.aspx?refnum=220823&altsrc=23"
+                className="hover:underline"
+              >
                 <p className="text-center font-bigshoulder font-extrabold text-2xl md:xl sm:lg mt-8 px-10">
                   AM Best Affirms Credit Ratings of Ocean International
                   Reinsurance Company Limited
@@ -61,7 +67,10 @@ const AMBestRating = () => {
                   whileHover={{ scale: 1.1 }}
                 />
               </a>
-              <a href="https://news.ambest.com/presscontent.aspx?refnum=32260&altsrc=2">
+              <a
+                href="https://news.ambest.com/presscontent.aspx?refnum=32260&altsrc=2"
+                className="hover:underline"
+              >
                 <p className="text-center font-bigshoulder font-extrabold text-2xl md:xl sm:lg mt-8  px-10">
                   AM Best Affirms Credit Ratings of Lloyd’s
                 </p>
