@@ -17,7 +17,7 @@ const OurOffices = () => {
       flag: CanadaFlag,
       country: "CANADA",
       person: "Robert Trudeau",
-      email: "rtrrudeau@waven3global.com",
+      email: "rtrudeau@waven3global.com",
     },
     {
       flag: USAFlag,

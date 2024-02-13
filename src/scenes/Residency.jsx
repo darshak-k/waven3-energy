@@ -25,8 +25,7 @@ const Residency = () => {
           <p className="mt-10">
             Exclusive lending opportunities await you! seize the chance to
             participate as a lender with our company. Your investment in loans
-            will contribute to our shared success. Explore the benefits of
-            lending with us and be a part of our financial growth.
+            will contribute to our shared success.
           </p>
         </div>
         <div className="flex flex-col ">
@@ -134,10 +133,10 @@ const Residency = () => {
           <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
             <div className="space-y-4">
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri">
                   WHAT IS A “GUARANTEED” LOAN OR INVESTMENT ?{" "}
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   “GUARANTEED” means exactly that, upon making a loan to WAVEN3
                   Technology as set forth in the loan contract, the lender will
                   receive an insurance policy issued by a fully licensed and
@@ -150,20 +149,20 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg">
-                <summary className="px-4 py-6 font-extrabold  focus:outline-none focus-visible:ri">
+                <summary className="px-4 py-4 font-extrabold  focus:outline-none focus-visible:ri">
                   HOW DO I LEND OR INVEST?{" "}
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   Once you’re ready, complete the form to schedule a call or
                   request a copy of the Loan Agreement.
                 </p>
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg">
-                <summary className="px-4 py-6 font-extrabold  focus:outline-none focus-visible:ri">
+                <summary className="px-4 py-4 font-extrabold  focus:outline-none focus-visible:ri">
                   WHAT IS A SECURED PROMISSORY LOAN OR INVESTMENT ?{" "}
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   A Secured Loan is a written, legally enforceable agreement to
                   pay you interest at a specific rate and frequency and repay
                   your principal (the original amount that you lend) on a
@@ -176,10 +175,10 @@ const Residency = () => {
                 </p>
               </details>
               <details className="w-full border border-gray-900 rounded-lg">
-                <summary className="px-4 py-6 font-extrabold  focus:outline-none focus-visible:ri">
+                <summary className="px-4 py-4 font-extrabold  focus:outline-none focus-visible:ri">
                   WHAT FEES DO YOU CHARGE?{" "}
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   WAVEN3 Technology does not charge management or servicing fees
                   of any kind
                 </p>
@@ -187,7 +186,7 @@ const Residency = () => {
             </div>
           </div>
         </section>
-
+        {/* 
         <div className="flex flex-col items-center mt-20">
           <p className="text-xl text-orange-800 font-extrabold ">
             GUARANTEED NOTE SAMPLE COPY
@@ -199,8 +198,8 @@ const Residency = () => {
           <p className="pt-2">FULLY INSURED</p>{" "}
           <p className="pt-2">SECURED LOAN</p>{" "}
           <p className="pt-2">PRINCIPAL AND INTEREST PROTECTED</p>
-        </div>
-
+        </div> */}
+        {/* 
         <div className="mt-10">
           <p>
             The lender or Investor agreed to lend the amount of $_____________
@@ -218,16 +217,16 @@ const Residency = () => {
             similar terms and conditions, executed or to be executed in favor of
             and issued to other potential lenders
           </p>
-        </div>
+        </div> */}
 
         <section className="w-full md:w-[80%] dark:bg-opacity-100 dark:text-gray-800">
           <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
             <div className="space-y-4">
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   1. Interest.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   Interest will accrue at the rate of 15% per annum on the
                   unpaid principal balance, accruing as of the first day of
                   every 3 months. In no event will the amount due or deemed to
@@ -242,10 +241,10 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   2. Time of Payments.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   Maker will make payments to Lender beginning on , and on the
                   1st day of every successive 3r d calendar month until
                   Maturity, in a monthly total amount equal to the per annum
@@ -259,10 +258,10 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   3. Maturity Date, Prepayment and Acceleration.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   The Maker will pay all indebtedness due under this Loan
                   (including without limitation any unpaidPrincipal and unpaid
                   interest) on or before ("Maturity Date"). The Maker may make
@@ -275,10 +274,10 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   4. Mode and Place of Payment.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   All payments due under this Loan Agreement will be made in
                   immediately available funds in lawful money of the Canadian
                   (CAD). All payments due under this Loan will be made by direct
@@ -289,10 +288,10 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   5. Default.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   (a) Default under this Loan will exist if any of the following
                   facts or circumstances exists or occurs or is deemed to exist
                   or occur. No notice of, or action with respect to, any of the
@@ -304,7 +303,7 @@ const Residency = () => {
                   than 10 calendar days after notice from Holder.
                 </p>
 
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   (b). An order, judgment or decree is entered adjudicating the
                   Maker, or any person or entity that controls, is controlled by
                   or is under common control with Maker ("Maker’s Affiliate"),
@@ -315,7 +314,7 @@ const Residency = () => {
                   under any bankruptcy, reorganization, arrangement, insolvency,
                   readjustment of debt, dissolution or liquidation etc.
                 </p>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   (c) In the event that any or all of the above should exist or
                   occur, the insurance policy and or surety bond insuring the
                   note shall cover the holder, and such surety bond and or
@@ -330,10 +329,10 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   6. Cancellation.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   When all amounts due to Holder under this Promissory Note,
                   including without limitation the entire principal balance and
                   all accrued and unpaid interest, have been paid in full, this
@@ -343,10 +342,10 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   7. Presentment, Demand, Notice, Etc.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   Except for the notice requirements set forth above, the Maker
                   waives presentment, demand, notice, protest and all other
                   demands and notice in connection with the delivery,
@@ -359,10 +358,10 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   8. Specific Performance.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   The Lender acknowledges that Maker shall be entitled to the
                   remedy of specific performance for any breach or threatened
                   breach of this Agreement by the Lender or its Representatives.
@@ -374,10 +373,10 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   9. Costs of Enforcement and Protection.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   The prevailing party shall be entitled to recover all
                   reasonable costs and expenses, including without limitation
                   attorneys' fees and legal expenses, paid, suffered or incurred
@@ -387,10 +386,10 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   10. Governing Law; Venue.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   All questions concerning the construction, validity and
                   interpretation of this Promissory Note will be governed by the
                   internal laws, and not the law of conflicts, of Canada. The
@@ -401,7 +400,7 @@ const Residency = () => {
                   sitting in Canada, and waives any objection to venue in that
                   court.
                 </p>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   The Lender or Investor acknowledges that Maker shall be
                   entitled to the remedy of specific performance for any breach
                   or threatened breach of this Agreement by the Holder or its
@@ -412,10 +411,10 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   11. No Waiver.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   Unless the Lender shall have executed a written waiver, and
                   then only to the extent specifically set forth in that written
                   waiver, no act, omission or delay will be deemed to constitute
@@ -427,10 +426,10 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   12. Notices.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   All notices required or permitted to be given under this Loan
                   will be in writing, and addressed to the recipient’s address
                   specified above, or at such alternative address as may be
@@ -450,10 +449,10 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   13. Legend.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   This Loan has not been registered under any securities laws.
                   No transfer or other disposition of this Loan can be made
                   during the offering in which this Loan was given and for nine
@@ -464,10 +463,10 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   14. Original Intent.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   In the event the original intent of the request for funding
                   does not materialize, principal and any accrued interest, if
                   applicable, shall be returned to Lender within 30 calendar
@@ -476,23 +475,23 @@ const Residency = () => {
               </details>
 
               <details className="w-full border border-gray-900 rounded-lg text-bold">
-                <summary className="px-4 py-6 font-extrabold focus:outline-none focus-visible:ri ">
+                <summary className="px-4 py-4 font-extrabold focus:outline-none focus-visible:ri ">
                   15. Unconditional Loan or Investment Guarantee.
                 </summary>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   WAVEN3 Technology shall provide Lender with a noncollectable
                   surety bond, or other like insurance policy or product to
                   serve as an unconditional guarantee for the Holder that he
                   shall receive payment of both principal and interest on this
                   note; in full, and within 60 days in the event of a default
                 </p>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   WAVEN3 Technology shall only seek to facilitate the issuance
                   of such insurance policies from insurance carriers that are
                   considered to be “investment grade” whom carry a B++ credit
                   rating or higher from the Credit Rating Agency AM Best.
                 </p>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   Such insurance guarantees shall be issued by either Afiancol
                   Insurance Company, Redbridge Insurance Company as a cover
                   holder for Lloyds of London, and or Ocean Reinsurance, as
@@ -501,14 +500,14 @@ const Residency = () => {
                   licensed and regulated investment grade insurance companies
                   and reinsurance companies respectively.
                 </p>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   WAVEN3 Technology expects to use Redbridge Insurance Company
                   in part or in whole to issue the majority of insurance
                   guarantees relating to this Loan. Redbridge Insurance Company
                   has been issued a B++ credit rating from AM Best and is also a
                   cover holder for Lloyds of London
                 </p>
-                <p className="px-4 py-6">
+                <p className="px-4 py-4">
                   The aforementioned surety and financial guarantee bond(s)
                   shall provide the Loan Holder(s) of this note offering
                   complete and absolute principal and interest protection. Such

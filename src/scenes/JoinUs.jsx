@@ -54,6 +54,14 @@ const JoinUs = () => {
           >
             <img src={JoinUsGraph} alt="InvestUs" />
           </motion.div>
+
+          <div className="flex justify-center mt-10">
+            <p className="text-4xl font-bigshoulder flex items-center px-[3%] font-semibold">
+              {" "}
+              "Your Loan or Investment Guaranteed with Us. Guaranteed Annual
+              Returns of 15%."
+            </p>
+          </div>
         </div>
       </div>
     </section>
