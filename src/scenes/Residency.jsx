@@ -58,7 +58,7 @@ const Residency = () => {
 
         <div>
           <p className=" font-extrabold text-orange-900 ">
-            FULLY GUARANTEED LOAN
+            FULLY GUARANTEED LOAN OR INVESTOR
           </p>
           <p className="mt-10">
             Our Fully Secured Principal & Interest Fixed Rate loan & Investment
@@ -67,16 +67,15 @@ const Residency = () => {
             issued directly to our note holders from top A M Best rated insurers
             which guarantee our note holders cannotlose their principal
             investment and also serves as a guarantee that they will receive the
-            interest offered in our note offering in full. DELIVERING CERTAINTY
-            IN AN UNCERTAIN WORLD 2.
+            interest offered in our note offering in full.
           </p>
         </div>
 
-        {/* <div className="flex flex-col items-center mt-20">
-          <p className="text-3xl text-orange-800 font-extrabold ">
-            Disbursed Funds Handling
+        <div>
+          <p className=" font-extrabold text-orange-900 ">
+            DISTRIBUTED FUNDS HANDLING
           </p>
-          <p className="pt-10  mx-[10%]">
+          <p className="mt-10">
             The disbursed funds will be deposited into the company's trustee
             account or the lender's or investor's trustee account, with
             instructions specifying that the disbursement of funds to the
@@ -524,7 +523,7 @@ const Residency = () => {
               </details>
             </div>
           </div>
-        </section> */}
+        </section>
       </div>
     </section>
   );

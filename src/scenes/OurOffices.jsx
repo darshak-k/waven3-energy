@@ -9,6 +9,7 @@ import CanadaFlag from "../assets/CanadaFlag.png";
 import USAFlag from "../assets/USAFlag.png";
 import UAEFlag from "../assets/UAEFlag.png";
 import SwitzerlandFlag from "../assets/SwitzerlandFlag.jpg";
+import { Link } from "react-router-dom";
 
 const OurOffices = () => {
   const cardsData = [
@@ -33,7 +34,7 @@ const OurOffices = () => {
     {
       flag: SwitzerlandFlag,
       country: "SWITZERLAND",
-      person: "Carlo",
+      person: "Carlo Daello ",
       email: "carlo@waven3global.com",
     },
   ];
@@ -67,7 +68,9 @@ const OurOffices = () => {
               </div>
               <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
                 <EmailIcon />
-                <p className="text-gray-700">{cardsData[index].email}</p>
+                <a href={`mailto:${cardsData[index].email}`}>
+                  <p className="text-gray-700">{cardsData[index].email}</p>
+                </a>
               </div>
             </div>
           </motion.div>
@@ -95,8 +98,11 @@ const OurOffices = () => {
             >
               <LocationOnIcon fontSize="large" />
               <div className="flex flex-col gap-4 mt-10">
-                <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl underline pb-10">
-                  HEAD OFFICE - CANADA - USA
+                <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl underline ">
+                  HEAD OFFICE
+                </p>
+                <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl  pb-10">
+                  CANADA - USA
                 </p>
                 <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
                   <NavigationIcon />
@@ -131,9 +137,13 @@ const OurOffices = () => {
             >
               <LocationOnIcon fontSize="large" />
               <div className="flex flex-col gap-4 mt-10">
-                <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl underline pb-10">
-                  HEAD OFFICE - SWITZERLAND - UAE
+                <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl underline ">
+                  HEAD OFFICE
                 </p>
+                <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl  pb-10">
+                  SWITZERLAND - UAE
+                </p>
+
                 <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
                   <NavigationIcon />
                   <p> Gartenstrasse 6 6300 Zug Switzerland</p>
