@@ -17,15 +17,15 @@ const RigourousApproval = ({}) => {
 
   return (
     <section>
-      <div className="py-10 pb-32">
+      <div className="py-10 pb-64">
         {isAboveLarge ? (
-          <div className="flex flex-col  pl-10">
-            <div className="flex flex-row gap-80 px-24">
+          <div className="flex flex-col pl-10">
+            <div className="flex flex-row  gap-[25%]  px-[10%]">
               <motion.div
                 initial={{ x: "0%", y: "-100%" }}
                 animate={{ x: 0, y: 0 }}
                 whileInView="visible"
-                className="square max-w-xs px-14"
+                className=" max-w-[200px]"
                 transition={{ duration: 1 }}
               >
                 <img src={Raining} alt="Raining" />
@@ -35,26 +35,26 @@ const RigourousApproval = ({}) => {
                 initial={{ x: "0%", y: "100%" }}
                 animate={{ x: 0, y: 0 }}
                 whileInView="visible"
-                className="square max-w-xs px-14 "
+                className=" max-w-[200px]"
                 transition={{ duration: 1 }}
               >
                 <img src={Raining} alt="Raining" className="rotate-180" />
               </motion.div>
             </div>
 
-            <div className="flex flex-row gap-40  pl-10">
-              <div className="items-end square max-w-md ">
+            <div className="flex flex-row gap-[10%]  pl-10 max-h-[300px]">
+              <div className="items-start w-[20%] ">
                 <img src={Factory} alt="Factory" />
 
                 <div className="flex font-bigshoulder text-4xl justify-center">
                   <p>ACTIVITY SECTOR</p>
                 </div>
               </div>
-              <div className="flex flex-col">
-                <div className="relative text-3xl font-bigshoulder top-64 h-10 font-extrabold ">
+              <div className="flex flex-col items-center justify-center">
+                <div className="text-3xl font-bigshoulder top-64 h-10 font-extrabold ">
                   ENERGY SAVINGS
                 </div>
-                <div className="relative top-64 h-10">
+                <div className="">
                   <svg width="200" height="20">
                     <path
                       d="M 0,10 H 200 L 190,0 M 200,10 L 190,20"
@@ -64,12 +64,19 @@ const RigourousApproval = ({}) => {
                   </svg>
                 </div>
               </div>
-              <div className="items-end square max-w-sm py-32">
+              <div className="items-end square w-[25%]">
+                <img src={Trees} alt="Trees" />
+
+                <div className="flex font-bigshoulder text-4xl justify-center pt-10">
+                  <p>ACTIVITY SECTOR</p>
+                </div>
+              </div>
+              {/* <div className="quare max-w-sm py-32">
                 <img src={Trees} alt="Trees" />
                 <div className="flex font-bigshoulder text-4xl justify-center py-16">
                   <p>CARBON CREDITS CREATED</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         ) : (
