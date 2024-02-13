@@ -49,7 +49,7 @@ const Partners = () => {
             Some of our strategic partnerships include:
           </p>
         </div>
-        <div>
+        <div className="w-full flex">
           <Marquee
             pauseOnHover="true"
             className="rounded-2xl py-3 overflow-hidden grid  "
