@@ -3,28 +3,31 @@ import React from "react";
 const Residency = () => {
   return (
     <section id="residency" className="pb-20">
-      <div className="flex  w-full py-10 justify-center">
+      {/* <div className="flex  w-full py-10 justify-center">
         <p className=" font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
           RESIDENCY
         </p>
-      </div>
+      </div> */}
       <div className="flex flex-col mt-10 font-bigshoulder tracking-wide text-xl gap-10 pb-20 mx-[10%]">
-        <div className="flex flex-col gap-10 md:mx-[14%] ">
-          <div className="flex flex-col gap-10 items-center justify-center">
-            <p className=" font-extrabold text-orange-900 ">
-              AMERICAN & UAE CITIZENS
-            </p>
-            <p>
-              CITIZENS THAT RESIDE IN THESE TERRITORIES ARE ABLE TO INVEST IN
-              OUR COMPANY.
-            </p>
-          </div>
-          <div className="flex flex-col gap-10 items-center">
-            <p className=" font-extrabold text-orange-900 ">
-              CANADIAN CITIZENS
-            </p>
-            <p>WE ONLY ACCEPT LOANS</p>
-          </div>
+        <div>
+          <p className=" font-extrabold text-orange-900 ">
+            AMERICAN & UAE CITIZENS
+          </p>
+          <p className="mt-10">
+            Great news for international investors! If you reside outside of
+            Canada, you now have the opportunity to become a valued investor in
+            our company. Take the next step towards financial growth by
+            investing with us
+          </p>
+        </div>
+        <div>
+          <p className=" font-extrabold text-orange-900 ">CANADIAN CITIZENS</p>
+          <p className="mt-10">
+            Exclusive lending opportunities await you! seize the chance to
+            participate as a lender with our company. Your investment in loans
+            will contribute to our shared success. Explore the benefits of
+            lending with us and be a part of our financial growth.
+          </p>
         </div>
         <div className="flex flex-col ">
           <p className=" font-extrabold text-orange-900">
@@ -69,7 +72,7 @@ const Residency = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center mt-20">
+        {/* <div className="flex flex-col items-center mt-20">
           <p className="text-3xl text-orange-800 font-extrabold ">
             Disbursed Funds Handling
           </p>
@@ -521,7 +524,7 @@ const Residency = () => {
               </details>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </section>
   );

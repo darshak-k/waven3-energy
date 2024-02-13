@@ -69,7 +69,7 @@ const ReinsuranceCompany = () => {
             >
               <div>
                 <h3 className="vertical-timeline-element-title font-bold text-xl underline">
-                  Afiancol S.A. Columbia
+                  Afiancol S.A. Insurance
                 </h3>
                 <p>
                   Assignor to reinsurance payment upon first request without

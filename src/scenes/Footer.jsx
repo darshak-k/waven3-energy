@@ -139,14 +139,13 @@ const Footer = () => {
               <ul class="mt-6 text-xl font-semibold space-y-4">
                 <li>
                   <a
-                    href="/rigorousapproval"
+                    href="/accreditationprocess"
                     class="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
-                    Rigorous Approval{" "}
+                    Accreditation Process{" "}
                   </a>
                 </li>
-
                 <li>
                   <a
                     href="/crypto"
@@ -163,16 +162,6 @@ const Footer = () => {
                   >
                     {" "}
                     Market opportunity{" "}
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="/accreditationprocess"
-                    class="text-gray-700 transition hover:opacity-75"
-                  >
-                    {" "}
-                    Accreditation Process{" "}
                   </a>
                 </li>
               </ul>

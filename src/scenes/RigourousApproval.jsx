@@ -18,10 +18,6 @@ const RigourousApproval = ({}) => {
   return (
     <section>
       <div className="py-10 pb-32">
-        <p className="my-10 flex justify-center font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
-          RIGOUROUS APPROVAL
-        </p>
-
         {isAboveLarge ? (
           <div className="flex flex-col  pl-10">
             <div className="flex flex-row gap-80 px-24">

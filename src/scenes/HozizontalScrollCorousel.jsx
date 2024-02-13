@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import useMediaQuery from "../hooks/useMediaQuery";
+import RigourousApproval from "./RigourousApproval";
 
 const OpenCards = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
@@ -63,7 +64,7 @@ const OpenCards = () => {
           ACCREDITATION PROCESS
         </p>
       </div>
-
+      <RigourousApproval />
       {isAboveLarge ? (
         <div className="flex flex-row w-full">
           {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((index) => (
