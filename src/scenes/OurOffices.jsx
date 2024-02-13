@@ -5,7 +5,7 @@ import NavigationIcon from "@mui/icons-material/Navigation";
 import EmailIcon from "@mui/icons-material/Email";
 import { AnimatePresence, motion } from "framer-motion";
 import Person3Icon from "@mui/icons-material/Person3";
-import CanadaFlag from "../assets/CanadaFlag.png";
+import CanadaFlag from "../assets/CanadaFlag.jpg";
 import USAFlag from "../assets/USAFlag.png";
 import UAEFlag from "../assets/UAEFlag.png";
 import SwitzerlandFlag from "../assets/SwitzerlandFlag.jpg";
