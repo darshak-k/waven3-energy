@@ -70,7 +70,7 @@ const OpenCards = () => {
           {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((index) => (
             <div
               key={index}
-              className={`flex flex-row gap-1   w-full h-[400px]`}
+              className={`flex flex-row gap-1  w-full h-[400px]`}
             >
               <motion.div
                 key={index}
@@ -83,6 +83,7 @@ const OpenCards = () => {
                 transition={{ duration: 0.3 }}
                 onHoverStart={() => handleCardClick(index)}
                 onHoverEnd={() => handleCardClick(index)}
+                onClick={() => handleCardClick(index)}
               >
                 {index !== expandedIndex ? (
                   <>
