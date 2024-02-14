@@ -20,10 +20,6 @@ const TheProjects = () => {
             working on securing partnerships to include projects dedicated to
             the production of Blue Methanol and clean energy.
           </p>
-        </div>
-
-        <div>
-          <p className=" font-extrabold text-orange-900 ">OUR PROJECTS</p>
           <p className="mt-10">
             White Hydrogen, also known as Natural Hydrogen, is a naturally
             occurring form of Hydrogen,that is found in underground deposits and
