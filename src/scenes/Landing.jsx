@@ -9,7 +9,7 @@ const Landing = ({ setSelectedPage }) => {
   return (
     <section
       id="home"
-      className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10 mb-40"
+      className="md:flex md:justify-between md:items-center gap-16 md:h-full  mb-40"
     >
       {/* IMAGE SECTION */}
       <motion.div

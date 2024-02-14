@@ -28,7 +28,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
-        <div className="items-end square w-44 md:2-56">
+        <div className="items-end square w-[40%] md:w-44 md:2-56">
           <a href="/home">
             <img src={Waven3Tech} alt="" />
           </a>
@@ -79,7 +79,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
         {/* MOBILE MENU POPUP */}
         {!isDesktop && isMenuToggled && (
-          <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
+          <div className="fixed right-0 bottom-0 h-full bg-blue w-[250px]">
             {/* CLOSE ICON */}
             <div className="flex justify-end p-12">
               <button onClick={() => setIsMenuToggled(!isMenuToggled)}>

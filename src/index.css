@@ -9,7 +9,6 @@ html,
 body,
 #root,
 .app {
-  height: 100%;
   background-color: #86D8AC;
   @apply text-gray-800;
 }
