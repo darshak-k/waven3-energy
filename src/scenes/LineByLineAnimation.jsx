@@ -44,13 +44,13 @@ const LineByLineAnimation = () => {
   }, []);
 
   return (
-    <div className="mb-20 md:flex md:flex-row gap-8">
+    <div className="mb-20 md:flex md:flex-row justify-evenly gap-8">
       <AnimatePresence initial={false}>
         {[...Array(lines)].map((_, index) => (
           <>
             <div className="pt-8">
               <motion.div
-                className="mx-auto relative items-center rounded-xl shadow-2xl bg-opacity-100 max-w-[400px] h-[350px] flex flex-col  p-16
+                className="mx-auto relative items-center rounded-xl shadow-2xl bg-opacity-100 flex flex-col  p-8
             md:justify-center hover:shadow-green-800"
                 initial="hidden"
                 whileInView="visible"

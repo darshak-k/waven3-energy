@@ -42,7 +42,6 @@ const About = () => {
           <img
             alt="skills"
             className="justify-center z-10 max-w-[70%]  "
-            style={imageStyles}
             src={EarthCity}
           />
         </motion.div>

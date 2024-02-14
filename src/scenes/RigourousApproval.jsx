@@ -1,6 +1,6 @@
 import { motion, useAnimation } from "framer-motion";
 import Raining from "../assets/Raining.png";
-import Factory from "../assets/Factory.png";
+import Factory from "../assets/ActivitySector.png";
 import Trees from "../assets/Trees.png";
 import useMediaQuery from "../hooks/useMediaQuery";
 
