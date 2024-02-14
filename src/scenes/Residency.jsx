@@ -57,7 +57,7 @@ const Residency = () => {
 
         <div>
           <p className=" font-extrabold text-orange-900 ">
-            FULLY GUARANTEED LOAN OR INVESTOR
+            FULLY GUARANTEED LOAN OR INVESTMENT
           </p>
           <p className="mt-10">
             Our Fully Secured Principal & Interest Fixed Rate loan & Investment
