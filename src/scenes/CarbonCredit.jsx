@@ -1,6 +1,33 @@
 import useMediaQuery from "../hooks/useMediaQuery";
-import CarbonCreditImg from "../assets/CarbonCredit.png";
+import CarbonCapture from "../assets/CarbonCapture.png";
+import Hydrogen from "../assets/Hydrogen.png";
+import CleanFuel from "../assets/CleanFuel.png";
+import Blockchain from "../assets/Blockchain.png";
+import Education from "../assets/Education.png";
+import Fertilizer from "../assets/Fertilizer.png";
 import { motion } from "framer-motion";
+
+const Card = ({ image, title }) => {
+  return (
+    <motion.div
+      className="flex flex-col justify-center items-center p-4 border border-orange-700 rounded-lg shadow-md hover:shadow-lg"
+      whileHover={{ scale: 1.05 }}
+    >
+      <img src={image} alt={title} className="w-[50%] rounded-lg mb-4 h-9/12" />
+      <h2 className="text-2xl font-bold text-orange-800 h-3/12">{title}</h2>
+    </motion.div>
+  );
+};
+
+const Grid = ({ data }) => {
+  return (
+    <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20">
+      {data.map((item, index) => (
+        <Card key={index} {...item} />
+      ))}
+    </div>
+  );
+};
 
 const CarbonCredit = () => {
   const imageStyles = {
@@ -12,8 +39,17 @@ const CarbonCredit = () => {
 
   const textStyle =
     "flex text-xl md:text-2xl font-bigshoulder justify-center items-center  font-semibold -center";
+  const data = [
+    { image: CarbonCapture, title: "Carbon capture technologies" },
+    { image: Hydrogen, title: "Hydrogen technologies" },
+    { image: CleanFuel, title: "Clean fuels" },
+    { image: Blockchain, title: "Blockchain technology" },
+    { image: Education, title: "Education" },
+    { image: Fertilizer, title: "Fertilizers" },
+  ];
+
   return (
-    <section id="skills" className="justify-center items-center">
+    <section id="skills" className="justify-center items-center mb-28">
       {/* HEADER AND IMAGE SECTION */}
       <div className="flex mt-24 w-full py-10 mb-10 justify-center">
         <p className="my=-10  font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
@@ -45,6 +81,10 @@ const CarbonCredit = () => {
         </div>
       </div>
 
+      <div className="container mx-auto py-8">
+        <Grid data={data} />
+      </div>
+      {/* 
       <div className="relative py-1 mb-40 px-20">
         <motion.div
           className="z-10 mt-32 flex justify-center"
@@ -87,7 +127,7 @@ const CarbonCredit = () => {
             Education
           </p>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

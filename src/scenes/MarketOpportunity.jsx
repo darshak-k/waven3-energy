@@ -80,9 +80,9 @@ const MarketOpportunity = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
     <section>
-      <div className="flex flex-col w-full ">
-        <div className="flex  w-full mt-10 py-20 justify-center">
-          <p className="my=-10  font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
+      <div className="flex flex-col w-full justify-center items-center ">
+        <div className="flex  w-full mt-10 py-20 justify-center items-center">
+          <p className="flex my=-10  font-bigshoulder justify-center items-center font-extrabold text-5xl md:3xl sm:xl">
             MARKET OPPORTUNITY
           </p>
         </div>

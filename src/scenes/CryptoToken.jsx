@@ -36,7 +36,7 @@ const CryptoToken = () => {
           <img
             src={Finma}
             alt="Main Image"
-            className="max-w-[600px] rounded-lg"
+            className="max-w-[300px] md:max-w-[600px]  rounded-lg"
           />
 
           {/* Blur Image and Text on Hover */}
@@ -63,7 +63,7 @@ const CryptoToken = () => {
           <img
             src={CryptoBitcoin}
             alt="Main Image"
-            className="max-w-[600px] rounded-lg"
+            className="max-w-[400px] md:max-w-[600px] rounded-lg"
           />
 
           {/* Blur Image and Text on Hover */}
