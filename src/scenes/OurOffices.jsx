@@ -85,7 +85,7 @@ const OurOffices = () => {
         <>
           <div className="pt-8">
             <motion.div
-              className="mx-auto relative items-center rounded-xl shadow-2xl bg-opacity-100 max-w-[400px] h-[350px] flex flex-col  p-16
+              className="mx-auto relative items-center rounded-xl shadow-2xl bg-opacity-100 max-w-[400px] h-auto flex flex-col  p-16
             md:justify-center shadow-orange-800 hover:shadow-green-800"
               initial="hidden"
               whileInView="visible"
@@ -124,7 +124,7 @@ const OurOffices = () => {
         <>
           <div className="pt-8">
             <motion.div
-              className="mx-auto relative items-center rounded-xl shadow-2xl bg-opacity-100 max-w-[400px] h-[350px] flex flex-col  p-16
+              className="mx-auto relative items-center rounded-xl shadow-2xl bg-opacity-100 max-w-[400px] h-auto flex flex-col  p-16
             md:justify-center shadow-orange-800 hover:shadow-green-800"
               initial="hidden"
               whileInView="visible"
