@@ -40,7 +40,7 @@ const ReinsuranceCompany = () => {
               iconStyle={{ background: "rgb(134, 216, 172)", color: "#212121" }}
               icon={<StoreIcon />}
             >
-              <div className="flex gap-10 mb-8">
+              <div className="flex flex-col md:flex-row gap-10 mb-8">
                 <img src={Partner9} alt="" className="w-28" />
                 <img src={Partner10} alt="" className="w-28" />
                 <img src={Partner11} alt="" className="w-28" />
