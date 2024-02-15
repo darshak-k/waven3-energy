@@ -108,12 +108,12 @@ const Residency = () => {
             security that the loan will be repaid/obligation will be fulfilled
             in the event that the securities issuer is unable to do so. The loan
             may benefit the principal by enhancing the principal’s
-            creditworthiness thereby lowering the cost of financing
+            credit worthiness thereby lowering the cost of financing
           </p>
 
           <p className="mt-10">
             The guarantee “wraps” the loan with the insurer’s good name and
-            creditworthi- ness. Because the bond represents an UNCONDITIONAL
+            credit worthiness. Because the bond represents an UNCONDITIONAL
             GUARANTEE of compliance/repayment, a preferred interest rate is
             often offered to lenders
           </p>
