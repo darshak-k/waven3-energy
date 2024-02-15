@@ -47,7 +47,7 @@ const RigourousApproval = ({}) => {
                 <img src={Factory} alt="Factory" />
 
                 <div className="flex font-bigshoulder text-4xl justify-center">
-                  <p>CARBON CREDITS</p>
+                  <p>ACTIVITY SECTOR</p>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -68,7 +68,7 @@ const RigourousApproval = ({}) => {
                 <img src={Trees} alt="Trees" />
 
                 <div className="flex font-bigshoulder text-4xl justify-center pt-10">
-                  <p>ACTIVITY SECTOR</p>
+                  <p>CARBON CREDITS</p>
                 </div>
               </div>
               {/* <div className="quare max-w-sm py-32">
