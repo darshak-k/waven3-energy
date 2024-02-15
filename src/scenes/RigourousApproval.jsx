@@ -47,7 +47,7 @@ const RigourousApproval = ({}) => {
                 <img src={Factory} alt="Factory" />
 
                 <div className="flex font-bigshoulder text-4xl justify-center">
-                  <p>ACTIVITY SECTOR</p>
+                  <p>CARBON CREDITS</p>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
