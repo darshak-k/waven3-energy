@@ -22,6 +22,7 @@ import TheProjects from "./scenes/TheProjects";
 import NotFound404 from "./scenes/NotFound404";
 import Residency from "./scenes/Residency";
 import Contact from "./scenes/Contact";
+import { LANGUAGES } from "./Constants/languages";
 
 const childVariants = {
   initial: {

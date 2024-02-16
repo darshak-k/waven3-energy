@@ -58,7 +58,7 @@ const OpenCards = () => {
   ];
 
   return (
-    <section>
+    <section key="AccreditationProcess">
       <div className="py-10 pb-32">
         <p className="my-10 flex justify-center font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
           ACCREDITATION PROCESS
@@ -149,7 +149,7 @@ const OpenCards = () => {
       ) : (
         <>
           {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((index) => (
-            <div className="flex flex-col w-full ">
+            <div className="flex flex-col w-full " key={`process-${index}`}>
               <motion.div
                 key={index}
                 className={`font-extrabold text-5xl md:4xl sm:3xl  md:${

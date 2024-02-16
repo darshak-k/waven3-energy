@@ -39,30 +39,31 @@ const Partners = () => {
   }, []);
 
   return (
-    <>
-      <section className="flex flex-col justify-center items-center">
-        <div className="mt-16 w-full py-10  font-bigshoulder">
-          <p className="flex my=-10 justify-center  font-extrabold text-5xl md:3xl sm:xl">
-            OUR PARTNERS
-          </p>
-          <p className="flex mt-4 text-xl justify-center">
-            Some of our strategic partnerships include:
-          </p>
-        </div>
-        <div className="w-full flex">
-          <Marquee
-            pauseOnHover="true"
-            className="rounded-2xl py-3 overflow-hidden grid  "
-          >
-            {partners.map((partner, index) => (
-              <div className=" flex pr-10 flex-col justify-center items-center mx-5 ">
-                <img src={partner.logo} className="w-48" alt="" />
-              </div>
-            ))}
-          </Marquee>
-        </div>
-      </section>
-    </>
+    <section className="flex flex-col justify-center items-center">
+      <div className="mt-16 w-full py-10  font-bigshoulder">
+        <p className="flex my=-10 justify-center  font-extrabold text-5xl md:3xl sm:xl">
+          OUR PARTNERS
+        </p>
+        <p className="flex mt-4 text-xl justify-center">
+          Some of our strategic partnerships include:
+        </p>
+      </div>
+      <div className="w-full flex">
+        <Marquee
+          pauseOnHover="true"
+          className="rounded-2xl py-3 overflow-hidden grid  "
+        >
+          {partners.map((partner, index) => (
+            <div
+              className=" flex pr-10 flex-col justify-center items-center mx-5"
+              key={`partner-${index}`}
+            >
+              <img src={partner.logo} className="w-48" alt="" />
+            </div>
+          ))}
+        </Marquee>
+      </div>
+    </section>
   );
 };
 

@@ -3,6 +3,8 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 import Waven3Tech from "../assets/Waven3Tech.png";
 import { NavLink } from "react-router-dom";
+import { LANGUAGES } from "../Constants/languages";
+import { useTranslation } from "react-i18next";
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.replace(" ", "").toLowerCase();
@@ -21,9 +23,16 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 };
 
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
+  const { i18n, t } = useTranslation();
+
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isDesktop = useMediaQuery("(min-width: 820px)");
   const navbarBackground = isTopOfPage ? "" : "bg-red";
+
+  const onChangeLang = (e) => {
+    const lang_code = e.target.value;
+    i18n.changeLanguage(lang_code);
+  };
 
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
@@ -38,35 +47,43 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
         {isDesktop ? (
           <div className="flex justify-between gap-12 font-bigshoulder text-xl font-semibold">
             <Link
-              page="Home"
+              page={t("home")}
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="About Us"
+              page={t("aboutus")}
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Projects"
+              page={t("projects")}
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Crypto"
+              page={t("crypto")}
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Join Us"
+              page={t("joinus")}
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Contact Us"
+              page={t("contactus")}
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
+
+            <select defaultValue={"en"} onChange={onChangeLang}>
+              {LANGUAGES.map(({ code, label }) => (
+                <option key={code} value={code}>
+                  {label}
+                </option>
+              ))}
+            </select>
           </div>
         ) : (
           <button
@@ -90,35 +107,43 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             {/* MENU ITEMS */}
             <div className="flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue">
               <Link
-                page="Home"
+                page={t("home")}
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
-                page="About Us"
+                page={t("aboutus")}
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
-                page="Projects"
+                page={t("projects")}
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
-                page="Crypto"
+                page={t("crypto")}
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
-                page="Join Us"
+                page={t("joinus")}
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
-                page="Contact Us"
+                page={t("contactus")}
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
+
+              <select defaultValue={"en"} className="bg-">
+                {LANGUAGES.map(({ code, label }) => (
+                  <option key={code} value={code}>
+                    {label}
+                  </option>
+                ))}
+              </select>
             </div>
           </div>
         )}
