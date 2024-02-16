@@ -22,9 +22,10 @@
     "greenhydrogentext3": "Dans le processus d'électrolyse, l'électricité est utilisée pour diviser l'eau en hydrogène et en oxygène. Si l'électricité utilisée dans ce processus provient de sources renouvelables, l'hydrogène produit est considéré comme 'vert' car sa production n'émet aucun dioxyde de carbone.",
     "greenhydrogentext4": "Cependant, la production d'hydrogène vert est actuellement plus coûteuse que d'autres méthodes de production d'hydrogène, et elle nécessite une quantité importante d'électricité. Par conséquent, la disponibilité d'électricité bon marché et renouvelable est un facteur clé pour sa production.",
 
-    "landingpage": {
-        "title": "REJOIGNEZ-NOUS POUR CHANGER LE MONDE AUJOURD'HUI"
-    },
+"landingpage": {
+    "title": "REJOIGNEZ-NOUS POUR CHANGER LE MONDE AUJOURD'HUI"
+},
+
 
     "theprojects": {
         "title": "Les Projets",

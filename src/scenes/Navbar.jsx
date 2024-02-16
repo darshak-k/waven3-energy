@@ -2,6 +2,7 @@ import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 import Waven3Tech from "../assets/Waven3Tech.png";
+import CanadaFlag from "../assets/CanadaFlag.jpg";
 import { NavLink } from "react-router-dom";
 import { LANGUAGES } from "../Constants/languages";
 import { useTranslation } from "react-i18next";
@@ -77,9 +78,18 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               setSelectedPage={setSelectedPage}
             />
 
-            <select defaultValue={"en"} onChange={onChangeLang}>
+            <select
+              defaultValue={"en"}
+              onChange={onChangeLang}
+              className="p-2 bg-transparent border-2 border-orange-800 rounded-md text-orange-800 focus:outline-none focus:border-orange-500"
+            >
               {LANGUAGES.map(({ code, label }) => (
-                <option key={code} value={code}>
+                <option
+                  key={code}
+                  value={code}
+                  image={CanadaFlag}
+                  className="bg-red"
+                >
                   {label}
                 </option>
               ))}
