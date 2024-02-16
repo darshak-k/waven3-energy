@@ -3,28 +3,23 @@ import { motion } from "framer-motion";
 import CryptoBitcoin from "../assets/CryptoBitcoin.png";
 import Finma from "../assets/Finma.png";
 import LineByLineAnimation from "./LineByLineAnimation";
+import { useTranslation } from "react-i18next";
 
 const CryptoToken = () => {
+  const { t } = useTranslation();
   const textStyle = "text-2xl font-bigshoulder text-center";
 
   return (
     <section id="crypto" className="flex flex-col items-center gap-10 ">
       <div className="flex mt-16 w-full py-10 justify-center">
         <p className="my=-10  font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
-          CRYPTO TOKEN
+          {t("cryptotoken.title")}
         </p>
       </div>
 
       <div className="flex flex-col justify-center gap-5 px-10 max-w-[1200px]">
-        <div className={`${textStyle}`}>
-          We will create the benchmark in Crypto Currency with
-          interchangeability with other Crypto on our future exchange.
-        </div>
-
-        <div className={`${textStyle}`}>
-          Our Token will be approved by the Swiss government body responsible
-          for financial regulation.
-        </div>
+        <div className={`${textStyle}`}>{t("cryptotoken.text1")}</div>
+        <div className={`${textStyle}`}>{t("cryptotoken.text2")}</div>
       </div>
 
       <div className="flex flex-col md:flex-row h-full w-full py-10 justify-center items-center gap-20">
@@ -47,10 +42,7 @@ const CryptoToken = () => {
           >
             {/* Text */}
             <p className="mt-2 text-sm md:text-xl font-bigshoulder justify-between tracking-wider font-bold px-20">
-              The FINMA is the Swiss government body responsible for financial
-              regulation. This includes the supervision of banks, insurance
-              companies, stock exchanges and securities dealers as well as other
-              financial intermediaries in Switzerland.
+              {t("cryptotoken.image1")}
             </p>
           </motion.div>
         </motion.div>
@@ -74,10 +66,7 @@ const CryptoToken = () => {
           >
             {/* Text */}
             <p className="mt-2 text-xl font-bigshoulder tracking-wider font-bold px-20">
-              Everything will go through our proprietary technologies to secure
-              and trade the tokens and carbon credits on blockchain and
-              eliminate fraud and double counting and ensure retirement. First
-              time it will be accomplished on the web 3.0
+              {t("cryptotoken.image2")}
             </p>
           </motion.div>
         </motion.div>

@@ -1,7 +1,10 @@
 import SocialMediaIcons from "../components/SocialMediaIcons";
 import Waven3Tech from "../assets/Waven3Tech.png";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-red ">
       <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
@@ -12,7 +15,7 @@ const Footer = () => {
             </div>
 
             <p className="mt-4 max-w-xs text-gray-500">
-              JOIN US CHANGING THE WORLD TODAY
+              {t("landingpage.title")}
             </p>
 
             <ul className="mt-8 flex gap-6">
@@ -23,7 +26,7 @@ const Footer = () => {
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75"
                 >
-                  <span className="sr-only">Facebook</span>
+                  <span className="sr-only">{t("footer.facebook")}</span>
 
                   <svg
                     className="h-6 w-6"
@@ -47,7 +50,7 @@ const Footer = () => {
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75"
                 >
-                  <span className="sr-only">Instagram</span>
+                  <span className="sr-only">{t("footer.instagram")}</span>
 
                   <svg
                     className="h-6 w-6"
@@ -71,7 +74,7 @@ const Footer = () => {
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75"
                 >
-                  <span className="sr-only">Twitter</span>
+                  <span className="sr-only">{t("footer.twitter")}</span>
 
                   <svg
                     className="h-6 w-6"
@@ -88,7 +91,9 @@ const Footer = () => {
 
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-2 font-bigshoulder tracking-wider text-3xl">
             <div>
-              <p className="text-gray-900 font-extrabold">Company</p>
+              <p className="text-gray-900 font-extrabold">
+                {t("footer.company")}
+              </p>
 
               <ul className="mt-6 space-y-4 font-semibold text-xl">
                 <li>
@@ -97,7 +102,7 @@ const Footer = () => {
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
-                    About{" "}
+                    {t("footer.about")}{" "}
                   </a>
                 </li>
 
@@ -107,7 +112,7 @@ const Footer = () => {
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
-                    Projects{" "}
+                    {t("projects")}{" "}
                   </a>
                 </li>
                 <li>
@@ -116,7 +121,7 @@ const Footer = () => {
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
-                    Join us{" "}
+                    {t("joinus")}{" "}
                   </a>
                 </li>
                 <li>
@@ -125,7 +130,7 @@ const Footer = () => {
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
-                    Contact us{" "}
+                    {t("contactus")}{" "}
                   </a>
                 </li>
               </ul>
@@ -133,7 +138,7 @@ const Footer = () => {
 
             <div>
               <p className="font-3xl font-extrabold text-gray-900">
-                Project Process
+                {t("footer.projectprocess")}
               </p>
 
               <ul className="mt-6 text-xl font-semibold space-y-4">
@@ -143,7 +148,7 @@ const Footer = () => {
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
-                    Accreditation Process{" "}
+                    {t("footer.accreditationprocess")}{" "}
                   </a>
                 </li>
                 <li>
@@ -152,7 +157,7 @@ const Footer = () => {
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
-                    Crypto token{" "}
+                    {t("footer.cryptotoken")}{" "}
                   </a>
                 </li>
                 <li>
@@ -161,7 +166,7 @@ const Footer = () => {
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
-                    Market opportunity{" "}
+                    {t("footer.marketopportunity")}{" "}
                   </a>
                 </li>
               </ul>
@@ -169,9 +174,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className="text-xs text-gray-500">
-          &copy; 2024. Waven3 Technology. All rights reserved.
-        </p>
+        <p className="text-xs text-gray-500">&copy; {t("footer.copyright")}</p>
       </div>
     </footer>
   );

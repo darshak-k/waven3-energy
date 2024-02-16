@@ -1,32 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import GreenCheck from "../assets/GreenCheck.png";
+import { useTranslation } from "react-i18next";
 
 const LineByLineAnimation = () => {
+  const { t } = useTranslation();
   const [lines, setLines] = useState(0);
 
-  const data = [
-    {
-      line1: "The environment through monetary advantages.",
-      line2: "Transparency and Accountability through Blockchain Technology",
-    },
-    {
-      line1:
-        "Efficiency and cost-effectiveness through minimum administration.",
-      line2: "Global accessibility through a Worldwide Exchange.",
-    },
-    {
-      line1: "Liquidity and tradability through Tokenization.",
-      line2:
-        "Innovation and scalability through Block chain Technology for trading.",
-    },
-    {
-      line1:
-        "Community engagement through Financial Advantages and e-learning.",
-      line2:
-        "Fidelity through discounts and special promotions program for the owner of our Crypto.",
-    },
-  ];
+  const data = t("cryptotoken.data", {
+    returnObjects: true,
+  });
 
   useEffect(() => {
     const interval = setInterval(() => {

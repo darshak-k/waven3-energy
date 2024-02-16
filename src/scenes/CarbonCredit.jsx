@@ -6,11 +6,12 @@ import Blockchain from "../assets/Blockchain.png";
 import Education from "../assets/Education.png";
 import Fertilizer from "../assets/Fertilizer.png";
 import { motion } from "framer-motion";
+import { t } from "i18next";
 
 const Card = ({ image, title }) => {
   return (
     <motion.div
-      className="flex flex-col justify-center items-center p-4 border border-orange-700 rounded-lg shadow-md hover:shadow-lg"
+      className=" flex flex-col justify-center items-center p-4 border border-orange-700 rounded-lg shadow-md hover:shadow-lg"
       whileHover={{ scale: 1.05 }}
     >
       <img src={image} alt={title} className="w-[50%] rounded-lg mb-4 h-9/12" />
@@ -21,7 +22,7 @@ const Card = ({ image, title }) => {
 
 const Grid = ({ data }) => {
   return (
-    <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20">
+    <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 px-[10%]">
       {data.map((item, index) => (
         <Card key={index} {...item} />
       ))}
@@ -40,12 +41,12 @@ const CarbonCredit = () => {
   const textStyle =
     "flex text-xl md:text-2xl font-bigshoulder justify-center items-center  font-semibold -center";
   const data = [
-    { image: CarbonCapture, title: "Carbon capture technologies" },
-    { image: Hydrogen, title: "Hydrogen technologies" },
-    { image: CleanFuel, title: "Clean fuels" },
-    { image: Blockchain, title: "Blockchain technology" },
-    { image: Education, title: "Education" },
-    { image: Fertilizer, title: "Fertilizers" },
+    { image: CarbonCapture, title: t("carboncredit.data.0") },
+    { image: Hydrogen, title: t("carboncredit.data.1") },
+    { image: CleanFuel, title: t("carboncredit.data.2") },
+    { image: Blockchain, title: t("carboncredit.data.3") },
+    { image: Education, title: t("carboncredit.data.4") },
+    { image: Fertilizer, title: t("carboncredit.data.5") },
   ];
 
   return (
@@ -53,30 +54,28 @@ const CarbonCredit = () => {
       {/* HEADER AND IMAGE SECTION */}
       <div className="flex mt-24 w-full py-10 mb-10 justify-center">
         <p className="my=-10  font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
-          PROJECTS
+          {t("carboncredit.title")}
         </p>
       </div>
 
       <div className="flex flex-col w-full gap-10 px-[10%]  mb-20">
         <div className={`${textStyle}`}>
           <p>
-            To kickstart the{" "}
+            {t("carboncredit.text2")}{" "}
             <span className="text-orange-900 font-extrabold tracking-wide">
-              WAVEN3 TECHNOLOGY PROJECT
+              {t("carboncredit.waventechnologyproject")}
             </span>{" "}
-            , our company participate in innovative high technology in every
-            domain sphere.
+            , {t("carboncredit.text1")}
           </p>
         </div>
 
         <div className={`${textStyle}2`}>
           <p>
-            At the same time,{" "}
+            {t("carboncredit.text3")},{" "}
             <span className="text-orange-900 font-extrabold tracking-wide">
-              WAVEN3 TECHNOLOGY
+              {t("carboncredit.waventechnology")}
             </span>{" "}
-            is working to finance other carbon generating projects and sell
-            their carbon credits .
+            {t("carboncredit.text4")}
           </p>
         </div>
       </div>

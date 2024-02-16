@@ -1,13 +1,15 @@
 import Trustee from "../assets/Trustee.png";
 import AMBestRatingImg from "../assets/AMBestRatingImg.jpeg";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const AMBestRating = () => {
+  const { t } = useTranslation();
   return (
     <section>
       <div className="py-10 pb-32">
         <p className="my-10 flex justify-center font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
-          Am Best Ratings For Our Insurers
+          {t("ambestrating.title")}
         </p>
 
         <div>
@@ -28,8 +30,7 @@ const AMBestRating = () => {
                 className="hover:underline"
               >
                 <p className="text-center font-bigshoulder font-extrabold text-2xl md:xl sm:lg mt-8  px-10 ">
-                  AM Best Assigns Credit Ratings to Redbridge Insurance Company
-                  Limited
+                  {t("ambestrating.rating1")}
                 </p>
               </a>
             </div>
@@ -50,8 +51,7 @@ const AMBestRating = () => {
                 className="hover:underline"
               >
                 <p className="text-center font-bigshoulder font-extrabold text-2xl md:xl sm:lg mt-8 px-10">
-                  AM Best Affirms Credit Ratings of Ocean International
-                  Reinsurance Company Limited
+                  {t("ambestrating.rating2")}
                 </p>
               </a>
             </div>
@@ -72,7 +72,7 @@ const AMBestRating = () => {
                 className="hover:underline"
               >
                 <p className="text-center font-bigshoulder font-extrabold text-2xl md:xl sm:lg mt-8  px-10">
-                  AM Best Affirms Credit Ratings of Lloyd’s
+                  {t("ambestrating.rating3")}
                 </p>
               </a>
             </div>

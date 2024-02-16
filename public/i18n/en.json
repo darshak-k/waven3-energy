@@ -8,13 +8,13 @@
     "aboutustext":"Technology is a high-tech company operating in the fields of  hydrogen and artificial intelligence. Our mission is to fund projects that generate carbon credits, thereby attracting funds for the overall collective well-being of every global citizen. This entire process will be channeled into the carbon credit exchange ecosystem. The creation of carbon credits extends across various  sectors such as energy, high technology, natural resources, education, and several others. Together, we provide a sustainable solution, passing on to future generations a better future and a greener planet.",
     "companyname": "Waven",
     
-    "ourmission": "Our Mission",
+    "ourmission": "OUR MISSION",
     "ourmissiontext": "Unless the Lender & Investor shall have executed a written waiver, and then only to the extent specifically set forth in that written waiver, no act, omission or delay will be deemed to constitute a waiver of any of the Lender’s & Investor’s rights or remedies under this Loan or investment, and no act, delay, omission or waiver on any one occasion will be deemed a bar to enforcement or a waiver of the same or any other right or remedy on any other occasion.",
     
-    "ourdedication": "Our Dedication",
+    "ourdedication": "OUR DEDICATION",
     "ourdedicationtext": "We are dedicated to ensuring the sustainability and protection of forests across the world. We have solidified partnerships in key regions across the world including Congo, Amazonia, and Columbia.",
     
-    "ourtechnology": "Our Technology",
+    "ourtechnology": "OUR TECHNOLOGY",
     "ourtechnologytext": "We have secured technology that facilitates the extraction and production of Green Hydrogen and Natural Gas from both water and various other elements in North America. The technology used to confirm the presence of these gases and minerals is part of an exclusive partnership established in 2023 using patented equipment that scans the surface of land or water via helicopter or drone with 99.9% accuracy.",
     
     "greenhydrogen": "GREEN HYDROGEN",
@@ -22,6 +22,10 @@
     "greenhydrogentext2":"In the electrolysis process, electricity is used to split water into hydrogen and oxygen. If the electricity used in this process comes from renewable sources, the hydrogen produced is considered “green” because its production does not emit any carbon dioxide.",
     "greenhydrogentext3":"In the electrolysis process, electricity is used to split water into hydrogen and oxygen. If the electricity used in this process comes from renewable sources, the hydrogen produced is considered “green” because its production does not emit any carbon dioxide.",
     "greenhydrogentext4":"However, the production of Green Hydrogen is currently more expensive than other methods of hydrogen production, and it requires a significant amount of electricity.Therefore, the availability of cheap, renewable electricity is a key factor for its production.",
+    "landingpage" : {
+        "title": "JOIN US CHANGING THE WORLD TODAY"
+    },
+    
     "theprojects" :{
         "title": "The Projects",
         "carddescriptions" : [
@@ -54,6 +58,86 @@
         "activitysector" : "Activity Sector",
         "energysaving" : "Energy Saving",
         "carboncredits" : "Carbon Credits"
+    },
+
+    "ambestrating":{
+        "title": "Am Best Ratings For Our Insurers",
+        "rating1": "AM Best Assigns Credit Ratings to Redbridge Insurance Company Limited",
+        "rating2": "AM Best Affirms Credit Ratings of Ocean International Reinsurance Company Limited",
+        "rating3": "AM Best Affirms Credit Ratings of Lloyd’s"
+    },
+
+    "carboncredit" :{
+        "waventechnologyproject":"WAVEN TECHNOLOFY PROJECT",
+        "waventechnology":"WAVEN TECHNOLOFY",
+        "title": "PROJECTS",
+        "data" : [
+            "Carbon capture technologies",
+            "Hydrogen technologies",
+            "Clean fuels" ,
+            "Blockchain technology",
+            "Education" ,
+            "Fertilizers"
+          ],
+          "text1" :"our company participate in innovative high technology in every domain sphere.",
+          "text2" : "To kickstart the",
+          "text3" :"At the same time",
+          "text4" : "is working to finance other carbon generating projects and sell their carbon credits."
+    },
+    "contact" :{
+        "title":"CONTACT US",
+        "getstarted":"TO GET STARTED",
+        "email":"EMAIL",
+        "phone":"PHONE NUMBER",
+        "country":"COUNTRY",
+        "name":"NAME",
+        "message":"MESSAGE",
+        "validation1" : "This field is required.",
+        "validation2" : "Max length is 100 char.",
+        "messaggebutton": "SEND ME A MESSAGE"
+    },
+
+    "cryptotoken" :{
+        "title":"CRYPTO TOKEN",
+        "text1":"We will create the benchmark in Crypto Currency with interchangeability with other Crypto on our future exchange.",
+        "text2":"Our Token will be approved by the Swiss government body responsible for financial regulation.",
+        "image1":"The FINMA is the Swiss government body responsible for financial regulation. This includes the supervision of banks, insurance companies, stock exchanges and securities dealers as well as other financial intermediaries in Switzerland.",
+        "image2":"Everything will go through our proprietary technologies to secure and trade the tokens and carbon credits on blockchain and eliminate fraud and double counting and ensure retirement. First time it will be accomplished on the web 3.0",
+        "data" : [
+            {
+              "line1": "The environment through monetary advantages.",
+              "line2": "Transparency and Accountability through Blockchain Technology"
+            },
+            {
+              "line1":
+                "Efficiency and cost-effectiveness through minimum administration.",
+              "line2": "Global accessibility through a Worldwide Exchange."
+            },
+            {
+              "line1": "Liquidity and tradability through Tokenization.",
+              "line2":
+                "Innovation and scalability through Block chain Technology for trading."
+            },
+            {
+              "line1":
+                "Community engagement through Financial Advantages and e-learning.",
+              "line2":
+                "Fidelity through discounts and special promotions program for the owner of our Crypto."
+            }
+          ]
+    },
+
+    "footer":{
+        "about":"About",
+        "facebookk":"Facebook",
+        "instagram":"Instagram",
+        "twitter":"Twitter",
+        "company":"Company",
+        "projectprocess":"Project Process",
+        "accreditationprocess" : "Accreditation Process",
+        "cryptotoken" : "Crypto token",
+        "marketopportunity" : "Market Opportunity",
+        "copyright": "2024. Waven3 Technology. All rights reserved."
     }
 
 

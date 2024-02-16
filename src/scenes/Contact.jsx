@@ -2,8 +2,10 @@ import LineGradient from "../components/LineGradient";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 import SwingLogo from "../assets/SwingLogo.png";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation();
   const {
     register,
     trigger,
@@ -34,7 +36,8 @@ const Contact = () => {
       >
         <div>
           <p className="font-bigshoulder font-semibold text-4xl">
-            <span className="text-orange-900">CONTACT US</span> TO GET STARTED
+            <span className="text-orange-900">{t("contact.title")}</span>{" "}
+            {t("contact.getstarted")}
           </p>
           <div className="flex md:justify-end my-5">
             <LineGradient width="w-1/2" />
@@ -67,7 +70,7 @@ const Contact = () => {
             <input
               className="w-full bg-red font-semibold placeholder-opaque-black p-3"
               type="text"
-              placeholder="NAME"
+              placeholder={t("contact.name")}
               {...register("name", {
                 required: true,
                 maxLength: 100,
@@ -75,14 +78,14 @@ const Contact = () => {
             />
             {errors.name && (
               <p className="text-gray-800 mt-1">
-                {errors.name.type === "required" && "This field is required."}
-                {errors.name.type === "maxLength" && "Max length is 100 char."}
+                {errors.name.type === "required" && t("contact.validation1")}
+                {errors.name.type === "maxLength" && t("contact.validation2")}
               </p>
             )}
             <input
               className="w-full bg-red font-semibold placeholder-opaque-black p-3 mt-3"
               type="text"
-              placeholder="COUNTRY"
+              placeholder={t("contact.country")}
               {...register("country", {
                 required: true,
                 maxLength: 100,
@@ -90,14 +93,14 @@ const Contact = () => {
             />
             {errors.name && (
               <p className="text-gray-800 mt-1">
-                {errors.name.type === "required" && "This field is required."}
-                {errors.name.type === "maxLength" && "Max length is 100 char."}
+                {errors.name.type === "required" && t("contact.validation1")}
+                {errors.name.type === "maxLength" && t("contact.validation2")}
               </p>
             )}{" "}
             <input
               className="w-full bg-red font-semibold placeholder-opaque-black p-3 mt-3"
               type="text"
-              placeholder="PHONE NUMBER"
+              placeholder={t("contact.phone")}
               {...register("phonenumber", {
                 required: true,
                 maxLength: 100,
@@ -105,14 +108,14 @@ const Contact = () => {
             />
             {errors.name && (
               <p className="text-gray-800 mt-1">
-                {errors.name.type === "required" && "This field is required."}
-                {errors.name.type === "maxLength" && "Max length is 100 char."}
+                {errors.name.type === "required" && t("contact.validation1")}
+                {errors.name.type === "maxLength" && t("contact.validation2")}
               </p>
             )}
             <input
               className="w-full bg-red font-semibold placeholder-opaque-black p-3 mt-5"
               type="text"
-              placeholder="EMAIL"
+              placeholder={t("contact.email")}
               {...register("email", {
                 required: true,
                 pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
@@ -120,13 +123,13 @@ const Contact = () => {
             />
             {errors.email && (
               <p className="text-gray-800  mt-1">
-                {errors.email.type === "required" && "This field is required."}
-                {errors.email.type === "pattern" && "Invalid email address."}
+                {errors.name.type === "required" && t("contact.validation1")}
+                {errors.name.type === "maxLength" && t("contact.validation2")}
               </p>
             )}
             <textarea
               className="w-full bg-red font-semibold placeholder-opaque-black p-3 mt-5"
-              name="message"
+              name={t("contact.message")}
               placeholder="MESSAGE"
               rows="4"
               cols="50"
@@ -137,17 +140,16 @@ const Contact = () => {
             />
             {errors.message && (
               <p className="text-gray-800 mt-1">
-                {errors.message.type === "required" &&
-                  "This field is required."}
+                {errors.message.type === "required" && t("contact.validation1")}
                 {errors.message.type === "maxLength" &&
-                  "Max length is 2000 char."}
+                  t("contact.validation2")}
               </p>
             )}
             <button
               className="p-5 bg-red  font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
               type="submit"
             >
-              SEND ME A MESSAGE
+              {t("contact.messaggebutton")}
             </button>
           </form>
         </motion.div>
