@@ -18,13 +18,15 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import { useTranslation } from "react-i18next";
 
 const ReinsuranceCompany = () => {
+  const { t } = useTranslation();
   return (
     <section>
       <div className="py-10 pb-32">
         <p className="my-10 flex justify-center font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
-          REINSURANCE COMPANY
+          {t("reinsurancecompany.title")}
         </p>
         <div className="flex flex-col font-bigshoulder">
           <VerticalTimeline lineColor={"#212121"}>
@@ -47,12 +49,9 @@ const ReinsuranceCompany = () => {
               </div>
               <div>
                 <h3 className="vertical-timeline-element-title font-bold text-xl underline">
-                  Reinsurance Company
+                  {t("reinsurancecompany.title")}
                 </h3>
-                <p>
-                  Primary guarantor of the financial obligation without
-                  territoriality
-                </p>
+                <p>{t("reinsurancecompany.companytext")}</p>
               </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -69,11 +68,10 @@ const ReinsuranceCompany = () => {
             >
               <div>
                 <h3 className="vertical-timeline-element-title font-bold text-xl underline">
-                  Afiancol S.A. Insurance
+                  <p>{t("reinsurancecompany.afiancol")}</p>
                 </h3>
                 <p>
-                  Assignor to reinsurance payment upon first request without
-                  territoriality
+                  <p>{t("reinsurancecompany.afiancoltext")}</p>
                 </p>
               </div>
             </VerticalTimelineElement>
@@ -91,9 +89,9 @@ const ReinsuranceCompany = () => {
             >
               <div>
                 <h3 className="vertical-timeline-element-title font-bold text-xl underline">
-                  Debtor
+                  {t("reinsurancecompany.debtor")}
                 </h3>
-                <p>Entrenchend debtor</p>
+                <p>{t("reinsurancecompany.debtortext")}</p>
               </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -110,9 +108,9 @@ const ReinsuranceCompany = () => {
             >
               <div>
                 <h3 className="vertical-timeline-element-title font-bold text-xl underline">
-                  Lender Loans
+                  {t("reinsurancecompany.lendor")}
                 </h3>
-                <p>Bail & reinsurance benefeciary</p>
+                <p>{t("reinsurancecompany.lendortext")}</p>
               </div>
             </VerticalTimelineElement>
           </VerticalTimeline>

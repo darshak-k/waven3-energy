@@ -10,6 +10,7 @@ import USAFlag from "../assets/USAFlag.png";
 import UAEFlag from "../assets/UAEFlag.png";
 import SwitzerlandFlag from "../assets/SwitzerlandFlag.jpg";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const OurOffices = () => {
   const cardsData = [
@@ -38,11 +39,14 @@ const OurOffices = () => {
       email: "carlo@waven3global.com",
     },
   ];
+
+  const { t } = useTranslation();
+
   return (
     <section>
       <div className="flex  w-full justify-center">
         <p className=" font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
-          Our Offices
+          {t("offices.title")}
         </p>
       </div>
       <div className="flex flex-wrap justify-center gap-20 mt-20">
@@ -78,89 +82,67 @@ const OurOffices = () => {
       </div>
       <div className="flex  w-full justify-center">
         <p className=" font-bigshoulder font-extrabold text-4xl md:2xl sm:lg mt-20 text-orange-800">
-          Locations
+          {t("offices.locations")}
         </p>
       </div>
       <div className="flex flex-col ss:flex-row justify-center my-28 font-bigshoulder tracking-wide text-xl gap-20 w-full px-[5%]">
-        <>
-          <div className="pt-8">
-            <motion.div
-              className="mx-auto relative items-center rounded-xl shadow-2xl bg-opacity-100 max-w-[400px] h-auto flex flex-col  p-16
+        <div className="pt-8">
+          <motion.div
+            className="mx-auto relative items-center rounded-xl shadow-2xl bg-opacity-100 max-w-[400px] h-auto flex flex-col  p-16
             md:justify-center shadow-orange-800 hover:shadow-green-800"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.5 }}
-              transition={{ duration: 0.6 }}
-              variants={{
-                hidden: { opacity: 0, scale: 0.8 },
-                visible: { opacity: 1, scale: 1 },
-              }}
-            >
-              <LocationOnIcon fontSize="large" />
-              <div className="flex flex-col gap-4 mt-10">
-                <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl underline ">
-                  HEAD OFFICE
-                </p>
-                <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl  pb-10">
-                  CANADA - USA
-                </p>
-                <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
-                  <NavigationIcon />
-                  <p> 3225 Blvd Saint Martin O Suite 104 Laval QC H7T1S2</p>
-                </div>
-
-                {/* <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
-                  <Person3Icon />
-                  <p>ROBERT TRUDEAU</p>
-                </div>
-                <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
-                  <EmailIcon />
-                  <p>rtrrudeau@waven3tech.com</p>
-                </div> */}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.6 }}
+            variants={{
+              hidden: { opacity: 0, scale: 0.8 },
+              visible: { opacity: 1, scale: 1 },
+            }}
+          >
+            <LocationOnIcon fontSize="large" />
+            <div className="flex flex-col gap-4 mt-10">
+              <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl underline ">
+                {t("offices.headoffice")}
+              </p>
+              <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl  pb-10">
+                {t("offices.canadausa")}
+              </p>
+              <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
+                <NavigationIcon />
+                <p> {t("offices.canadaaddress")}</p>
               </div>
-            </motion.div>
-          </div>
-        </>
-        <>
-          <div className="pt-8">
-            <motion.div
-              className="mx-auto relative items-center rounded-xl shadow-2xl bg-opacity-100 max-w-[400px] h-auto flex flex-col  p-16
+            </div>
+          </motion.div>
+        </div>
+        <div className="pt-8">
+          <motion.div
+            className="mx-auto relative items-center rounded-xl shadow-2xl bg-opacity-100 max-w-[400px] h-auto flex flex-col  p-16
             md:justify-center shadow-orange-800 hover:shadow-green-800"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.5 }}
-              transition={{ duration: 0.6 }}
-              variants={{
-                hidden: { opacity: 0, scale: 0.8 },
-                visible: { opacity: 1, scale: 1 },
-              }}
-            >
-              <LocationOnIcon fontSize="large" />
-              <div className="flex flex-col gap-4 mt-10">
-                <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl underline ">
-                  HEAD OFFICE
-                </p>
-                <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl  pb-10">
-                  SWITZERLAND - UAE
-                </p>
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.6 }}
+            variants={{
+              hidden: { opacity: 0, scale: 0.8 },
+              visible: { opacity: 1, scale: 1 },
+            }}
+          >
+            <LocationOnIcon fontSize="large" />
+            <div className="flex flex-col gap-4 mt-10">
+              <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl underline ">
+                {t("offices.headoffice")}
+              </p>
+              <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl  pb-10">
+                {t("offices.switzerlanduae")}
+              </p>
 
-                <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
-                  <NavigationIcon />
-                  <p> Gartenstrasse 6 6300 Zug Switzerland</p>
-                </div>
-
-                {/* <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
-                  <Person3Icon />
-                  <p>RAFA REN</p>
-                </div>
-                <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
-                  <EmailIcon />
-                  <p>rafaren@waven3tech.com</p>
-                </div> */}
+              <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
+                <NavigationIcon />
+                <p> {t("offices.switzerlanduae")}</p>
               </div>
-            </motion.div>
-          </div>
-        </>
+            </div>
+          </motion.div>
+        </div>
       </div>
     </section>
   );

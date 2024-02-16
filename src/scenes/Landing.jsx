@@ -3,9 +3,12 @@ import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import SwingLogo from "../assets/SwingLogo.png";
 import { TypeAnimation } from "react-type-animation";
+import { useTranslation } from "react-i18next";
 
 const Landing = ({ setSelectedPage }) => {
+  const { t } = useTranslation();
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
+
   return (
     <section
       id="home"
@@ -69,7 +72,7 @@ const Landing = ({ setSelectedPage }) => {
         >
           <p className="font-playfair z-10 text-center pt-16 w-full">
             <TypeAnimation
-              sequence={["JOIN US CHANGING THE WORLD TODAY"]}
+              sequence={[t("landing.title")]}
               wrapper="span"
               cursor={false}
               repeat={1}

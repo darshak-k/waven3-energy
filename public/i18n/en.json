@@ -126,6 +126,11 @@
             }
           ]
     },
+    "joinuspage":{
+        "title":"JOIN US",
+        "text1": "Principal & Interest Protected Guaranteed Loan™ or Investment Offering w/Full Insurance Protection",
+        "text2": "Your Loan or Investment fully Guaranteed with Us. Guaranteed Annual Returns of 15%."
+    },
 
     "footer":{
         "about":"About",
@@ -138,7 +143,56 @@
         "cryptotoken" : "Crypto token",
         "marketopportunity" : "Market Opportunity",
         "copyright": "2024. Waven3 Technology. All rights reserved."
+    },
+
+    "residency":{
+        
+    },
+    
+    "marketopportunity":{
+        "title" : "Market Opportunity",
+        "graph1" : "Exponential demand pressure and inadequate faltering supply due to market friction presents transformative market opportunitie",
+        "graph2t1" : "Bubble chart showing some of ",
+        "waven3tech" : "WAVEN3 Technology",
+        "graph2t2" : "market opportunities above a line chart showing a base and worst case expected growth for the Voluntary Carbon Markets until 2030 (2021 Market Estimates)."
+    },
+    "landing":{
+        "title":"JOIN US CHANGING THE WORLD TODAY"
+    },
+    
+    "notfound":{
+        "notfoundtext":"Sorry, we couldn't find this page.",
+        "hometext": "But dont worry, you can find plenty of other things on our homepage.",
+        "backtohome":"Back to home page",
+        "error":"Error",
+        "404":"404" 
+    },
+
+    "offices":{
+        "title":"OUR OFFICES",
+        "headoffice":"HEAD OFFICE",
+        "locations":"Locations",
+        "canadausa" : "Canada & USA",
+        "switzerlanduae" : "Switzerland & UAE",
+        "canadaaddress" : "3225 Blvd Saint Martin O Suite 104 Laval QC H7T1S2",
+        "switzerlandaddress" : "Gartenstrasse 6 6300 Zug Switzerland"
+    },
+
+    "partners":{
+        "title":"OUR PARTNERS",
+        "text":"Some of our strategic partnerships include:"
+    },
+
+    "reinsurancecompany":{
+        "title":"Reinsurance Company",
+        "text":"Some of our strategic partnerships include:",
+        "companytext":"Primary guarantor of the financial obligation without territoriality",
+        "afiancol": "Afiancol S.A. Insurance",
+        "afiancoltext": " Assignor to reinsurance payment upon first request without territoriality.",
+        "debtor":"Debtor",
+        "debtortext":"Entrenchend debtor",
+        "lendor":"Lender Loans",
+        "lendortext":"Bail & reinsurance benefeciary"
+
     }
-
-
 }

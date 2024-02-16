@@ -2,6 +2,7 @@ import React from "react";
 import { Chart, registerables } from "chart.js";
 import { Line } from "react-chartjs-2";
 import useMediaQuery from "../hooks/useMediaQuery";
+import { useTranslation } from "react-i18next";
 
 Chart.register(...registerables);
 const data = {
@@ -77,13 +78,14 @@ const config = {
 };
 
 const MarketOpportunity = () => {
+  const { t } = useTranslation();
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
     <section>
       <div className="flex flex-col w-full justify-center items-center ">
         <div className="flex  w-full mt-10 py-20 justify-center items-center">
           <p className="flex my=-10  font-bigshoulder justify-center items-center font-extrabold text-5xl md:3xl sm:xl">
-            MARKET OPPORTUNITY
+            {t("marketopportunity.title")}
           </p>
         </div>
         {isAboveLarge ? (
@@ -93,21 +95,18 @@ const MarketOpportunity = () => {
                 <Line data={data} options={config} />
               </div>
               <div className="flex px-20 font-bigshoulder tracking-wider text-2xl items-center justify-center w-[60%]">
-                Exponential demand pressure and inadequate faltering supply due
-                to market friction presents transformative market opportunitie
+                {t("marketopportunity.graph1")}
               </div>
             </div>
 
             <div className="flex flex-row h-full">
               <div className="flex px-20 font-bigshoulder  tracking-wider text-2xl items-center justify-center w-[60%]">
                 <p>
-                  Bubble chart showing some of{" "}
+                  {t("marketopportunity.graph2t1")}{" "}
                   <span className="text-orange-900 font-extrabold tracking-wide">
-                    WAVEN3 Technology
+                    {t("marketopportunity.waven3tech")}
                   </span>{" "}
-                  market opportunities above a line chart showing a base and
-                  worst case expected growth for the Voluntary Carbon Markets
-                  until 2030 (2021 Market Estimates).
+                  {t("marketopportunity.graph2t2")}
                 </p>
               </div>
               <div className="flex w-[40%] items-end">
@@ -118,17 +117,15 @@ const MarketOpportunity = () => {
         ) : (
           <div className="flex flex-col py-10 items-center">
             <div className="flex px-20 font-bigshoulder  tracking-wider text-xl items-center w-full">
-              Exponential demand pressure and inadequate faltering supply due to
-              market friction presents transformative market opportunities
+              {t("marketopportunity.graph1")}
             </div>
             <div className="flex w-[70%] py-20">
               <Line data={data} options={config} />
             </div>
             <div className="flex px-20 font-bigshoulder  tracking-wider text-xl items-center w-full">
-              Bubble chart showing some of Waven 3 Tech market opportunities
-              above a line chart showing a base and worst case expected growth
-              for the Voluntary Carbon Markets until 2030 (2021 Market
-              Estimates).
+              {t("marketopportunity.graph2t1")}{" "}
+              {t("marketopportunity.waven3tech")}{" "}
+              {t("marketopportunity.graph2t2")}
             </div>
             <div className="flex w-[70%] py-20">
               <Line data={secondData} options={config} />

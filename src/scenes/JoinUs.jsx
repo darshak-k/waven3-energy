@@ -2,9 +2,12 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import JoinUsGraph from "../assets/JoinUsGraph.png";
 import Img15 from "../assets/Img15.png";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const JoinUs = () => {
+  const { t } = useTranslation();
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
+
   return (
     <section
       id="joinus"
@@ -12,7 +15,7 @@ const JoinUs = () => {
     >
       <div className="py-10 pb-16">
         <p className="my-10 flex justify-center font-bigshoulder font-extrabold text-5xl">
-          JOIN US
+          {t("joinuspage.title")}
         </p>
       </div>
 
@@ -21,10 +24,9 @@ const JoinUs = () => {
           <p>
             {" "}
             <span className="text-orange-900 font-extrabold tracking-wide">
-              WAVEN3 Technology
+              {t("carboncredit.waventechnology")}
             </span>{" "}
-            Principal & Interest Protected Guaranteed Loan™ or Investment
-            Offering w/Full Insurance Protection
+            {t("joinuspage.text1")}
           </p>
         </div>
         <div className="flex flex-col items-center md:items-end  md:w-1/2 md:pr-40">
@@ -58,8 +60,7 @@ const JoinUs = () => {
           <div className="flex justify-center mt-10">
             <p className="text-4xl font-bigshoulder flex items-center px-[3%] font-semibold">
               {" "}
-              Your Loan or Investment fully Guaranteed with Us. Guaranteed Annual
-              Returns of 15%.
+              {t("joinuspage.text2")}
             </p>
           </div>
         </div>

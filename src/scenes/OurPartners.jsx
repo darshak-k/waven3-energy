@@ -11,6 +11,7 @@ import Partner8 from "../assets/Partner8.png";
 import Partner9 from "../assets/Partner9.png";
 import Partner10 from "../assets/Partner10.png";
 import Partner11 from "../assets/Partner11.png";
+import { useTranslation } from "react-i18next";
 
 const partners = [
   { id: 1, name: "Partner A", logo: Partner1 },
@@ -27,6 +28,7 @@ const partners = [
 ];
 
 const Partners = () => {
+  const { t } = useTranslation();
   const [offset, setOffset] = useState(0);
 
   useEffect(() => {
@@ -42,11 +44,9 @@ const Partners = () => {
     <section className="flex flex-col justify-center items-center">
       <div className="mt-16 w-full py-10  font-bigshoulder">
         <p className="flex my=-10 justify-center  font-extrabold text-5xl md:3xl sm:xl">
-          OUR PARTNERS
+          {t("partners.title")}
         </p>
-        <p className="flex mt-4 text-xl justify-center">
-          Some of our strategic partnerships include:
-        </p>
+        <p className="flex mt-4 text-xl justify-center">{t("partners.text")}</p>
       </div>
       <div className="w-full flex">
         <Marquee

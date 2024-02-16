@@ -6,7 +6,7 @@ import Blockchain from "../assets/Blockchain.png";
 import Education from "../assets/Education.png";
 import Fertilizer from "../assets/Fertilizer.png";
 import { motion } from "framer-motion";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 const Card = ({ image, title }) => {
   return (
@@ -31,6 +31,7 @@ const Grid = ({ data }) => {
 };
 
 const CarbonCredit = () => {
+  const { t } = useTranslation();
   const imageStyles = {
     filter:
       "invert(96%) sepia(9%) saturate(1662%) hue-rotate(4deg) brightness(92%) contrast(86%)",

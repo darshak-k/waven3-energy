@@ -6,5 +6,186 @@
     "crypto": "Crypto",
     "joinus": "Rejoignez-nous",
     "aboutustext": "Technology est une société de haute technologie opérant dans les domaines de l'hydrogène et de l'intelligence artificielle. Notre mission est de financer des projets qui génèrent des crédits carbone, attirant ainsi des fonds pour le bien-être collectif de chaque citoyen du monde. Tout ce processus sera canalisé dans l'écosystème d'échange de crédits carbone. La création de crédits carbone s'étend à différents secteurs tels que l'énergie, la haute technologie, les ressources naturelles, l'éducation et plusieurs autres. Ensemble, nous offrons une solution durable, transmettant aux générations futures un avenir meilleur et une planète plus verte.",
-    "companyname": "Waven"
-}
+    "companyname": "Waven",
+    "ourmission": "NOTRE MISSION",
+    "ourmissiontext": "Sauf si le prêteur et l'investisseur ont signé une renonciation écrite, et alors seulement dans la mesure spécifiquement définie dans cette renonciation écrite, aucun acte, omission ou retard ne sera réputé constituer une renonciation à l'un quelconque des droits ou recours du prêteur et de l'investisseur en vertu de ce prêt ou investissement, et aucun acte, retard, omission ou renonciation en une seule occasion ne sera considéré comme un obstacle à l'application ou une renonciation au même droit ou recours ou à tout autre droit ou recours lors d'une autre occasion.",
+
+    "ourdedication": "NOTRE DÉDICATION",
+    "ourdedicationtext": "Nous sommes dédiés à assurer la durabilité et la protection des forêts à travers le monde. Nous avons consolidé des partenariats dans des régions clés à travers le monde, y compris le Congo, l'Amazonie et la Colombie.",
+
+    "ourtechnology": "NOTRE TECHNOLOGIE",
+    "ourtechnologytext": "Nous avons sécurisé une technologie qui facilite l'extraction et la production d'hydrogène vert et de gaz naturel à partir de l'eau et de divers autres éléments en Amérique du Nord. La technologie utilisée pour confirmer la présence de ces gaz et minéraux fait partie d'un partenariat exclusif établi en 2023 à l'aide d'équipements brevetés qui balayent la surface des terres ou de l'eau via un hélicoptère ou un drone avec une précision de 99,9%.",
+
+    "greenhydrogen": "HYDROGÈNE VERT",
+    "greenhydrogentext1": "L'hydrogène vert est un type d'hydrogène produit par un processus appelé électrolyse, utilisant spécifiquement des sources d'énergie renouvelables telles que l'énergie éolienne, solaire ou hydroélectrique.",
+    "greenhydrogentext2": "Dans le processus d'électrolyse, l'électricité est utilisée pour diviser l'eau en hydrogène et en oxygène. Si l'électricité utilisée dans ce processus provient de sources renouvelables, l'hydrogène produit est considéré comme 'vert' car sa production n'émet aucun dioxyde de carbone.",
+    "greenhydrogentext3": "Dans le processus d'électrolyse, l'électricité est utilisée pour diviser l'eau en hydrogène et en oxygène. Si l'électricité utilisée dans ce processus provient de sources renouvelables, l'hydrogène produit est considéré comme 'vert' car sa production n'émet aucun dioxyde de carbone.",
+    "greenhydrogentext4": "Cependant, la production d'hydrogène vert est actuellement plus coûteuse que d'autres méthodes de production d'hydrogène, et elle nécessite une quantité importante d'électricité. Par conséquent, la disponibilité d'électricité bon marché et renouvelable est un facteur clé pour sa production.",
+
+    "landingpage": {
+        "title": "REJOIGNEZ-NOUS POUR CHANGER LE MONDE AUJOURD'HUI"
+    },
+
+    "theprojects": {
+        "title": "Les Projets",
+        "carddescriptions": [
+            "Collecte de données précises",
+            "Méthodologies de vérification",
+            "Additionnalité",
+            "Détermination du niveau de référence",
+            "Suivi et rapportage",
+            "Vérification indépendante",
+            "Conformité aux normes et réglementations",
+            "Transparence et traçabilité",
+            "Engagement des parties prenantes"
+        ],
+        "processSteps": [
+            "La validation des crédits carbone commence par la collecte précise des données sur les réductions ou compensations d'émissions. Cela inclut la collecte de données sur les émissions de référence, les activités du projet et les méthodologies de suivi. Il est crucial de s'assurer que les données collectées sont fiables, vérifiables et suivent des normes reconnues.",
+            "Établissement de méthodologies de vérification robustes pour évaluer la validité des crédits carbone. Cela implique d'évaluer la conformité du projet aux méthodologies approuvées, l'exactitude de la collecte et du suivi des données, et la crédibilité des réductions d'émissions revendiquées. La vérification peut être effectuée par des organisations tierces certifiées ou des auditeurs accrédités.",
+            "L'additionnalité fait référence à l'exigence selon laquelle les réductions ou compensations d'émissions revendiquées du projet n'auraient pas eu lieu sans l'intervention du projet. Il est essentiel d'évaluer et de démontrer que les activités du projet vont au-delà des pratiques courantes et entraînent de réelles réductions d'émissions mesurables.",
+            "Établissement d'une référence précise est crucial pour la validation des crédits carbone. La référence représente les émissions qui auraient eu lieu en l'absence du projet. Il est important de déterminer la référence en utilisant des méthodologies reconnues et de s'assurer qu'elle est conforme aux directives et normes établies.",
+            "Mise en place de systèmes de suivi et de rapportage robustes pour suivre l'évolution des activités de réduction des émissions au fil du temps. Cela inclut le suivi régulier des émissions, des activités du projet et d'autres paramètres pertinents. Un rapportage précis et transparent est essentiel pour le processus de validation.",
+            "Recherche de vérification indépendante des crédits carbone par des organisations tierces certifiées ou des auditeurs accrédités. La vérification indépendante ajoute de la crédibilité et garantit que les crédits carbone répondent aux normes et critères requis.",
+            "Veiller à ce que les crédits carbone soient conformes aux normes, méthodologies et cadres réglementaires pertinents. Cela inclut le respect de normes internationalement reconnues telles que les Normes de Vérification Carbone (VCS), la Norme d'Or ou le Mécanisme de Développement Propre (MDP) de la Convention-Cadre des Nations Unies sur les Changements Climatiques (CCNUCC)",
+            "Maintenir la transparence tout au long du processus de validation en fournissant un accès aux données, documents et méthodologies pertinents. La capacité d'auditer et de vérifier les réclamations de crédits carbone est cruciale pour établir la confiance et la crédibilité.",
+            "Impliquer les parties prenantes, y compris les communautés locales, les participants au projet et les autorités concernées, pour garantir leur implication et leur compréhension du processus de validation. L'engagement des parties prenantes favorise la transparence, la responsabilité et l'acceptation des résultats de la validation des crédits carbone."
+        ]
+    },
+    
+    "rigorousapproval": {
+        "title": "Approbation Rigoureuse",
+        "activitysector": "Secteur d'Activité",
+        "energysaving": "Économie d'Énergie",
+        "carboncredits": "Crédits Carbone"
+    },
+    
+    "ambestrating": {
+        "title": "Évaluations AM Best Pour Nos Assureurs",
+        "rating1": "AM Best Attribue des Notations de Crédit à Redbridge Insurance Company Limited",
+        "rating2": "AM Best Confirme les Notations de Crédit de Ocean International Reinsurance Company Limited",
+        "rating3": "AM Best Confirme les Notations de Crédit de Lloyd’s"
+    },
+    
+    "carboncredit": {
+        "waventechnologyproject": "PROJET TECHNOLOGIE WAVEN",
+        "waventechnology": "TECHNOLOGIE WAVEN",
+        "title": "PROJETS",
+        "data": [
+            "Technologies de capture de carbone",
+            "Technologies de l'hydrogène",
+            "Carburants propres",
+            "Technologie de la Blockchain",
+            "Éducation",
+            "Engrais"
+        ],
+        "text1": "Notre entreprise participe à des technologies innovantes de haute technologie dans tous les domaines.",
+        "text2": "Pour démarrer le",
+        "text3": "En même temps",
+        "text4": "travaille pour financer d'autres projets de génération de carbone et vendre leurs crédits carbone."
+    },
+    
+    "contact": {
+        "title": "CONTACTEZ-NOUS",
+        "getstarted": "POUR COMMENCER",
+        "email": "EMAIL",
+        "phone": "NUMÉRO DE TÉLÉPHONE",
+        "country": "PAYS",
+        "name": "NOM",
+        "message": "MESSAGE",
+        "validation1": "Ce champ est obligatoire.",
+        "validation2": "Longueur maximale de 100 caractères.",
+        "messaggebutton": "ENVOYER UN MESSAGE"
+    },
+    
+    
+    "cryptotoken": {
+        "title": "JETON CRYPTO",
+        "text1": "Nous créerons la référence en matière de crypto-monnaie avec une interchangeabilité avec d'autres cryptos sur notre future bourse.",
+        "text2": "Notre jeton sera approuvé par l'organe gouvernemental suisse responsable de la réglementation financière.",
+        "image1": "La FINMA est l'organe gouvernemental suisse responsable de la réglementation financière. Cela comprend la supervision des banques, des compagnies d'assurance, des bourses et des courtiers en valeurs mobilières ainsi que d'autres intermédiaires financiers en Suisse.",
+        "image2": "Tout passera par nos technologies propriétaires pour sécuriser et échanger les jetons et les crédits carbone sur la blockchain et éliminer la fraude et le double comptage et garantir la retraite. Pour la première fois, cela sera réalisé sur le web 3.0.",
+        "data": [
+          {
+            "line1": "L'environnement à travers des avantages monétaires.",
+            "line2": "Transparence et responsabilité grâce à la technologie blockchain."
+          },
+          {
+            "line1": "Efficacité et rentabilité grâce à une administration minimale.",
+            "line2": "Accessibilité mondiale grâce à une bourse mondiale."
+          },
+          {
+            "line1": "Liquidité et négociabilité grâce à la tokenisation.",
+            "line2": "Innovation et évolutivité grâce à la technologie blockchain pour le trading."
+          },
+          {
+            "line1": "Engagement communautaire grâce à des avantages financiers et à l'apprentissage en ligne.",
+            "line2": "Fidélité grâce à des remises et un programme de promotions spéciales pour le propriétaire de notre crypto."
+          }
+        ]
+    },
+    
+    "joinuspage": {
+        "title": "REJOIGNEZ-NOUS",
+        "text1": "Prêt garanti™ du principal et des intérêts ou offre d'investissement avec protection complète de l'assurance",
+        "text2": "Votre prêt ou investissement entièrement garanti avec nous. Retours annuels garantis de 15%."
+    },
+    
+    "footer": {
+        "about": "À propos",
+        "facebookk": "Facebook",
+        "instagram": "Instagram",
+        "twitter": "Twitter",
+        "company": "Société",
+        "projectprocess": "Processus de projet",
+        "accreditationprocess": "Processus d'accréditation",
+        "cryptotoken": "Jetons cryptographiques",
+        "marketopportunity": "Opportunité du marché",
+        "copyright": "2024. Waven3 Technology. Tous droits réservés."
+    },
+
+    "marketopportunity": {
+        "title": "Opportunité de marché",
+        "graph1": "La pression de la demande exponentielle et l'offre insuffisante en raison des frictions du marché présentent des opportunités de marché transformatrices",
+        "graph2t1": "Graphique en bulles montrant quelques-unes des",
+        "waven3tech": "Technologie WAVEN3",
+        "graph2t2": "opportunités de marché au-dessus d'un graphique linéaire montrant une croissance attendue de base et le pire des cas pour les marchés volontaires du carbone jusqu'en 2030 (estimations de marché 2021)."
+    },
+    "landing": {
+        "title": "REJOIGNEZ-NOUS POUR CHANGER LE MONDE AUJOURD'HUI"
+    },
+    
+    "notfound": {
+        "notfoundtext": "Désolé, nous n'avons pas pu trouver cette page.",
+        "hometext": "Mais ne vous inquiétez pas, vous pouvez trouver plein d'autres choses sur notre page d'accueil.",
+        "backtohome": "Retour à la page d'accueil",
+        "error": "Erreur",
+        "404": "404"
+    },
+    
+    "offices": {
+        "title": "NOS BUREAUX",
+        "headoffice": "SIÈGE SOCIAL",
+        "locations": "Emplacements",
+        "canadausa": "Canada et États-Unis",
+        "switzerlanduae": "Suisse et Émirats arabes unis",
+        "canadaaddress": "3225 Blvd Saint Martin O Suite 104 Laval QC H7T1S2",
+        "switzerlandaddress": "Gartenstrasse 6 6300 Zug Switzerland"
+    },
+    
+    "partners": {
+        "title": "NOS PARTENAIRES",
+        "text": "Certains de nos partenariats stratégiques incluent :"
+    },
+    
+    "reinsurancecompany": {
+        "title": "Compagnie de réassurance",
+        "text": "Certains de nos partenariats stratégiques incluent :",
+        "companytext": "Garant principal de l'obligation financière sans territorialité",
+        "afiancol": "Afiancol S.A. Assurance",
+        "afiancoltext": "Cessionnaire du paiement de la réassurance sur première demande sans territorialité.",
+        "debtor": "Débiteur",
+        "debtortext": "Débiteur inscrit",
+        "lendor": "Prêteur de prêts",
+        "lendortext": "Bénéficiaire de la caution et de la réassurance"
+        }
+    }

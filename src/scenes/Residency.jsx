@@ -107,8 +107,8 @@ const Residency = () => {
             The guarantee provides said lenders with an additional level of
             security that the loan will be repaid/obligation will be fulfilled
             in the event that the securities issuer is unable to do so. The loan
-            may benefit the principal by enhancing the principal’s
-            credit worthiness thereby lowering the cost of financing
+            may benefit the principal by enhancing the principal’s credit
+            worthiness thereby lowering the cost of financing
           </p>
 
           <p className="mt-10">
@@ -186,38 +186,6 @@ const Residency = () => {
             </div>
           </div>
         </section>
-        {/* 
-        <div className="flex flex-col items-center mt-20">
-          <p className="text-xl text-orange-800 font-extrabold ">
-            GUARANTEED NOTE SAMPLE COPY
-          </p>
-          <p className="pt-10">
-            ONLY FOR USE IN MEDIUM TERM GUARANTEE TRANSACTIONS
-          </p>{" "}
-          <p className="pt-2">WAVEN3 Technology</p>{" "}
-          <p className="pt-2">FULLY INSURED</p>{" "}
-          <p className="pt-2">SECURED LOAN</p>{" "}
-          <p className="pt-2">PRINCIPAL AND INTEREST PROTECTED</p>
-        </div> */}
-        {/* 
-        <div className="mt-10">
-          <p>
-            The lender or Investor agreed to lend the amount of $_____________
-            to WAVEN3 Technology. FOR VALUE RECEIVED, WAVEN3 Technology , a
-            Canadian company ("Maker"), having a principal address of 399,
-            chemin de la Grande Côte, Boisbriand QC J7G 1A9, promises to pay to
-            the order of
-          </p>
-          <p className="mt-10">
-            ("Lender") OR ( Investor) , having an address of the principal
-            amount of $ , together with interest on the unpaid principal balance
-            calculated from the date of this Loan, in accordance with the
-            provisions of this Promissory Loan. The Maker and Holder acknowledge
-            that this Loan is issued in conjunction with other Loans containing
-            similar terms and conditions, executed or to be executed in favor of
-            and issued to other potential lenders
-          </p>
-        </div> */}
 
         <section className="w-full md:w-[80%] dark:bg-opacity-100 dark:text-gray-800">
           <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
