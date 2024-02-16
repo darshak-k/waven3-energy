@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import useMediaQuery from "../hooks/useMediaQuery";
 import RigourousApproval from "./RigourousApproval";
+import { useTranslation } from "react-i18next";
 
 const OpenCards = () => {
+  const { t } = useTranslation();
   const [expandedIndex, setExpandedIndex] = useState(null);
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
 
@@ -33,35 +35,16 @@ const OpenCards = () => {
     },
   };
 
-  const cardDescriptions = [
-    "Accurate data collection",
-    "Verification methodologies",
-    "Additionality",
-    "Baseline determination",
-    "Monitoring and reporting",
-    "Independent verification",
-    "Compliance with standards and regulations",
-    "Transparency and auditability",
-    "Stakeholder engagement",
-  ];
-
-  const processSteps = [
-    "Validating carbon credits starts with accurate data collection on emissions reductions or offsets. This includes collecting data on baseline emissions, project activities, and monitoring methodologies. It's crucial to ensure that the data collected is reliable, verifiable, and follows recognized standards",
-    "Establishing robust verification methodologies to asses the validity of carbon credits. This involves evaluating the project's adherence to approved methodologies, the accuracy of data collection and monitoring, and the credibility of emission reduction claims. Verification may be conducted by certified third-party organizations or accredited auditors",
-    " Additionality refers to the requirement that the emissions reductions or offsets claimed from the project would not have occurred without the project's intervention. It is essential to assess and demonstrate that the project's activities go beyond business-as-usual practices and result in real, measurable emissions reductions.",
-    "Establishing an accurate baseline is crucial for validating carbon credits. The baseline represents the emissions that would have occurred in the absence of the project. It is important to determine the baseline using recognized methodologies and ensure it is consistent with established guidelines and standards",
-    " Implement robust monitoring and reporting systems to track the progress of carbon reduction activities over time. This includes regular monitoring of emissions, project activities, and other relevant parameters. Accurate and transparent reporting is essential for the validation process",
-    "Seek independent verification of the carbon credits by certified third-party organizations or accredited auditors. Independent verification adds credibility and ensures that the carbon credits meet the required standards and criteria.",
-    "Ensure that the carbon credits comply with relevant standards, methodologies, and regulatory frameworks. This includes adherence to internationally recognized standards such as the Verification Carbon Standards (VCS), the Gold Standard, or the Clean Development Mechanism (CDM) of the United Nations Framework Convention on Climate Change (UNFCCC)",
-    "Maintain transparency throughout the validation process by providing access to relevant data, documentation, and methodologies. The ability to audit and verify the carbon credit claims is crucial for building trust and credibility",
-    "Engage with stakeholders, including local communities, project participants, and relevant authorities, to ensure their involvement and understanding of the validation process. Stakeholder engagement fosters transparency, accountability, and acceptance of the carbon credit validation outcomes.",
-  ];
+  const cardDescriptions = t("theprojects.carddescriptions", {
+    returnObjects: true,
+  });
+  const processSteps = t("theprojects.processSteps", { returnObjects: true });
 
   return (
     <section key="AccreditationProcess">
       <div className="py-10 pb-32">
         <p className="my-10 flex justify-center font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
-          ACCREDITATION PROCESS
+          {t("theprojects.title")}
         </p>
       </div>
       <RigourousApproval />

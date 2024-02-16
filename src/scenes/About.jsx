@@ -17,6 +17,7 @@ const About = () => {
   };
 
   const { t } = useTranslation();
+
   return (
     <section
       id="projects"

@@ -6,5 +6,55 @@
     "crypto": "Crypto",
     "joinus": "Join Us",
     "aboutustext":"Technology is a high-tech company operating in the fields of  hydrogen and artificial intelligence. Our mission is to fund projects that generate carbon credits, thereby attracting funds for the overall collective well-being of every global citizen. This entire process will be channeled into the carbon credit exchange ecosystem. The creation of carbon credits extends across various  sectors such as energy, high technology, natural resources, education, and several others. Together, we provide a sustainable solution, passing on to future generations a better future and a greener planet.",
-    "companyname": "Waven"
+    "companyname": "Waven",
+    
+    "ourmission": "Our Mission",
+    "ourmissiontext": "Unless the Lender & Investor shall have executed a written waiver, and then only to the extent specifically set forth in that written waiver, no act, omission or delay will be deemed to constitute a waiver of any of the Lender’s & Investor’s rights or remedies under this Loan or investment, and no act, delay, omission or waiver on any one occasion will be deemed a bar to enforcement or a waiver of the same or any other right or remedy on any other occasion.",
+    
+    "ourdedication": "Our Dedication",
+    "ourdedicationtext": "We are dedicated to ensuring the sustainability and protection of forests across the world. We have solidified partnerships in key regions across the world including Congo, Amazonia, and Columbia.",
+    
+    "ourtechnology": "Our Technology",
+    "ourtechnologytext": "We have secured technology that facilitates the extraction and production of Green Hydrogen and Natural Gas from both water and various other elements in North America. The technology used to confirm the presence of these gases and minerals is part of an exclusive partnership established in 2023 using patented equipment that scans the surface of land or water via helicopter or drone with 99.9% accuracy.",
+    
+    "greenhydrogen": "GREEN HYDROGEN",
+    "greenhydrogentext1":"Green Hydrogen is a type of hydrogen that is produced through a process called electrolysis, specifically using renewable energy sources such as wind, solar, or hydroelectric power.",
+    "greenhydrogentext2":"In the electrolysis process, electricity is used to split water into hydrogen and oxygen. If the electricity used in this process comes from renewable sources, the hydrogen produced is considered “green” because its production does not emit any carbon dioxide.",
+    "greenhydrogentext3":"In the electrolysis process, electricity is used to split water into hydrogen and oxygen. If the electricity used in this process comes from renewable sources, the hydrogen produced is considered “green” because its production does not emit any carbon dioxide.",
+    "greenhydrogentext4":"However, the production of Green Hydrogen is currently more expensive than other methods of hydrogen production, and it requires a significant amount of electricity.Therefore, the availability of cheap, renewable electricity is a key factor for its production.",
+    "theprojects" :{
+        "title": "The Projects",
+        "carddescriptions" : [
+            "Accurate data collection",
+            "Verification methodologies",
+            "Additionality",
+            "Baseline determination",
+            "Monitoring and reporting",
+            "Independent verification",
+            "Compliance with standards and regulations",
+            "Transparency and auditability",
+            "Stakeholder engagement"
+          ],
+    
+          "processSteps" : [
+            "Validating carbon credits starts with accurate data collection on emissions reductions or offsets. This includes collecting data on baseline emissions, project activities, and monitoring methodologies. It's crucial to ensure that the data collected is reliable, verifiable, and follows recognized standards",
+            "Establishing robust verification methodologies to asses the validity of carbon credits. This involves evaluating the project's adherence to approved methodologies, the accuracy of data collection and monitoring, and the credibility of emission reduction claims. Verification may be conducted by certified third-party organizations or accredited auditors",
+            "Additionality refers to the requirement that the emissions reductions or offsets claimed from the project would not have occurred without the project's intervention. It is essential to assess and demonstrate that the project's activities go beyond business-as-usual practices and result in real, measurable emissions reductions.",
+            "Establishing an accurate baseline is crucial for validating carbon credits. The baseline represents the emissions that would have occurred in the absence of the project. It is important to determine the baseline using recognized methodologies and ensure it is consistent with established guidelines and standards",
+            "Implement robust monitoring and reporting systems to track the progress of carbon reduction activities over time. This includes regular monitoring of emissions, project activities, and other relevant parameters. Accurate and transparent reporting is essential for the validation process",
+            "Seek independent verification of the carbon credits by certified third-party organizations or accredited auditors. Independent verification adds credibility and ensures that the carbon credits meet the required standards and criteria.",
+            "Ensure that the carbon credits comply with relevant standards, methodologies, and regulatory frameworks. This includes adherence to internationally recognized standards such as the Verification Carbon Standards (VCS), the Gold Standard, or the Clean Development Mechanism (CDM) of the United Nations Framework Convention on Climate Change (UNFCCC)",
+            "Maintain transparency throughout the validation process by providing access to relevant data, documentation, and methodologies. The ability to audit and verify the carbon credit claims is crucial for building trust and credibility",
+            "Engage with stakeholders, including local communities, project participants, and relevant authorities, to ensure their involvement and understanding of the validation process. Stakeholder engagement fosters transparency, accountability, and acceptance of the carbon credit validation outcomes."
+          ]
+    },
+
+    "rigorousapproval" :{
+        "title": "Rigorous Approval",
+        "activitysector" : "Activity Sector",
+        "energysaving" : "Energy Saving",
+        "carboncredits" : "Carbon Credits"
+    }
+
+
 }

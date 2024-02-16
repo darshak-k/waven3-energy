@@ -3,8 +3,10 @@ import Raining from "../assets/Raining.png";
 import Factory from "../assets/ActivitySector.png";
 import Trees from "../assets/Trees.png";
 import useMediaQuery from "../hooks/useMediaQuery";
+import { useTranslation } from "react-i18next";
 
 const RigourousApproval = ({}) => {
+  const { t } = useTranslation();
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
 
   const arrowVariants = {
@@ -47,12 +49,12 @@ const RigourousApproval = ({}) => {
                 <img src={Factory} alt="Factory" />
 
                 <div className="flex font-bigshoulder text-4xl justify-center">
-                  <p>ACTIVITY SECTOR</p>
+                  <p>{t("rigorousapproval.activitysector")}</p>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <div className="text-3xl font-bigshoulder top-64 h-10 font-extrabold ">
-                  ENERGY SAVINGS
+                  {t("rigorousapproval.energysaving")}
                 </div>
                 <div className="">
                   <svg width="200" height="20">
@@ -68,7 +70,7 @@ const RigourousApproval = ({}) => {
                 <img src={Trees} alt="Trees" />
 
                 <div className="flex font-bigshoulder text-4xl justify-center pt-10">
-                  <p>CARBON CREDITS</p>
+                  <p>{t("rigorousapproval.carboncredits")}</p>
                 </div>
               </div>
               {/* <div className="quare max-w-sm py-32">
@@ -94,7 +96,7 @@ const RigourousApproval = ({}) => {
               <img src={Factory} alt="Factory" />
 
               <div className="flex font-bigshoulder text-4xl justify-center">
-                <p>ACTIVITY SECTOR</p>
+                <p>{t("rigorousapproval.activitysector")}</p>
               </div>
             </div>
             <div className="my-20 rotate-90">
@@ -110,7 +112,7 @@ const RigourousApproval = ({}) => {
             <div className="items-end square max-w-sm">
               <img src={Trees} alt="Trees" />
               <div className="flex font-bigshoulder text-4xl justify-center py-16">
-                <p>CARBON CREDITS CREATED</p>
+                <p>{t("rigorousapproval.carboncredits")}</p>
               </div>
             </div>
 
