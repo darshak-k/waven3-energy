@@ -1,6 +1,5 @@
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import SwingLogo from "../assets/SwingLogo.png";
 import { TypeAnimation } from "react-type-animation";
 import { useTranslation } from "react-i18next";

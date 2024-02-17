@@ -1,15 +1,13 @@
 import React from "react";
-import Office from "../assets/Office.png";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import NavigationIcon from "@mui/icons-material/Navigation";
 import EmailIcon from "@mui/icons-material/Email";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import Person3Icon from "@mui/icons-material/Person3";
 import CanadaFlag from "../assets/CanadaFlag.jpg";
 import USAFlag from "../assets/USAFlag.png";
 import UAEFlag from "../assets/UAEFlag.png";
 import SwitzerlandFlag from "../assets/SwitzerlandFlag.jpg";
-import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const OurOffices = () => {

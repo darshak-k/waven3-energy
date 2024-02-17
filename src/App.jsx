@@ -1,4 +1,4 @@
-import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./scenes/Navbar";
 import Landing from "./scenes/Landing";
 import { motion, AnimatePresence } from "framer-motion";
@@ -22,7 +22,6 @@ import TheProjects from "./scenes/TheProjects";
 import NotFound404 from "./scenes/NotFound404";
 import Residency from "./scenes/Residency";
 import Contact from "./scenes/Contact";
-import { LANGUAGES } from "./Constants/languages";
 
 const childVariants = {
   initial: {

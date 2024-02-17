@@ -1,15 +1,7 @@
-import Person1 from "../assets/person-1.jpeg";
-import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
-import TimelineConnector from "@mui/lab/TimelineConnector";
-import TimelineContent from "@mui/lab/TimelineContent";
 import CreditScoreOutlinedIcon from "@mui/icons-material/CreditScoreOutlined";
-import TimelineDot from "@mui/lab/TimelineDot";
 import StoreIcon from "@mui/icons-material/Store";
 import AccountBalanceOutlinedIcon from "@mui/icons-material/AccountBalanceOutlined";
 import EmojiPeopleOutlinedIcon from "@mui/icons-material/EmojiPeopleOutlined";
-import Typography from "@mui/material/Typography";
 import Partner9 from "../assets/Partner9.png";
 import Partner10 from "../assets/Partner10.png";
 import Partner11 from "../assets/Partner11.png";
@@ -70,9 +62,9 @@ const ReinsuranceCompany = () => {
                 <h3 className="vertical-timeline-element-title font-bold text-xl underline">
                   <p>{t("reinsurancecompany.afiancol")}</p>
                 </h3>
-                <p>
+                <div>
                   <p>{t("reinsurancecompany.afiancoltext")}</p>
-                </p>
+                </div>
               </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement

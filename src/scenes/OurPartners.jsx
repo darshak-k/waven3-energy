@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Marquee from "react-fast-marquee";
 import Partner1 from "../assets/Partner1.png";
 import Partner2 from "../assets/Partner2.png";
@@ -29,17 +29,6 @@ const partners = [
 
 const Partners = () => {
   const { t } = useTranslation();
-  const [offset, setOffset] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setOffset((prevOffset) =>
-        prevOffset < partners.length - 1 ? prevOffset + 1 : 0
-      );
-    }, 4000); // change the interval to control the speed of the slider
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <section className="flex flex-col justify-center items-center">
       <div className="mt-16 w-full py-10  font-bigshoulder">

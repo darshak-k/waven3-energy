@@ -1,5 +1,4 @@
 import { useState } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 import Waven3Tech from "../assets/Waven3Tech.png";
 import CanadaFlag from "../assets/CanadaFlag.jpg";
@@ -7,15 +6,16 @@ import { NavLink } from "react-router-dom";
 import { LANGUAGES } from "../Constants/languages";
 import { useTranslation } from "react-i18next";
 
-const Link = ({ page, selectedPage, setSelectedPage }) => {
+const Link = ({ page, title, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.replace(" ", "").toLowerCase();
+  const redirectPage = title.replace(" ", "").toLowerCase();
   return (
     <NavLink
-      to={`/${lowerCasePage}`}
+      to={`/${redirectPage}`}
       className={`${
         selectedPage === lowerCasePage ? "text-green-800" : ""
       } hover:text-yellow font-extrabold transition duration-500`}
-      href={`#${lowerCasePage}`}
+      href={`#${redirectPage}`}
       onClick={() => setSelectedPage(lowerCasePage)}
     >
       {page}
@@ -49,47 +49,47 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
           <div className="flex justify-between gap-12 font-bigshoulder text-xl font-semibold">
             <Link
               page={t("home")}
+              title="home"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
               page={t("aboutus")}
+              title="aboutus"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
               page={t("projects")}
+              title="projects"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
               page={t("crypto")}
+              title="crypto"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
               page={t("joinus")}
+              title="joinus"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
               page={t("contactus")}
+              title="contactus"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
 
             <select
-              defaultValue={"en"}
               onChange={onChangeLang}
               className="p-2 bg-transparent border-2 border-orange-800 rounded-md text-orange-800 focus:outline-none focus:border-orange-500"
             >
               {LANGUAGES.map(({ code, label }) => (
-                <option
-                  key={code}
-                  value={code}
-                  image={CanadaFlag}
-                  className="bg-red"
-                >
+                <option key={code} value={code} className="bg-red">
                   {label}
                 </option>
               ))}
@@ -118,31 +118,37 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             <div className="flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue">
               <Link
                 page={t("home")}
+                title="home"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
                 page={t("aboutus")}
+                title="aboutus"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
                 page={t("projects")}
+                title="projects"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
                 page={t("crypto")}
+                title="crypto"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
                 page={t("joinus")}
+                title="joinus"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
                 page={t("contactus")}
+                title="contactus"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />

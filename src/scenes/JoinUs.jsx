@@ -1,4 +1,3 @@
-import useMediaQuery from "../hooks/useMediaQuery";
 import JoinUsGraph from "../assets/JoinUsGraph.png";
 import Img15 from "../assets/Img15.png";
 import { motion } from "framer-motion";
@@ -6,7 +5,6 @@ import { useTranslation } from "react-i18next";
 
 const JoinUs = () => {
   const { t } = useTranslation();
-  const isAboveLarge = useMediaQuery("(min-width: 1060px)");
 
   return (
     <section

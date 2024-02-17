@@ -1,21 +1,13 @@
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import Raining from "../assets/Raining.png";
 import Factory from "../assets/ActivitySector.png";
 import Trees from "../assets/Trees.png";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { useTranslation } from "react-i18next";
 
-const RigourousApproval = ({}) => {
+const RigourousApproval = () => {
   const { t } = useTranslation();
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
-
-  const arrowVariants = {
-    initial: { x: "-100%" },
-    animate: {
-      x: "100%",
-      transition: { ease: "linear", duration: 2, repeat: Infinity },
-    },
-  };
 
   return (
     <section>
