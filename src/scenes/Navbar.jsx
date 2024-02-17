@@ -153,9 +153,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 setSelectedPage={setSelectedPage}
               />
 
-              <select defaultValue={"en"} className="bg-">
+              <select
+                onChange={onChangeLang}
+                className="p-2 bg-transparent border-2 border-orange-800 rounded-md text-orange-800 focus:outline-none focus:border-orange-500"
+              >
                 {LANGUAGES.map(({ code, label }) => (
-                  <option key={code} value={code}>
+                  <option key={code} value={code} className="bg-red">
                     {label}
                   </option>
                 ))}
