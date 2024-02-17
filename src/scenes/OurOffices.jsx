@@ -136,7 +136,7 @@ const OurOffices = () => {
 
               <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
                 <NavigationIcon />
-                <p> {t("offices.switzerlanduae")}</p>
+                <p> {t("offices.switzerlandaddress")}</p>
               </div>
             </div>
           </motion.div>
