@@ -25,6 +25,34 @@
   "landingpage": {
     "title": "REJOIGNEZ-NOUS POUR CHANGER LE MONDE AUJOURD'HUI"
   },
+  "theprojectspage": {
+    "title": "Les Projets",
+    "ourproject": "Nos Projets",
+    "Waven3_technology_claim": {
+      "content": "La technologie Waven3 est en cours de sécurisation des revendications (DEC 2023) dans le territoire du Québec qui ont été initialement prospectées et contiennent de grandes poches d'hydrogène blanc. Nous travaillons également en continu à sécuriser des partenariats pour inclure des projets dédiés à la production de méthanol bleu et d'énergie propre."
+    },
+    "white_hydrogen_intro": {
+      "content": "L'hydrogène blanc, également connu sous le nom d'hydrogène naturel, est une forme d'hydrogène naturellement présente, que l'on trouve dans les gisements souterrains et dans l'air. C'est l'élément chimique le plus léger et le premier sur le tableau périodique des éléments."
+    },
+    "white_hydrogen_details": {
+      "content": "Cette forme d'hydrogène est libérée des gisements souterrains par des processus. Cependant, même s'il est l'élément le plus abondant de l'univers, il est rare sous sa forme pure, c'est pourquoi il n'est pas envisagé d'être collecté pour être utilisé comme carburant sans émissions. Au lieu de cela, H2 est généralement combiné avec d'autres atomes pour créer d'autres molécules. Par exemple, une combinaison facilement reconnaissable est H2O, mieux connue sous le nom d'eau. Bien que la forme naturelle puisse être renouvelable et tout aussi non polluante que celles fabriquées avec de l'énergie renouvelable, elle ne peut pas être raisonnablement capturée sans d'autres processus pour l'extraire de là où elle a été combinée."
+    },
+    "white_hydrogen_extraction": {
+      "content": "Au lieu de cela, H2 est généralement combiné avec d'autres atomes pour créer d'autres molécules. Par exemple, une combinaison facilement reconnaissable est H2O, mieux connue sous le nom d'eau. Bien que la forme naturelle puisse être renouvelable et tout aussi non polluante que celles fabriquées avec de l'énergie renouvelable, elle ne peut pas être raisonnablement capturée sans d'autres processus pour l'extraire de là où elle a été combinée."
+    },
+    "white_hydrogen_summary": {
+      "content": "En résumé, l'hydrogène blanc est une forme d'hydrogène naturellement présente dans l'air et dans les gisements souterrains, mais il est difficile à capturer et à utiliser comme source de carburant en raison de sa rareté sous forme pure et du processus d'extraction énergivore."
+    },
+    "blue_methanol_intro": {
+      "content": "Le méthanol bleu est un type de méthanol produit à l'aide de la technologie de capture et de séquestration du carbone (CSC). Ce processus implique la capture et la compression du CO2 résiduel sur le site de l'usine et son injection dans des formations géologiques contenues où il est séquestré de manière permanente et sûre."
+    },
+    "blue_methanol_details": {
+      "content": "Le méthanol bleu sert de bloc de construction polyvalent pour d'innombrables produits de tous les jours, y compris les adhésifs et les matériaux de construction. Il est également en cours d'évaluation pour une utilisation comme carburant à faible teneur en carbone pour des industries telles que le transport maritime."
+    },
+    "blue_methanol_context": {
+      "content": "Dans le contexte de Waven3, le méthanol bleu est produit à partir d'hydrogène propre. La production de méthanol bleu remplace des produits plus carbonés fabriqués sans CSC ou d'autres technologies de réduction du carbone. Il a de multiples et croissantes applications dans les industries pétrochimiques et de transport."
+    }
+  },
 
   "theprojects": {
     "title": "Les Projets",
