@@ -62,7 +62,7 @@ const About = () => {
         >
           <p className="mt-10 mb-7 font-bigshoulder text-base  sm:text-xl md:text-2xl">
             <span className="text-green-950 font-extrabold tracking-wide">
-              {t("companyname")}
+              {t("companyname")} 3
             </span>{" "}
             {t("aboutustext")}
           </p>

@@ -64,7 +64,7 @@ const Contact = () => {
           <form
             target="_blank"
             onSubmit={onSubmit}
-            action="https://formsubmit.co/waven3@tech.com"
+            action="https://formsubmit.co/info@waven3global.com"
             method="POST"
           >
             <input
@@ -122,6 +122,36 @@ const Contact = () => {
               })}
             />
             {errors.email && (
+              <p className="text-gray-800  mt-1">
+                {errors.name.type === "required" && t("contact.validation1")}
+                {errors.name.type === "maxLength" && t("contact.validation2")}
+              </p>
+            )}
+            <input
+              className="w-full bg-red font-semibold placeholder-opaque-black p-3 mt-5"
+              type="text"
+              placeholder={t("contact.personidentifier")}
+              {...register("personidentifier", {
+                required: true,
+                pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+              })}
+            />
+            {errors.personidentifier && (
+              <p className="text-gray-800  mt-1">
+                {errors.name.type === "required" && t("contact.validation1")}
+                {errors.name.type === "maxLength" && t("contact.validation2")}
+              </p>
+            )}
+            <input
+              className="w-full bg-red font-semibold placeholder-opaque-black p-3 mt-5"
+              type="text"
+              placeholder={t("contact.identification")}
+              {...register("identification", {
+                required: true,
+                pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+              })}
+            />
+            {errors.identification && (
               <p className="text-gray-800  mt-1">
                 {errors.name.type === "required" && t("contact.validation1")}
                 {errors.name.type === "maxLength" && t("contact.validation2")}

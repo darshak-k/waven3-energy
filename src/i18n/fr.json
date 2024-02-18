@@ -95,8 +95,8 @@
   },
 
   "carboncredit": {
-    "waventechnologyproject": "PROJET TECHNOLOGIE WAVEN",
-    "waventechnology": "TECHNOLOGIE WAVEN",
+    "waventechnologyproject": "PROJET TECHNOLOGIE WAVEN3",
+    "waventechnology": "TECHNOLOGIE WAVEN3",
     "title": "PROJETS",
     "data": [
       "Technologies de capture de carbone",
@@ -120,6 +120,8 @@
     "country": "PAYS",
     "name": "NOM",
     "message": "MESSAGE",
+    "personidentifier": "Personne Ressource",
+    "identification": "Numero D'identification",
     "validation1": "Ce champ est obligatoire.",
     "validation2": "Longueur maximale de 100 caractères.",
     "messaggebutton": "ENVOYER UN MESSAGE"
@@ -212,7 +214,7 @@
     "afiancoltext": "Cessionnaire du paiement de la réassurance sur première demande sans territorialité.",
     "debtor": "Débiteur",
     "debtortext": "Débiteur inscrit",
-    "lendor": "Prêteur de prêts",
+    "lendor": "Investisseurs",
     "lendortext": "Bénéficiaire de la caution et de la réassurance"
   },
   "residencypage": {
@@ -222,7 +224,7 @@
     },
     "CANADIAN_CITIZENS": {
       "title": "CITOYENS CANADIENS",
-      "content": "Des opportunités de prêt exclusives vous attendent ! Saisissez l'occasion de participer en tant que prêteur avec notre entreprise. Votre investissement dans les prêts contribuera à notre succès partagé."
+      "content": "Des opportunités de prêt exclusives vous attendent ! Saisissez l'occasion de participer en tant que prêteur avec notre entreprise. votre prêt contribuera à notre succès partagé."
     },
     "FULLY_INSURED_HIGH_YIELD_RETURNS": {
       "title": "RETOURS À HAUT RENDEMENT ENTIEREMENT ASSURÉS",

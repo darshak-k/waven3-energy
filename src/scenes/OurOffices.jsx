@@ -34,7 +34,7 @@ const OurOffices = () => {
       flag: SwitzerlandFlag,
       country: "SWITZERLAND",
       person: "Carlo Daello ",
-      email: "carlo@waven3global.com",
+      email: "cdanello@waven3glegal.com",
     },
   ];
 

@@ -120,6 +120,8 @@
     "country": "COUNTRY",
     "name": "NAME",
     "message": "MESSAGE",
+    "personidentifier": "Contact agent",
+    "identification": "Identification Number",
     "validation1": "This field is required.",
     "validation2": "Max length is 100 char.",
     "messaggebutton": "SEND ME A MESSAGE"
@@ -223,7 +225,7 @@
     },
     "CANADIAN_CITIZENS": {
       "title": "CANADIAN CITIZENS",
-      "content": "Exclusive lending opportunities await you! seize the chance to participate as a lender with our company. Your investment in loans will contribute to our shared success."
+      "content": "Exclusive lending opportunities await you! seize the chance to participate as a lender with our company. Loans will contribute to our shared success."
     },
     "FULLY_INSURED_HIGH_YIELD_RETURNS": {
       "title": "FULLY INSURED HIGH YIELD RETURNS",

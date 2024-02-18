@@ -122,6 +122,8 @@
     "phone": "رقم الهاتف",
     "country": "البلد",
     "name": "الاسم",
+    "personidentifier": "الشخص الموارد",
+    "identification": "الرقم التعريفي",
     "message": "الرسالة",
     "validation1": "هذا الحقل مطلوب.",
     "validation2": "الحد الأقصى للطول هو 100 حرف.",
