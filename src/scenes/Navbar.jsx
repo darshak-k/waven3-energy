@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import useMediaQuery from "../hooks/useMediaQuery";
 import Waven3Tech from "../assets/Waven3Tech.png";
 import CanadaFlag from "../assets/CanadaFlag.jpg";
@@ -27,12 +27,20 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const { i18n, t } = useTranslation();
 
   const [isMenuToggled, setIsMenuToggled] = useState(false);
+  const [selectedLanguage, setSelectedLanguage] = useState(
+    localStorage.getItem("selectedLanguage") || ""
+  );
   const isDesktop = useMediaQuery("(min-width: 820px)");
   const navbarBackground = isTopOfPage ? "" : "bg-red";
+
+  useEffect(() => {
+    localStorage.setItem("selectedLanguage", selectedLanguage);
+  }, [selectedLanguage]);
 
   const onChangeLang = (e) => {
     const lang_code = e.target.value;
     i18n.changeLanguage(lang_code);
+    setSelectedLanguage(e.target.value);
   };
 
   return (
@@ -85,6 +93,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             />
 
             <select
+              value={selectedLanguage}
               onChange={onChangeLang}
               className="p-2 bg-transparent border-2 border-orange-800 rounded-md text-orange-800 focus:outline-none focus:border-orange-500"
             >
@@ -154,6 +163,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               />
 
               <select
+                value={selectedLanguage}
                 onChange={onChangeLang}
                 className="p-2 bg-transparent border-2 border-orange-800 rounded-md text-orange-800 focus:outline-none focus:border-orange-500"
               >
