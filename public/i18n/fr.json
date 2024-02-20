@@ -1,0 +1,386 @@
+{
+  "home": "Accueil",
+  "aboutus": "À propos de nous",
+  "projects": "Projets",
+  "contactus": "Contactez-nous",
+  "crypto": "Crypto",
+  "joinus": "Rejoignez-nous",
+  "aboutustext": "Technology est une société de haute technologie opérant dans les domaines de l'hydrogène et de l'intelligence artificielle. Notre mission est de financer des projets qui génèrent des crédits carbone, attirant ainsi des fonds pour le bien-être collectif de chaque citoyen du monde. Tout ce processus sera canalisé dans l'écosystème d'échange de crédits carbone. La création de crédits carbone s'étend à différents secteurs tels que l'énergie, la haute technologie, les ressources naturelles, l'éducation et plusieurs autres. Ensemble, nous offrons une solution durable, transmettant aux générations futures un avenir meilleur et une planète plus verte.",
+  "companyname": "Waven",
+  "ourmission": "NOTRE MISSION",
+  "ourmissiontext": "Sauf si le prêteur et l'investisseur ont signé une renonciation écrite, et alors seulement dans la mesure spécifiquement définie dans cette renonciation écrite, aucun acte, omission ou retard ne sera réputé constituer une renonciation à l'un quelconque des droits ou recours du prêteur et de l'investisseur en vertu de ce prêt ou investissement, et aucun acte, retard, omission ou renonciation en une seule occasion ne sera considéré comme un obstacle à l'application ou une renonciation au même droit ou recours ou à tout autre droit ou recours lors d'une autre occasion.",
+
+  "ourdedication": "NOTRE DÉDICATION",
+  "ourdedicationtext": "Nous sommes dédiés à assurer la durabilité et la protection des forêts à travers le monde. Nous avons consolidé des partenariats dans des régions clés à travers le monde, y compris le Congo, l'Amazonie et la Colombie.",
+
+  "ourtechnology": "NOTRE TECHNOLOGIE",
+  "ourtechnologytext": "Nous avons sécurisé une technologie qui facilite l'extraction et la production d'hydrogène vert et de gaz naturel à partir de l'eau et de divers autres éléments en Amérique du Nord. La technologie utilisée pour confirmer la présence de ces gaz et minéraux fait partie d'un partenariat exclusif établi en 2023 à l'aide d'équipements brevetés qui balayent la surface des terres ou de l'eau via un hélicoptère ou un drone avec une précision de 99,9%.",
+
+  "greenhydrogen": "HYDROGÈNE VERT",
+  "greenhydrogentext1": "L'hydrogène vert est un type d'hydrogène produit par un processus appelé électrolyse, utilisant spécifiquement des sources d'énergie renouvelables telles que l'énergie éolienne, solaire ou hydroélectrique.",
+  "greenhydrogentext2": "Dans le processus d'électrolyse, l'électricité est utilisée pour diviser l'eau en hydrogène et en oxygène. Si l'électricité utilisée dans ce processus provient de sources renouvelables, l'hydrogène produit est considéré comme 'vert' car sa production n'émet aucun dioxyde de carbone.",
+  "greenhydrogentext3": "Dans le processus d'électrolyse, l'électricité est utilisée pour diviser l'eau en hydrogène et en oxygène. Si l'électricité utilisée dans ce processus provient de sources renouvelables, l'hydrogène produit est considéré comme 'vert' car sa production n'émet aucun dioxyde de carbone.",
+  "greenhydrogentext4": "Cependant, la production d'hydrogène vert est actuellement plus coûteuse que d'autres méthodes de production d'hydrogène, et elle nécessite une quantité importante d'électricité. Par conséquent, la disponibilité d'électricité bon marché et renouvelable est un facteur clé pour sa production.",
+
+  "landingpage": {
+    "title": "REJOIGNEZ-NOUS POUR CHANGER LE MONDE AUJOURD'HUI"
+  },
+  "theprojectspage": {
+    "title": "Les Projets",
+    "ourproject": "Nos Projets",
+    "Waven3_technology_claim": {
+      "content": "La technologie Waven3 est en cours de sécurisation des revendications (DEC 2023) dans le territoire du Québec qui ont été initialement prospectées et contiennent de grandes poches d'hydrogène blanc. Nous travaillons également en continu à sécuriser des partenariats pour inclure des projets dédiés à la production de méthanol bleu et d'énergie propre."
+    },
+    "white_hydrogen_intro": {
+      "content": "L'hydrogène blanc, également connu sous le nom d'hydrogène naturel, est une forme d'hydrogène naturellement présente, que l'on trouve dans les gisements souterrains et dans l'air. C'est l'élément chimique le plus léger et le premier sur le tableau périodique des éléments."
+    },
+    "white_hydrogen_details": {
+      "content": "Cette forme d'hydrogène est libérée des gisements souterrains par des processus. Cependant, même s'il est l'élément le plus abondant de l'univers, il est rare sous sa forme pure, c'est pourquoi il n'est pas envisagé d'être collecté pour être utilisé comme carburant sans émissions. Au lieu de cela, H2 est généralement combiné avec d'autres atomes pour créer d'autres molécules. Par exemple, une combinaison facilement reconnaissable est H2O, mieux connue sous le nom d'eau. Bien que la forme naturelle puisse être renouvelable et tout aussi non polluante que celles fabriquées avec de l'énergie renouvelable, elle ne peut pas être raisonnablement capturée sans d'autres processus pour l'extraire de là où elle a été combinée."
+    },
+    "white_hydrogen_extraction": {
+      "content": "Au lieu de cela, H2 est généralement combiné avec d'autres atomes pour créer d'autres molécules. Par exemple, une combinaison facilement reconnaissable est H2O, mieux connue sous le nom d'eau. Bien que la forme naturelle puisse être renouvelable et tout aussi non polluante que celles fabriquées avec de l'énergie renouvelable, elle ne peut pas être raisonnablement capturée sans d'autres processus pour l'extraire de là où elle a été combinée."
+    },
+    "white_hydrogen_summary": {
+      "content": "En résumé, l'hydrogène blanc est une forme d'hydrogène naturellement présente dans l'air et dans les gisements souterrains, mais il est difficile à capturer et à utiliser comme source de carburant en raison de sa rareté sous forme pure et du processus d'extraction énergivore."
+    },
+    "blue_methanol_intro": {
+      "content": "Le méthanol bleu est un type de méthanol produit à l'aide de la technologie de capture et de séquestration du carbone (CSC). Ce processus implique la capture et la compression du CO2 résiduel sur le site de l'usine et son injection dans des formations géologiques contenues où il est séquestré de manière permanente et sûre."
+    },
+    "blue_methanol_details": {
+      "content": "Le méthanol bleu sert de bloc de construction polyvalent pour d'innombrables produits de tous les jours, y compris les adhésifs et les matériaux de construction. Il est également en cours d'évaluation pour une utilisation comme carburant à faible teneur en carbone pour des industries telles que le transport maritime."
+    },
+    "blue_methanol_context": {
+      "content": "Dans le contexte de Waven3, le méthanol bleu est produit à partir d'hydrogène propre. La production de méthanol bleu remplace des produits plus carbonés fabriqués sans CSC ou d'autres technologies de réduction du carbone. Il a de multiples et croissantes applications dans les industries pétrochimiques et de transport."
+    }
+  },
+
+  "theprojects": {
+    "title": "Les Projets",
+    "carddescriptions": [
+      "Collecte de données précises",
+      "Méthodologies de vérification",
+      "Additionnalité",
+      "Détermination du niveau de référence",
+      "Suivi et rapportage",
+      "Vérification indépendante",
+      "Conformité aux normes et réglementations",
+      "Transparence et traçabilité",
+      "Engagement des parties prenantes"
+    ],
+    "processSteps": [
+      "La validation des crédits carbone commence par la collecte précise des données sur les réductions ou compensations d'émissions. Cela inclut la collecte de données sur les émissions de référence, les activités du projet et les méthodologies de suivi. Il est crucial de s'assurer que les données collectées sont fiables, vérifiables et suivent des normes reconnues.",
+      "Établissement de méthodologies de vérification robustes pour évaluer la validité des crédits carbone. Cela implique d'évaluer la conformité du projet aux méthodologies approuvées, l'exactitude de la collecte et du suivi des données, et la crédibilité des réductions d'émissions revendiquées. La vérification peut être effectuée par des organisations tierces certifiées ou des auditeurs accrédités.",
+      "L'additionnalité fait référence à l'exigence selon laquelle les réductions ou compensations d'émissions revendiquées du projet n'auraient pas eu lieu sans l'intervention du projet. Il est essentiel d'évaluer et de démontrer que les activités du projet vont au-delà des pratiques courantes et entraînent de réelles réductions d'émissions mesurables.",
+      "Établissement d'une référence précise est crucial pour la validation des crédits carbone. La référence représente les émissions qui auraient eu lieu en l'absence du projet. Il est important de déterminer la référence en utilisant des méthodologies reconnues et de s'assurer qu'elle est conforme aux directives et normes établies.",
+      "Mise en place de systèmes de suivi et de rapportage robustes pour suivre l'évolution des activités de réduction des émissions au fil du temps. Cela inclut le suivi régulier des émissions, des activités du projet et d'autres paramètres pertinents. Un rapportage précis et transparent est essentiel pour le processus de validation.",
+      "Recherche de vérification indépendante des crédits carbone par des organisations tierces certifiées ou des auditeurs accrédités. La vérification indépendante ajoute de la crédibilité et garantit que les crédits carbone répondent aux normes et critères requis.",
+      "Veiller à ce que les crédits carbone soient conformes aux normes, méthodologies et cadres réglementaires pertinents. Cela inclut le respect de normes internationalement reconnues telles que les Normes de Vérification Carbone (VCS), la Norme d'Or ou le Mécanisme de Développement Propre (MDP) de la Convention-Cadre des Nations Unies sur les Changements Climatiques (CCNUCC)",
+      "Maintenir la transparence tout au long du processus de validation en fournissant un accès aux données, documents et méthodologies pertinents. La capacité d'auditer et de vérifier les réclamations de crédits carbone est cruciale pour établir la confiance et la crédibilité.",
+      "Impliquer les parties prenantes, y compris les communautés locales, les participants au projet et les autorités concernées, pour garantir leur implication et leur compréhension du processus de validation. L'engagement des parties prenantes favorise la transparence, la responsabilité et l'acceptation des résultats de la validation des crédits carbone."
+    ]
+  },
+
+  "rigorousapproval": {
+    "title": "Approbation Rigoureuse",
+    "activitysector": "Secteur d'Activité",
+    "energysaving": "Économie d'Énergie",
+    "carboncredits": "Crédits Carbone"
+  },
+
+  "ambestrating": {
+    "title": "Évaluations AM Best Pour Nos Assureurs",
+    "rating1": "AM Best Attribue des Notations de Crédit à Redbridge Insurance Company Limited",
+    "rating2": "AM Best Confirme les Notations de Crédit de Ocean International Reinsurance Company Limited",
+    "rating3": "AM Best Confirme les Notations de Crédit de Lloyd’s"
+  },
+
+  "carboncredit": {
+    "waventechnologyproject": "PROJET TECHNOLOGIE WAVEN3",
+    "waventechnology": "TECHNOLOGIE WAVEN3",
+    "title": "PROJETS",
+    "data": [
+      "Technologies de capture de carbone",
+      "Technologies de l'hydrogène",
+      "Carburants propres",
+      "Technologie de la Blockchain",
+      "Éducation",
+      "Engrais"
+    ],
+    "text1": "Notre entreprise participe à des technologies innovantes de haute technologie dans tous les domaines.",
+    "text2": "Pour démarrer le",
+    "text3": "En même temps",
+    "text4": "travaille pour financer d'autres projets de génération de carbone et vendre leurs crédits carbone."
+  },
+
+  "contact": {
+    "title": "CONTACTEZ-NOUS",
+    "getstarted": "POUR COMMENCER",
+    "email": "EMAIL",
+    "phone": "NUMÉRO DE TÉLÉPHONE",
+    "country": "PAYS",
+    "name": "NOM",
+    "message": "MESSAGE",
+    "personidentifier": "Personne Ressource",
+    "identification": "Numero D'identification",
+    "validation1": "Ce champ est obligatoire.",
+    "validation2": "Longueur maximale de 100 caractères.",
+    "messaggebutton": "ENVOYER UN MESSAGE"
+  },
+
+  "cryptotoken": {
+    "title": "JETON CRYPTO",
+    "text1": "Nous créerons la référence en matière de crypto-monnaie avec une interchangeabilité avec d'autres cryptos sur notre future bourse.",
+    "text2": "Notre jeton sera approuvé par l'organe gouvernemental suisse responsable de la réglementation financière.",
+    "image1": "La FINMA est l'organe gouvernemental suisse responsable de la réglementation financière. Cela comprend la supervision des banques, des compagnies d'assurance, des bourses et des courtiers en valeurs mobilières ainsi que d'autres intermédiaires financiers en Suisse.",
+    "image2": "Tout passera par nos technologies propriétaires pour sécuriser et échanger les jetons et les crédits carbone sur la blockchain et éliminer la fraude et le double comptage et garantir la retraite. Pour la première fois, cela sera réalisé sur le web 3.0.",
+    "data": [
+      {
+        "line1": "L'environnement à travers des avantages monétaires.",
+        "line2": "Transparence et responsabilité grâce à la technologie blockchain."
+      },
+      {
+        "line1": "Efficacité et rentabilité grâce à une administration minimale.",
+        "line2": "Accessibilité mondiale grâce à une bourse mondiale."
+      },
+      {
+        "line1": "Liquidité et négociabilité grâce à la tokenisation.",
+        "line2": "Innovation et évolutivité grâce à la technologie blockchain pour le trading."
+      },
+      {
+        "line1": "Engagement communautaire grâce à des avantages financiers et à l'apprentissage en ligne.",
+        "line2": "Fidélité grâce à des remises et un programme de promotions spéciales pour le propriétaire de notre crypto."
+      }
+    ]
+  },
+
+  "joinuspage": {
+    "title": "REJOIGNEZ-NOUS",
+    "text1": "Prêt garanti™ du principal et des intérêts ou offre d'investissement avec protection complète de l'assurance",
+    "text2": "Votre prêt ou investissement entièrement garanti avec nous. Retours annuels garantis de 15%."
+  },
+
+  "footer": {
+    "about": "À propos",
+    "facebookk": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "company": "Société",
+    "projectprocess": "Processus de projet",
+    "accreditationprocess": "Processus d'accréditation",
+    "cryptotoken": "Jetons cryptographiques",
+    "marketopportunity": "Opportunité du marché",
+    "copyright": "2024. Waven3 Technology. Tous droits réservés."
+  },
+
+  "marketopportunity": {
+    "title": "Opportunité de marché",
+    "graph1": "La pression de la demande exponentielle et l'offre insuffisante en raison des frictions du marché présentent des opportunités de marché transformatrices",
+    "graph2t1": "Graphique en bulles montrant quelques-unes des",
+    "waven3tech": "Technologie WAVEN3",
+    "graph2t2": "opportunités de marché au-dessus d'un graphique linéaire montrant une croissance attendue de base et le pire des cas pour les marchés volontaires du carbone jusqu'en 2030 (estimations de marché 2021)."
+  },
+  "landing": {
+    "title": "REJOIGNEZ-NOUS POUR CHANGER LE MONDE AUJOURD'HUI"
+  },
+
+  "notfound": {
+    "notfoundtext": "Désolé, nous n'avons pas pu trouver cette page.",
+    "hometext": "Mais ne vous inquiétez pas, vous pouvez trouver plein d'autres choses sur notre page d'accueil.",
+    "backtohome": "Retour à la page d'accueil",
+    "error": "Erreur",
+    "404": "404"
+  },
+
+  "offices": {
+    "title": "NOS BUREAUX",
+    "headoffice": "SIÈGE SOCIAL",
+    "locations": "Emplacements",
+    "canadausa": "Canada et États-Unis",
+    "switzerlanduae": "Suisse et Émirats arabes unis",
+    "canadaaddress": "3225 Blvd Saint Martin O Suite 104 Laval QC H7T1S2",
+    "switzerlandaddress": "Gartenstrasse 6 6300 Zug Switzerland"
+  },
+
+  "partners": {
+    "title": "NOS PARTENAIRES",
+    "text": "Certains de nos partenariats stratégiques incluent :"
+  },
+
+  "reinsurancecompany": {
+    "title": "Compagnie de réassurance",
+    "text": "Certains de nos partenariats stratégiques incluent :",
+    "companytext": "Garant principal de l'obligation financière sans territorialité",
+    "afiancol": "Afiancol S.A. Assurance",
+    "afiancoltext": "Cessionnaire du paiement de la réassurance sur première demande sans territorialité.",
+    "debtor": "Débiteur",
+    "debtortext": "Débiteur inscrit",
+    "lendor": "Investisseurs",
+    "lendortext": "Bénéficiaire de la caution et de la réassurance"
+  },
+  "residencypage": {
+    "AMERICAN_UAE_CITIZENS": {
+      "title": "CITOYENS AMÉRICAINS ET DES ÉMIRATS ARABES UNIS",
+      "content": "Bonne nouvelle pour les investisseurs internationaux ! Si vous résidez en dehors du Canada, vous avez désormais la possibilité de devenir un investisseur de valeur dans notre entreprise. Passez à l'étape suivante vers la croissance financière en investissant avec nous."
+    },
+    "CANADIAN_CITIZENS": {
+      "title": "CITOYENS CANADIENS",
+      "content": "Des opportunités de prêt exclusives vous attendent ! Saisissez l'occasion de participer en tant que prêteur avec notre entreprise. votre prêt contribuera à notre succès partagé."
+    },
+    "FULLY_INSURED_HIGH_YIELD_RETURNS": {
+      "title": "RETOURS À HAUT RENDEMENT ENTIEREMENT ASSURÉS",
+      "content": "Des rendements historiquement plus élevés que l'indice S&P 500 et offrant un rendement garanti qui est en moyenne trois fois plus élevé que tout autre produit d'annuité fixe ou variable et plus élevé que tout autre fonds immobilier d'investissement, note hypothécaire, ETF ou autre instrument similaire. L'alternative d'annuité quintessentielle avec les mêmes garanties mais avec des rendements beaucoup plus élevés."
+    },
+    "FULLY_GUARANTEED_INCOME": {
+      "title": "REVENUS ENTIEREMENT GARANTIS",
+      "content": "Un revenu trimestriel significatif qui est directement déposé sur votre compte bancaire le 1er de chaque 3ème mois. Constituez votre retraite, couvrez des dépenses de vie supplémentaires, améliorez votre qualité de vie, commencez à voyager ou continuez simplement à constituer votre compte d'épargne."
+    },
+    "FULLY_GUARANTEED_LOAN_OR_INVESTMENT": {
+      "title": "PRÊT OU INVESTISSEMENT ENTIEREMENT GARANTI",
+      "content": "Notre offre de prêt et d'investissement à taux fixe en principal et intérêts entièrement sécurisée fournit à chaque porteur de billet une obligation de garantie financière, similaire à une obligation de caution standard avec une police d'assurance dédiée émise directement à nos porteurs de billets par les meilleurs assureurs évalués par A M Best qui garantissent que nos porteurs de billets ne peuvent pas perdre leur investissement en principal et servent également de garantie qu'ils recevront les intérêts offerts dans notre offre de billets en totalité."
+    },
+    "DISTRIBUTED_FUNDS_HANDLING": {
+      "title": "GESTION DES FONDS DISTRIBUÉS",
+      "content": "Les fonds distribués seront déposés sur le compte fiduciaire de l'entreprise ou sur le compte fiduciaire du prêteur ou de l'investisseur, avec des instructions spécifiant que la distribution des fonds à l'entreprise aura lieu après réception de l'obligation de garantie de la compagnie d'assurance couvrant toutes les exécutions entre les parties."
+    },
+
+    "FINANCIAL_GUARANTEE_LOAN_OR_INVESTMENT_FACT_SHEET": {
+      "title": "FICHE D'INFORMATION SUR LE PRÊT OU L'INVESTISSEMENT GARANTI FINANCIÈREMENT",
+      "subtitle": "POUR LES PRÊTEURS OU LES INVESTISSEURS DANS NOTRE PRÊT PROTÉGÉ EN PRINCIPAL ET INTÉRÊT™ GARANTI À 100%",
+      "content": [
+        {
+          "title": "Garantie Financière",
+          "paragraphs": [
+            "Une indemnité ou une caution non annulable garantie par une compagnie d'assurance, qui garantit que le capital et les intérêts seront payés conformément à l'accord contractuel ou à la promesse de paiement. Les prêts garantis financièrement sont utilisés par les émetteurs de dette pour attirer les prêteurs",
+            "La garantie fournit aux prêteurs une sécurité supplémentaire selon laquelle le prêt sera remboursé/l'obligation sera remplie dans le cas où l'émetteur de titres ne serait pas en mesure de le faire. Le prêt peut bénéficier au principal en améliorant sa solvabilité, ce qui permet de réduire le coût du financement",
+            "La garantie « enveloppe » le prêt avec la bonne réputation et la solvabilité de l'assureur. Comme l'obligation représente une GARANTIE INCONDITIONNELLE de conformité/remboursement, un taux d'intérêt préférentiel est souvent offert aux prêteurs"
+          ]
+        },
+        {
+          "title": "OBJECTIF :",
+          "paragraphs": [
+            "Générer un flux régulier d'intérêts avec une corrélation minimale ou inexistante avec les marchés des actions et des obligations. En essence, les offres de prêt protégées en principal de WAVEN3 tentent d'atteindre des rendements historiques semblables à ceux des actions avec des risques semblables à ceux des obligations, voire moins. La préservation du capital et un revenu exceptionnel ont été établis comme notre priorité absolue."
+          ]
+        }
+      ]
+    },
+    "questions": [
+      {
+        "question": "QU'EST-CE QU'UN PRÊT OU UN INVESTISSEMENT « GARANTI » ?",
+        "answer": "« GARANTI » signifie exactement cela, lors de l'octroi d'un prêt à WAVEN3 Technology tel que stipulé dans le contrat de prêt, le prêteur recevra une police d'assurance émise par un assureur entièrement agréé et réglementé maintenant une note de B++ ou mieux selon A M Best, assurant le montant total de l'obligation en capital et en intérêts dans le prêt. En fin de compte, nos prêts entièrement assurés offrent le même niveau de sécurité et de sûreté qu'une annuité fixe mais avec un rendement annuel 3 fois meilleur."
+      },
+      {
+        "question": "COMMENT PRÊTER OU INVESTIR ?",
+        "answer": "Une fois prêt, remplissez le formulaire pour planifier un appel ou demander une copie du Contrat de Prêt."
+      },
+      {
+        "question": "QU'EST-CE QU'UN PRÊT OU UN INVESTISSEMENT PROMIS SÉCURISÉ ?",
+        "answer": "Un prêt sécurisé est un accord écrit et légalement exécutoire pour vous payer des intérêts à un taux et une fréquence spécifiques et rembourser votre capital (le montant initial que vous prêtez) à une date spécifique. Pour qu'un prêt ait une désignation sécurisée, cela signifie qu'il y a une propriété ou un actif tangible qui a été offert en garantie en cas de défaut, pour qu'un prêt ait une désignation garantie, cela ne peut se produire que lorsqu'il y a une police d'assurance ou une caution émise pour garantir le prêteur contre toute perte en cas de défaut."
+      },
+      {
+        "question": "QUELS SONT LES FRAIS FACTURÉS ?",
+        "answer": "WAVEN3 Technology ne facture aucun frais de gestion ou de service d'aucune sorte"
+      }
+    ],
+    "loan_details": {
+      "interest": {
+        "title": "1. Intérêt.",
+        "content": [
+          "Les intérêts seront calculés au taux de 15% par an sur le solde du principal impayé, à partir du premier jour de chaque trimestre. En aucun cas, le montant dû ou réputé dû au titre de ce prêt en tant qu'intérêt ou équivalent ne dépassera le montant maximum autorisé en vertu de la loi applicable, les parties ayant particulièrement l'intention de se conformer strictement à la loi applicable sur l'usure, le cas échéant. Si un intérêt ou équivalent payé dépasse un maximum légal applicable, l'excédent sera d'abord appliqué au solde du principal impayé et tout reste sera remboursé au Créancier."
+        ]
+      },
+      "time_of_payments": {
+        "title": "2. Heure des paiements.",
+        "content": [
+          "Le Débiteur effectuera des paiements au Créancier à partir du , et le 1er jour de chaque mois calendaire successif jusqu'à l'échéance, dans un montant total mensuel égal au taux annuel divisé par quatre, puis multiplié par le Principal impayé. À cette fin, le montant de tout paiement d'intérêts en défaut tel que défini dans ce prêt sera ajouté au Principal impayé et aux intérêts payés jusqu'à ce que les intérêts en défaut aient été payés. Les paiements seront d'abord appliqués aux intérêts accumulés, puis au principal."
+        ]
+      },
+      "maturity_date_prepayment_acceleration": {
+        "title": "3. Date d'échéance, remboursement anticipé et accélération.",
+        "content": [
+          "Le Débiteur remboursera toutes les dettes dues en vertu de ce prêt (y compris, sans limitation, tout Principal impayé et tout intérêt impayé) à la ou avant la (\"Date d'échéance\"). Le Débiteur peut effectuer des remboursements anticipés à tout moment sans prime ni pénalité. Les remboursements anticipés effectués conformément à ce paragraphe seront d'abord appliqués aux intérêts accumulés mais impayés, puis au solde du principal impayé. Aucun remboursement anticipé n'entraînera un changement de la Date d'échéance."
+        ]
+      },
+
+      "mode_and_place_of_payment": {
+        "title": "4. Mode et lieu de paiement.",
+        "content": [
+          "Tous les paiements dus en vertu de ce contrat de prêt seront effectués en fonds immédiatement disponibles en monnaie légale du Canada (CAD). Tous les paiements dus en vertu de ce prêt seront effectués par dépôt direct sur le compte du prêteur tel que désigné au paragraphe initial, ou à toute autre adresse qui peut être désignée par avis écrit donné par le prêteur au créancier."
+        ]
+      },
+      "default": {
+        "title": "5. Défaut.",
+        "content": [
+          "(a) Un défaut en vertu de ce prêt existera si l'un des faits ou circonstances suivants existe, survient ou est réputé exister ou survenir. Aucun avis ou action concernant l'un des faits ou circonstances suivants n'est requis pour l'existence ou la réputation de l'existence d'un défaut, sauf dans la mesure expressément requise ci-dessous. (a) Le fabricant ne parvient pas à effectuer un paiement requis en vertu de ce prêt à la date d'échéance et une telle période de non-paiement a continué sans remède pendant plus de 10 jours calendaires après avis du détenteur.",
+          "(b) Un ordre, un jugement ou un décret est rendu qui déclare le fabricant, ou toute personne ou entité qui contrôle, est contrôlée par ou est sous le contrôle commun du fabricant («Affilié du fabricant»), en faillite ou insolvable; ou, le fabricant ou l'affilié du fabricant présente une pétition ou demande à un tribunal pour la nomination d'un fiduciaire, d'un récepteur ou d'un liquidateur pour lui-même ou pour une partie substantielle de ses actifs, ou entreprend toute procédure sous toute faillite, réorganisation, arrangement, insolvabilité, réaménagement de la dette, dissolution ou liquidation etc.",
+          "(c) Dans le cas où l'un ou l'ensemble des éléments ci-dessus devraient exister ou survenir, la police d'assurance et/ou la caution garantissant le billet couvriront le titulaire, et ladite caution et/ou police d'assurance couvriront le prêteur du principal et des intérêts dus, même si l'exécution ou la non-exécution des termes de ce prêt est retardée, causée ou empêchée par un cas de force majeure ou un désastre naturel. En cas de défaut, le détenteur aura son principal et ses intérêts remboursés par l'assureur de ce billet dans les 60 jours suivant le défaut."
+        ]
+      },
+
+      "cancellation": {
+        "title": "6. Cancellation.",
+        "content": [
+          "When all amounts due to Holder under this Promissory Note, including without limitation the entire principal balance and all accrued and unpaid interest, have been paid in full, this Promissory Note will be surrendered to the Maker for cancellation"
+        ]
+      },
+      "presentment_demand_notice": {
+        "title": "7. Présentation, Demande, Avis, etc.",
+        "content": [
+          "Sauf pour les exigences de notification énoncées ci-dessus, l'Emprunteur renonce à la présentation, à la demande, à l'avis, à la protestation et à toutes autres demandes et avis liés à la remise, à l'acceptation, à l'accélération, à l'exécution et à l'application de cette Lettre de Change, et consent à toute prolongation du délai de paiement ou de l'abstention ou de toute autre indulgence accordée ou acquiescée par le Titulaire sans avis et sans libérer l'Emprunteur d'aucune de ses obligations aux termes des présentes."
+        ]
+      },
+      "specific_performance": {
+        "title": "8. Exécution en Nature.",
+        "content": [
+          "Le Prêteur reconnaît que l'Emprunteur aura droit au recours de l'exécution en nature pour toute violation ou menace de violation des présentes par le Prêteur ou ses Représentants. Ce recours ne sera pas réputé être le seul recours en vertu des présentes, mais sera en plus de tous les autres recours disponibles en droit ou en équité pour l'Emprunteur."
+        ]
+      },
+      "costs_enforcement_protection": {
+        "title": "9. Frais d'Exécution et de Protection.",
+        "content": [
+          "La partie qui l'emporte aura droit au remboursement de tous les coûts et dépenses raisonnables, y compris, sans s'y limiter, les honoraires d'avocats et les frais juridiques, payés, subis ou engagés dans le cadre de tout litige sur l'exécution et la protection aux termes des présentes"
+        ]
+      },
+      "governing_law_venue": {
+        "title": "10. Loi Applicable ; Lieu.",
+        "content": [
+          "Toutes les questions concernant la construction, la validité et l'interprétation de cette lettre de change seront régies par les lois internes, et non par la loi des conflits, du Canada. Les parties entendent que le lieu approprié pour toute action, poursuite ou procédure découlant de ce prêt sera au Canada, exclusivement. Chaque partie convient que toute action, poursuite ou procédure sera portée devant un tribunal d'État ou fédéral siégeant au Canada, et renonce à toute objection quant au lieu dans ce tribunal.",
+          "Le Prêteur ou l'Investisseur reconnaît que le Fabricant aura droit au recours de l'exécution en nature pour toute violation ou menace de violation du présent Accord par le Détenteur ou ses Représentants. Ce recours ne sera pas réputé être le seul recours en vertu du présent Accord mais sera en plus de tous les autres recours disponibles en droit ou en équité pour le Fabricant."
+        ]
+      },
+      "no_waiver": {
+        "title": "11. Pas de Renonciation.",
+        "content": [
+          "Sauf si le Prêteur a signé une renonciation écrite, et alors seulement dans la mesure spécifiquement définie dans cette renonciation écrite, aucun acte, omission ou retard ne sera réputé constituer une renonciation à l'un quelconque des droits ou recours du Prêteur en vertu de ce prêt, et aucun acte, retard, omission ou renonciation en une occasion ne sera considéré comme un obstacle à l'exécution ou une renonciation au même droit ou recours ou à tout autre droit ou recours en une autre occasion."
+        ]
+      },
+      "notices": {
+        "title": "12. Avis.",
+        "content": [
+          "Tous les avis devant être donnés ou permis en vertu de ce prêt seront faits par écrit, et adressés à l'adresse du destinataire spécifiée ci-dessus, ou à toute adresse alternative pouvant être désignée par une partie par avis donné conformément à la présente Section 12. Tous les avis seront remis en main propre, ou par FedEx, Service postal canadien, U.P.S., ou autre service de messagerie national assurant une livraison quotidienne à l'adresse du destinataire et conservant un enregistrement de livraison. L'avis sera réputé donné et reçu à la date la plus tôt entre la date réellement reçue ou la date indiquée par les registres de FedEx, du Service postal canadien, d'U.P.S. ou autre service de messagerie national comme étant la date à laquelle la livraison physique réelle de l'avis a été tentée pour la première fois à l'adresse du destinataire un jour ouvrable dans la juridiction de la tentative de livraison."
+        ]
+      },
+      "legend": {
+        "title": "13. Légende.",
+        "content": [
+          "Ce prêt n'a pas été enregistré en vertu d'aucune loi sur les valeurs mobilières. Aucun transfert ou autre cession de ce prêt ne peut être effectué pendant l'offre dans laquelle ce prêt a été accordé et pendant neuf mois après la dernière vente dans cette offre (tel que déterminé par le Fabricant), sauf sur inscription ou exemption de l'inscription."
+        ]
+      },
+      "original_intent": {
+        "title": "14. Intention Originale.",
+        "content": [
+          "Dans le cas où l'intention originale de la demande de financement ne se matérialiserait pas, le principal et les intérêts courus, le cas échéant, seront retournés au Prêteur dans un délai de 30 jours calendaires à compter de la date de signature de la lettre de change."
+        ]
+      },
+      "unconditional_guarantee": {
+        "title": "15. Garantie de prêt ou d'investissement inconditionnelle.",
+        "content": [
+          "WAVEN3 Technology fournira au Prêteur une caution non recouvrable, ou une autre police d'assurance ou produit similaire pour servir de garantie inconditionnelle pour le Titulaire qu'il recevra le paiement du capital et des intérêts sur cette note; en totalité, et dans un délai de 60 jours en cas de défaut.",
+          "WAVEN3 Technology ne cherchera à faciliter l'émission de telles polices d'assurance que par des assureurs considérés comme étant de qualité investment grade qui portent une notation de crédit B++ ou plus de l'agence de notation AM Best.",
+          "De telles garanties d'assurance seront émises soit par la société d'assurance Afiancol, soit par la société d'assurance Redbridge en tant que titulaire de couverture pour Lloyds de Londres, et/ou par Ocean Reinsurance, en tant que garant ou co-garant(s) ou soit individuellement ou dans le cadre d'un syndicat d'assurance dans leur capacité de sociétés d'assurance de qualité investment grade entièrement agréées et réglementées, et des sociétés de réassurance respectivement.",
+          "WAVEN3 Technology prévoit d'utiliser en partie ou en totalité Redbridge Insurance Company pour émettre la majorité des garanties d'assurance relatives à ce prêt. Redbridge Insurance Company a reçu une notation de crédit B++ de AM Best et est également un titulaire de couverture pour Lloyds de Londres.",
+          "Lesdites caution et garantie financière susmentionnées fourniront aux détenteurs de prêts de cette offre de note une protection totale et absolue du capital et des intérêts. Cette garantie sera fournie sous forme de projet au(x) prêteur(s) dès l'exécution de ce prêt, puis émise directement par la compagnie d'assurance au prêteur en tant que seul bénéficiaire sous forme légale et contraignante dans les cinq (5) jours ouvrables suivant la finalisation du prêt par le prêteur afin d'assurer l'exécution des obligations de WAVEN3 Technology et tous les paiements de capital et d'intérêts tels que décrits ici concernant ce prêt."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "home": "Home",
+  "aboutus": "About Us",
+  "projects": "Projects",
+  "contactus": "Contact Us",
+  "crypto": "Crypto",
+  "joinus": "Join Us",
+  "aboutustext": "Technology is a high-tech company operating in the fields of  hydrogen and artificial intelligence. Our mission is to fund projects that generate carbon credits, thereby attracting funds for the overall collective well-being of every global citizen. This entire process will be channeled into the carbon credit exchange ecosystem. The creation of carbon credits extends across various  sectors such as energy, high technology, natural resources, education, and several others. Together, we provide a sustainable solution, passing on to future generations a better future and a greener planet.",
+  "companyname": "Waven",
+
+  "ourmission": "OUR MISSION",
+  "ourmissiontext": "Unless the Lender & Investor shall have executed a written waiver, and then only to the extent specifically set forth in that written waiver, no act, omission or delay will be deemed to constitute a waiver of any of the Lender’s & Investor’s rights or remedies under this Loan or investment, and no act, delay, omission or waiver on any one occasion will be deemed a bar to enforcement or a waiver of the same or any other right or remedy on any other occasion.",
+
+  "ourdedication": "OUR DEDICATION",
+  "ourdedicationtext": "We are dedicated to ensuring the sustainability and protection of forests across the world. We have solidified partnerships in key regions across the world including Congo, Amazonia, and Columbia.",
+
+  "ourtechnology": "OUR TECHNOLOGY",
+  "ourtechnologytext": "We have secured technology that facilitates the extraction and production of Green Hydrogen and Natural Gas from both water and various other elements in North America. The technology used to confirm the presence of these gases and minerals is part of an exclusive partnership established in 2023 using patented equipment that scans the surface of land or water via helicopter or drone with 99.9% accuracy.",
+
+  "greenhydrogen": "GREEN HYDROGEN",
+  "greenhydrogentext1": "Green Hydrogen is a type of hydrogen that is produced through a process called electrolysis, specifically using renewable energy sources such as wind, solar, or hydroelectric power.",
+  "greenhydrogentext2": "In the electrolysis process, electricity is used to split water into hydrogen and oxygen. If the electricity used in this process comes from renewable sources, the hydrogen produced is considered “green” because its production does not emit any carbon dioxide.",
+  "greenhydrogentext3": "In the electrolysis process, electricity is used to split water into hydrogen and oxygen. If the electricity used in this process comes from renewable sources, the hydrogen produced is considered “green” because its production does not emit any carbon dioxide.",
+  "greenhydrogentext4": "However, the production of Green Hydrogen is currently more expensive than other methods of hydrogen production, and it requires a significant amount of electricity.Therefore, the availability of cheap, renewable electricity is a key factor for its production.",
+  "landingpage": {
+    "title": "JOIN US CHANGING THE WORLD TODAY"
+  },
+  "theprojectspage": {
+    "title": "The Projects",
+    "ourproject": "Our Projects",
+    "Waven3_technology_claim": {
+      "content": "Waven3 technology is in the process of securing claims ( DEC 2023 ) in the territory of Quebec that have been initially prospected and contain large pockets of White Hydrogen. We are also continuously working on securing partnerships to include projects dedicated to the production of Blue Methanol and clean energy."
+    },
+    "white_hydrogen_intro": {
+      "content": "White Hydrogen, also known as Natural Hydrogen, is a naturally occurring form of Hydrogen,that is found in underground deposits and in the air It is the lightest chemical element and the first on the periodic table of elements."
+    },
+    "white_hydrogen_details": {
+      "content": "This form of Hydrogen is released from underground deposits through processes . However, even though it is the most abundant, element in the universe, it is rare in its pure form. which is why it isn’t being considered for collection to be used as an emission-free fuel. Instead, H2 is usually combined with other atoms to create other molecules . For example, an easily recognizable combination is H2O, better known as water. While the natural form may be renewable and is just as non-polluting as those forms made with renewable energy, it cannot be reasonably captured without other processes to extract it from where it has been combined."
+    },
+    "white_hydrogen_extraction": {
+      "content": "Instead, H2 is usually combined with other atoms to create other molecules. For example, an easily recognizable combination is H2O, better known as water. While the natural form may be renewable and is just as non-polluting as those forms made with renewable energy, it cannot be reasonably captured without other processes to extract it from where it has been combined."
+    },
+    "white_hydrogen_summary": {
+      "content": "In summary, White Hydrogen is a naturally occurring form of Hydrogen that is found in the air and in underground deposits but it is challenging to capture and use as a fuel source due to its rarity in pure form and the energy-intensive extraction process"
+    },
+    "blue_methanol_intro": {
+      "content": "Blue Methanol is a type of methanol produced using Carbon Capture and Sequestration (CCS) technology. This process involves capturing and compressing waste CO2 at the plant site and injecting it deep into contained geological formations where it is. permanently and safely sequestered"
+    },
+    "blue_methanol_details": {
+      "content": "Blue Methanol serves as a versatile building block for countless everyday products, including adhesives and construction materials It is also being evaluated for use as a low-carbon fuel for industries such as shipping."
+    },
+    "blue_methanol_context": {
+      "content": "In the context of Waven3, Blue Methanol is produced from Clean Hydrogen. The production of Blue Methanol displaces more carbon-intensive gray or black products manufactured without CCS or other carbon reduction technologies. It has multiple and growing applications in both the petrochemical and transportation industries"
+    }
+  },
+
+  "theprojects": {
+    "title": "The Projects",
+    "carddescriptions": [
+      "Accurate data collection",
+      "Verification methodologies",
+      "Additionality",
+      "Baseline determination",
+      "Monitoring and reporting",
+      "Independent verification",
+      "Compliance with standards and regulations",
+      "Transparency and auditability",
+      "Stakeholder engagement"
+    ],
+
+    "processSteps": [
+      "Validating carbon credits starts with accurate data collection on emissions reductions or offsets. This includes collecting data on baseline emissions, project activities, and monitoring methodologies. It's crucial to ensure that the data collected is reliable, verifiable, and follows recognized standards",
+      "Establishing robust verification methodologies to asses the validity of carbon credits. This involves evaluating the project's adherence to approved methodologies, the accuracy of data collection and monitoring, and the credibility of emission reduction claims. Verification may be conducted by certified third-party organizations or accredited auditors",
+      "Additionality refers to the requirement that the emissions reductions or offsets claimed from the project would not have occurred without the project's intervention. It is essential to assess and demonstrate that the project's activities go beyond business-as-usual practices and result in real, measurable emissions reductions.",
+      "Establishing an accurate baseline is crucial for validating carbon credits. The baseline represents the emissions that would have occurred in the absence of the project. It is important to determine the baseline using recognized methodologies and ensure it is consistent with established guidelines and standards",
+      "Implement robust monitoring and reporting systems to track the progress of carbon reduction activities over time. This includes regular monitoring of emissions, project activities, and other relevant parameters. Accurate and transparent reporting is essential for the validation process",
+      "Seek independent verification of the carbon credits by certified third-party organizations or accredited auditors. Independent verification adds credibility and ensures that the carbon credits meet the required standards and criteria.",
+      "Ensure that the carbon credits comply with relevant standards, methodologies, and regulatory frameworks. This includes adherence to internationally recognized standards such as the Verification Carbon Standards (VCS), the Gold Standard, or the Clean Development Mechanism (CDM) of the United Nations Framework Convention on Climate Change (UNFCCC)",
+      "Maintain transparency throughout the validation process by providing access to relevant data, documentation, and methodologies. The ability to audit and verify the carbon credit claims is crucial for building trust and credibility",
+      "Engage with stakeholders, including local communities, project participants, and relevant authorities, to ensure their involvement and understanding of the validation process. Stakeholder engagement fosters transparency, accountability, and acceptance of the carbon credit validation outcomes."
+    ]
+  },
+
+  "rigorousapproval": {
+    "title": "Rigorous Approval",
+    "activitysector": "Activity Sector",
+    "energysaving": "Energy Saving",
+    "carboncredits": "Carbon Credits"
+  },
+
+  "ambestrating": {
+    "title": "Am Best Ratings For Our Insurers",
+    "rating1": "AM Best Assigns Credit Ratings to Redbridge Insurance Company Limited",
+    "rating2": "AM Best Affirms Credit Ratings of Ocean International Reinsurance Company Limited",
+    "rating3": "AM Best Affirms Credit Ratings of Lloyd’s"
+  },
+
+  "carboncredit": {
+    "waventechnologyproject": "WAVEN 3 TECHNOLOGY PROJECT",
+    "waventechnology": "WAVEN 3 TECHNOLOGY",
+    "title": "PROJECTS",
+    "data": [
+      "Carbon capture technologies",
+      "Hydrogen technologies",
+      "Clean fuels",
+      "Blockchain technology",
+      "Education",
+      "Fertilizers"
+    ],
+    "text1": "our company participate in innovative high technology in every domain sphere.",
+    "text2": "To kickstart the",
+    "text3": "At the same time",
+    "text4": "is working to finance other carbon generating projects and sell their carbon credits."
+  },
+  "contact": {
+    "title": "CONTACT US",
+    "getstarted": "TO GET STARTED",
+    "email": "EMAIL",
+    "phone": "PHONE NUMBER",
+    "country": "COUNTRY",
+    "name": "NAME",
+    "message": "MESSAGE",
+    "personidentifier": "CONTACT AGENT",
+    "identification": "IDENTIFICATION NUMBER",
+    "validation1": "This field is required.",
+    "validation2": "Max length is 100 char.",
+    "messaggebutton": "SEND ME A MESSAGE"
+  },
+
+  "cryptotoken": {
+    "title": "CRYPTO TOKEN",
+    "text1": "We will create the benchmark in Crypto Currency with interchangeability with other Crypto on our future exchange.",
+    "text2": "Our Token will be approved by the Swiss government body responsible for financial regulation.",
+    "image1": "The FINMA is the Swiss government body responsible for financial regulation. This includes the supervision of banks, insurance companies, stock exchanges and securities dealers as well as other financial intermediaries in Switzerland.",
+    "image2": "Everything will go through our proprietary technologies to secure and trade the tokens and carbon credits on blockchain and eliminate fraud and double counting and ensure retirement. First time it will be accomplished on the web 3.0",
+    "data": [
+      {
+        "line1": "The environment through monetary advantages.",
+        "line2": "Transparency and Accountability through Blockchain Technology"
+      },
+      {
+        "line1": "Efficiency and cost-effectiveness through minimum administration.",
+        "line2": "Global accessibility through a Worldwide Exchange."
+      },
+      {
+        "line1": "Liquidity and tradability through Tokenization.",
+        "line2": "Innovation and scalability through Block chain Technology for trading."
+      },
+      {
+        "line1": "Community engagement through Financial Advantages and e-learning.",
+        "line2": "Fidelity through discounts and special promotions program for the owner of our Crypto."
+      }
+    ]
+  },
+  "joinuspage": {
+    "title": "JOIN US",
+    "text1": "Principal & Interest Protected Guaranteed Loan™ or Investment Offering w/Full Insurance Protection",
+    "text2": "Your Loan or Investment fully Guaranteed with Us. Guaranteed Annual Returns of 15%."
+  },
+
+  "footer": {
+    "about": "About",
+    "facebookk": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "company": "Company",
+    "projectprocess": "Project Process",
+    "accreditationprocess": "Accreditation Process",
+    "cryptotoken": "Crypto token",
+    "marketopportunity": "Market Opportunity",
+    "copyright": "2024. Waven3 Technology. All rights reserved."
+  },
+
+  "residency": {},
+
+  "marketopportunity": {
+    "title": "Market Opportunity",
+    "graph1": "Exponential demand pressure and inadequate faltering supply due to market friction presents transformative market opportunitie",
+    "graph2t1": "Bubble chart showing some of ",
+    "waven3tech": "WAVEN3 Technology",
+    "graph2t2": "market opportunities above a line chart showing a base and worst case expected growth for the Voluntary Carbon Markets until 2030 (2021 Market Estimates)."
+  },
+  "landing": {
+    "title": "JOIN US CHANGING THE WORLD TODAY"
+  },
+
+  "notfound": {
+    "notfoundtext": "Sorry, we couldn't find this page.",
+    "hometext": "But dont worry, you can find plenty of other things on our homepage.",
+    "backtohome": "Back to home page",
+    "error": "Error",
+    "404": "404"
+  },
+
+  "offices": {
+    "title": "OUR OFFICES",
+    "headoffice": "HEAD OFFICE",
+    "locations": "Locations",
+    "canadausa": "Canada & USA",
+    "switzerlanduae": "Switzerland & UAE",
+    "canadaaddress": "3225 Blvd Saint Martin O Suite 104 Laval QC H7T1S2",
+    "switzerlandaddress": "Gartenstrasse 6 6300 Zug Switzerland"
+  },
+
+  "partners": {
+    "title": "OUR PARTNERS",
+    "text": "Some of our strategic partnerships include:"
+  },
+
+  "reinsurancecompany": {
+    "title": "Reinsurance Company",
+    "text": "Some of our strategic partnerships include:",
+    "companytext": "Primary guarantor of the financial obligation without territoriality",
+    "afiancol": "Afiancol S.A. Insurance",
+    "afiancoltext": " Assignor to reinsurance payment upon first request without territoriality.",
+    "debtor": "Debtor",
+    "debtortext": "Entrenchend debtor",
+    "lendor": "Lender Loans & Investors",
+    "lendortext": "Bail & reinsurance benefeciary"
+  },
+  "residencypage": {
+    "AMERICAN_UAE_CITIZENS": {
+      "title": "AMERICAN & UAE CITIZENS",
+      "content": "Great news for international investors! If you reside outside of Canada, you now have the opportunity to become a valued investor in our company. Take the next step towards financial growth by investing with us"
+    },
+    "CANADIAN_CITIZENS": {
+      "title": "CANADIAN CITIZENS",
+      "content": "Exclusive lending opportunities await you! seize the chance to participate as a lender with our company. Loans will contribute to our shared success."
+    },
+    "FULLY_INSURED_HIGH_YIELD_RETURNS": {
+      "title": "FULLY INSURED HIGH YIELD RETURNS",
+      "content": "Returns that are historically higher than the S&P 500 index and offer a guaranteed yield that on average is three times higher then any other fixed or variable annuity product and higher than any REIT, mortgage note, ETF or other similar instrument. The quintessential annuity alternative with the same guarantees but with much higher yield(s)."
+    },
+    "FULLY_GUARANTEED_INCOME": {
+      "title": "FULLY GUARANTEED INCOME",
+      "content": "Significant quarterly income that is directly deposited into your bank account on the 1st of every 3rd month. Build up your retirement, cover additional living expenses, enhance the quality of your life, start to travel or just continue to build up your savings account."
+    },
+    "FULLY_GUARANTEED_LOAN_OR_INVESTMENT": {
+      "title": "FULLY GUARANTEED LOAN OR INVESTMENT",
+      "content": "Our Fully Secured Principal & Interest Fixed Rate loan & Investment Offering provides each note holder with a financial guarantee bond, similar to astandard surety bond with a dedicated insurance policy issued directly to our note holders from top A M Best rated insurers which guarantee our note holders cannotlose their principal investment and also serves as a guarantee that they will receive the interest offered in our note offering in full."
+    },
+    "DISTRIBUTED_FUNDS_HANDLING": {
+      "title": "DISTRIBUTED FUNDS HANDLING",
+      "content": "The disbursed funds will be deposited into the company's trustee account or the lender's or investor's trustee account, with instructions specifying that the disbursement of funds to the company will occur after receiving the guarantee bond from the insurance company covering all executions between the parties."
+    },
+    "FINANCIAL_GUARANTEE_LOAN_OR_INVESTMENT_FACT_SHEET": {
+      "title": "FINANCIAL GUARANTEE LOAN OR INVESTMENT FACT SHEET",
+      "subtitle": "FOR LENDERS OR INVESTORS IN OUR FULLY INSURED PRINCIPAL & INTEREST PROTECTED LOAN™",
+      "content": [
+        {
+          "title": "Financial Guarantee",
+          "paragraphs": [
+            "A non cancelable indemnity or surety bond backed by an insurance company, which guarantees that principal and interest will be paid in compliance with the contractual agreement or promissory note. Financial guarantee loans are used by debt issuers as a way of attracting lenders",
+            "The guarantee provides said lenders with an additional level of security that the loan will be repaid/obligation will be fulfilled in the event that the securities issuer is unable to do so. The loan may benefit the principal by enhancing the principal’s credit worthiness thereby lowering the cost of financing",
+            "The guarantee “wraps” the loan with the insurer’s good name and credit worthiness. Because the bond represents an UNCONDITIONAL GUARANTEE of compliance/repayment, a preferred interest rate is often offered to lenders"
+          ]
+        },
+        {
+          "title": "OBJECTIVE:",
+          "paragraphs": [
+            "To generate a steady stream of interests with minimal or non existent correlation to the equity and fixed income markets. In essence, the WAVEN3 Principal Protected Loan Offering(s) attempts to achieve historic equity-like returns with bond- like risk, or less. Capital preservation and stellar income has been established as our utmost priority."
+          ]
+        }
+      ]
+    },
+    "questions": [
+      {
+        "question": "WHAT IS A “GUARANTEED” LOAN OR INVESTMENT ?",
+        "answer": "“GUARANTEED” means exactly that, upon making a loan to WAVEN3 Technology as set forth in the loan contract, the lender will receive an insurance policy issued by a fully licensed and regulated insurance carrier maintaining an A M Best rating of B++ or better insuring the full amount of the principal and interest obligation in the loan. Ultimately, our fully insured loans offer the same level of security and safety of a fixed annuity but with an annual yield 3X better."
+      },
+      {
+        "question": "HOW DO I LEND OR INVEST?",
+        "answer": "Once you’re ready, complete the form to schedule a call or request a copy of the Loan Agreement."
+      },
+      {
+        "question": "WHAT IS A SECURED PROMISSORY LOAN OR INVESTMENT ?",
+        "answer": "A Secured Loan is a written, legally enforceable agreement to pay you interest at a specific rate and frequency and repay your principal (the original amount that you lend) on a specific date. For a loan to have a secured designation, this means that there is a property or tangible asset which has been offered as collateral in the event of a default, for a loan to have a guaranteed designation, this can only occur when there is an insurance policy or surety bond issued to guarantee the lender against loss in the event of a default."
+      },
+      {
+        "question": "WHAT FEES DO YOU CHARGE?",
+        "answer": "WAVEN3 Technology does not charge management or servicing fees of any kind"
+      }
+    ],
+    "loan_details": {
+      "interest": {
+        "title": "1. Interest.",
+        "content": [
+          "Interest will accrue at the rate of 15% per annum on the unpaid principal balance, accruing as of the first day of every 3 months. In no event will the amount due or deemed to be due under this Loan as interest or its equivalent exceed the maximum amount permissible under applicable law, the parties particularly intending to conform strictly to the applicable law of usury, if any. If any interest or equivalent that is paid exceeds any applicable legal maximum, the excess will be applied first to the unpaid principal indebtedness and any remainder will be refunded to the Maker"
+        ]
+      },
+      "time_of_payments": {
+        "title": "2. Time of Payments.",
+        "content": [
+          "Maker will make payments to Lender beginning on , and on the 1st day of every successive 3r d calendar month until Maturity, in a monthly total amount equal to the per annum rate divided by four then multiplied by the unpaid Principal. For this purpose, the amount of any interest payment that is in default as defined in this Loan will be added to unpaid Principal and interest paid thereon until such time as the interest in default has been paid. Payments will be applied first to accrued interest and then to principal"
+        ]
+      },
+      "maturity_date_prepayment_acceleration": {
+        "title": "3. Maturity Date, Prepayment and Acceleration.",
+        "content": [
+          "The Maker will pay all indebtedness due under this Loan (including without limitation any unpaidPrincipal and unpaid interest) on or before (\"Maturity Date\"). The Maker may make prepayments at any time without any premium or penalty. Prepayments made pursuant to this paragraph will be applied first to accrued but unpaid interest and then to the unpaid principal balance. No prepayment will result in a change in the Maturity Date"
+        ]
+      },
+      "mode_and_place_of_payment": {
+        "title": "4. Mode and Place of Payment.",
+        "content": [
+          "All payments due under this Loan Agreement will be made in immediately available funds in lawful money of the Canadian (CAD). All payments due under this Loan will be made by direct deposit to the account of the Lender as designated in the initial paragraph, or at any other address that may be designated by written notice given by the Lender to the Maker."
+        ]
+      },
+      "default": {
+        "title": "5. Default.",
+        "content": [
+          "(a) Default under this Loan will exist if any of the following facts or circumstances exists or occurs or is deemed to exist or occur. No notice of, or action with respect to, any of the following facts or circumstances is prerequisite to the existence or deemed existence of a Default, except if and to the extent expressly required below. (a) The Maker fails to make any payment required under this Loan on due date and any such period of non-payment has continued un- remedied for more than 10 calendar days after notice from Holder.",
+          "(b). An order, judgment or decree is entered adjudicating the Maker, or any person or entity that controls, is controlled by or is under common control with Maker (\"Maker’s Affiliate\"), bankrupt or insolvent; or, the Maker or Maker’s Affiliate petitions or applies to any tribunal for the appointment of a trustee, receiver or liquidator for itself or of any substantial part of its assets, or commences any proceeding under any bankruptcy, reorganization, arrangement, insolvency, readjustment of debt, dissolution or liquidation etc.",
+          "(c) In the event that any or all of the above should exist or occur, the insurance policy and or surety bond insuring the note shall cover the holder, and such surety bond and or insurance policy shall pay Lender the principal and interest owed, even if the performance or non-performance of the terms of this Loan are delayed, caused or prevented by an act of God, force majeure or natural disaster. In the event of a default the Holder shall have his principal and interest returned by the insurer of this note within 60 days of default."
+        ]
+      },
+      "cancellation": {
+        "title": "6. Cancellation.",
+        "content": [
+          "When all amounts due to Holder under this Promissory Note, including without limitation the entire principal balance and all accrued and unpaid interest, have been paid in full, this Promissory Note will be surrendered to the Maker for cancellation"
+        ]
+      },
+      "presentment_demand_notice": {
+        "title": "7. Presentment, Demand, Notice, Etc.",
+        "content": [
+          "Except for the notice requirements set forth above, the Maker waives presentment, demand, notice, protest and all other demands and notice in connection with the delivery, acceptance, acceleration, performance and enforcement of this Promissory Note, and assents to any extension of the time of payment or forbearance or other indulgence granted or acquiesced in by Holder without notice and without releasing the Maker from any of its obligations hereunder."
+        ]
+      },
+      "specific_performance": {
+        "title": "8. Specific Performance.",
+        "content": [
+          "The Lender acknowledges that Maker shall be entitled to the remedy of specific performance for any breach or threatened breach of this Agreement by the Lender or its Representatives. Such remedy shall not be deemed to be the exclusive remedy under this Agreement but shall be in addition to all other remedies available at law or equity to Maker. DELIVERING CERTAINTY IN AN UNCERTAIN WORLD 9"
+        ]
+      },
+      "costs_enforcement_protection": {
+        "title": "9. Costs of Enforcement and Protection.",
+        "content": [
+          "The prevailing party shall be entitled to recover all reasonable costs and expenses, including without limitation attorneys' fees and legal expenses, paid, suffered or incurred in connection with any dispute over enforcement and protection hereunder"
+        ]
+      },
+      "governing_law_venue": {
+        "title": "10. Governing Law; Venue.",
+        "content": [
+          "All questions concerning the construction, validity and interpretation of this Promissory Note will be governed by the internal laws, and not the law of conflicts, of Canada. The parties intend that proper venue for any action, suit or proceeding arising pursuant to this Loan will be in Canada, exclusively. Each party agrees that any action, suit or proceeding will be brought before a state or federal court sitting in Canada, and waives any objection to venue in that court.",
+          "The Lender or Investor acknowledges that Maker shall be entitled to the remedy of specific performance for any breach or threatened breach of this Agreement by the Holder or its Representatives. Such remedy shall not be deemed to be the exclusive remedy under this Agreement but shall be in addition to all other remedies available at law or equity to Maker"
+        ]
+      },
+      "no_waiver": {
+        "title": "11. No Waiver.",
+        "content": [
+          "Unless the Lender shall have executed a written waiver, and then only to the extent specifically set forth in that written waiver, no act, omission or delay will be deemed to constitute a waiver of any of the Lender’s rights or remedies under this Loan, and no act, delay, omission or waiver on any one occasion will be deemed a bar to enforcement or a waiver of the same or any other right or remedy on any other occasion"
+        ]
+      },
+      "notices": {
+        "title": "12. Notices.",
+        "content": [
+          "All notices required or permitted to be given under this Loan will be in writing, and addressed to the recipient’s address specified above, or at such alternative address as may be designated by a party by notice given pursuant to this Section 12. All notices will be delivered by hand, or by Federal Express, Canadian Postal Service, U.P.S., or other national courier service that provides daily delivery service to the recipient's address and maintains record of delivery. The notice will be deemed given and received upon the earlier of the date actually received or on the date indicated by the records of the FedEx, Canadian Postal Service, U.P.S. or other national courier service as being the date when actual physical delivery of the notice was first attempted at the recipient's address on a business day in the jurisdiction of attempted delivery."
+        ]
+      },
+      "legend": {
+        "title": "13. Legend.",
+        "content": [
+          "This Loan has not been registered under any securities laws. No transfer or other disposition of this Loan can be made during the offering in which this Loan was given and for nine months after the last sale in that offering (as determined by the Maker), except upon registration or an exemption from registration"
+        ]
+      },
+      "original_intent": {
+        "title": "14. Original Intent.",
+        "content": [
+          "In the event the original intent of the request for funding does not materialize, principal and any accrued interest, if applicable, shall be returned to Lender within 30 calendar days from the time the promissory note was executed"
+        ]
+      },
+      "unconditional_guarantee": {
+        "title": "15. Unconditional Loan or Investment Guarantee.",
+        "content": [
+          "WAVEN3 Technology shall provide Lender with a noncollectable surety bond, or other like insurance policy or product to serve as an unconditional guarantee for the Holder that he shall receive payment of both principal and interest on this note; in full, and within 60 days in the event of a default",
+          "WAVEN3 Technology shall only seek to facilitate the issuance of such insurance policies from insurance carriers that are considered to be “investment grade” whom carry a B++ credit rating or higher from the Credit Rating Agency AM Best.",
+          "Such insurance guarantees shall be issued by either Afiancol Insurance Company, Redbridge Insurance Company as a cover holder for Lloyds of London, and or Ocean Reinsurance, as guarantors or co-guarantor(s) or either individually or as part of a Insurance syndicate in their capacity as fully licensed and regulated investment grade insurance companies and reinsurance companies respectively.",
+          "WAVEN3 Technology expects to use Redbridge Insurance Company in part or in whole to issue the majority of insurance guarantees relating to this Loan. Redbridge Insurance Company has been issued a B++ credit rating from AM Best and is also a cover holder for Lloyds of London",
+          "The aforementioned surety and financial guarantee bond(s) shall provide the Loan Holder(s) of this note offering complete and absolute principal and interest protection. Such guarantee shall be provided in draft form to Lender(s) upon the execution of this Loan and then issued directly from the insurance company to lender as sole beneficiary in legal and binding form within five (5) business days after lender has completed the loan to ensure the performance of WAVEN3 Technology’s obligations and all principal and interest payment(s) as have been described herein relating to this loan"
+        ]
+      }
+    }
+  }
+}

@@ -81,17 +81,17 @@ const MarketOpportunity = () => {
   const { t } = useTranslation();
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
-    <section>
+    <section className="flex items-center">
       <div className="flex flex-col w-full justify-center items-center ">
         <div className="flex  w-full mt-10 py-20 justify-center items-center">
-          <p className="flex my=-10  font-bigshoulder justify-center items-center font-extrabold text-5xl md:3xl sm:xl">
+          <p className="flex my=-10  font-bigshoulder justify-center items-center font-extrabold text-4xl sm:3xl  md:5xl ">
             {t("marketopportunity.title")}
           </p>
         </div>
         {isAboveLarge ? (
           <div className="flex flex-col w-full  gap-8 py-10 pb-48 font-semibold">
             <div className="flex flex-row h-full">
-              <div className="flex w-[40%] items-start">
+              <div className="flex w-[40%] items-start ">
                 <Line data={data} options={config} />
               </div>
               <div className="flex px-20 font-bigshoulder tracking-wider text-2xl items-center justify-center w-[60%]">
@@ -119,7 +119,7 @@ const MarketOpportunity = () => {
             <div className="flex px-20 font-bigshoulder  tracking-wider text-xl items-center w-full">
               {t("marketopportunity.graph1")}
             </div>
-            <div className="flex w-[70%] py-20">
+            <div className="flex py-20">
               <Line data={data} options={config} />
             </div>
             <div className="flex px-20 font-bigshoulder  tracking-wider text-xl items-center w-full">
@@ -127,7 +127,7 @@ const MarketOpportunity = () => {
               {t("marketopportunity.waven3tech")}{" "}
               {t("marketopportunity.graph2t2")}
             </div>
-            <div className="flex w-[70%] py-20">
+            <div className="flex py-20">
               <Line data={secondData} options={config} />
             </div>
           </div>
