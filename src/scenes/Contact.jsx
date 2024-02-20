@@ -181,6 +181,11 @@ const Contact = () => {
             >
               {t("contact.messaggebutton")}
             </button>
+            <input
+              type="hidden"
+              name="_autoresponse"
+              value="your custom message"
+            />
           </form>
         </motion.div>
       </div>
