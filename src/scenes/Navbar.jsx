@@ -68,12 +68,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page={t("aboutus")}
-              title="aboutus"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            />
-            <Link
               page={t("projects")}
               title="projects"
               selectedPage={selectedPage}
@@ -134,12 +128,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               <Link
                 page={t("home")}
                 title="home"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-              <Link
-                page={t("aboutus")}
-                title="aboutus"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />

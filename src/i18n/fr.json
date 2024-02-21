@@ -5,7 +5,7 @@
   "contactus": "Contactez-nous",
   "crypto": "Crypto",
   "joinus": "Rejoignez-nous",
-  "aboutustext": "Technology est une société de haute technologie opérant dans les domaines de l'hydrogène et de l'intelligence artificielle. Notre mission est de financer des projets qui génèrent des crédits carbone, attirant ainsi des fonds pour le bien-être collectif de chaque citoyen du monde. Tout ce processus sera canalisé dans l'écosystème d'échange de crédits carbone. La création de crédits carbone s'étend à différents secteurs tels que l'énergie, la haute technologie, les ressources naturelles, l'éducation et plusieurs autres. Ensemble, nous offrons une solution durable, transmettant aux générations futures un avenir meilleur et une planète plus verte.",
+  "aboutustext": "Waven 3 Technologie est une société de haute technologie opérant dans les domaines des énergies renouvelables telles que l'hydrogène, la création de crédit carbone par le biais de nouvelles technologies et des richesses naturelles de l’ensemble des forêts de tous les continents. Ensemble, nous offrons une solution durable, transmettant aux générations futures un avenir meilleur et une planète plus verte.",
   "companyname": "Waven",
   "ourmission": "NOTRE MISSION",
   "ourmissiontext": "Sauf si le prêteur et l'investisseur ont signé une renonciation écrite, et alors seulement dans la mesure spécifiquement définie dans cette renonciation écrite, aucun acte, omission ou retard ne sera réputé constituer une renonciation à l'un quelconque des droits ou recours du prêteur et de l'investisseur en vertu de ce prêt ou investissement, et aucun acte, retard, omission ou renonciation en une seule occasion ne sera considéré comme un obstacle à l'application ou une renonciation au même droit ou recours ou à tout autre droit ou recours lors d'une autre occasion.",
@@ -29,28 +29,28 @@
     "title": "Les Projets",
     "ourproject": "Nos Projets",
     "Waven3_technology_claim": {
-      "content": "La technologie Waven3 est en cours de sécurisation des revendications (DEC 2023) dans le territoire du Québec qui ont été initialement prospectées et contiennent de grandes poches d'hydrogène blanc. Nous travaillons également en continu à sécuriser des partenariats pour inclure des projets dédiés à la production de méthanol bleu et d'énergie propre."
+      "content": "Waven3 technologie est en cours de sécurisation des revendications (DEC 2023) dans le territoire du Québec qui ont été initialement prospectées et contiennent de grandes poches d'hydrogène blanc. L'hydrogène blanc, également connu sous le nom d'hydrogène naturel, est une forme d'hydrogène naturellement présente, que l'on trouve dans les gisements souterrains et dans l'air. C'est l'élément chimique le plus léger et le premier sur le tableau périodique des éléments."
     },
     "white_hydrogen_intro": {
-      "content": "L'hydrogène blanc, également connu sous le nom d'hydrogène naturel, est une forme d'hydrogène naturellement présente, que l'on trouve dans les gisements souterrains et dans l'air. C'est l'élément chimique le plus léger et le premier sur le tableau périodique des éléments."
+      "content": "Cette forme d'hydrogène est libérée des gisements souterrains par des processus. Cependant, même s'il est l'élément le plus abondant de l'univers, il est rare sous sa forme pure, c'est pourquoi il n'est pas envisagé d'être collecté pour être utilisé comme carburant sans émissions. Au lieu de cela, H2 est généralement combiné avec d'autres atomes pour créer d'autres molécules. Par exemple, une combinaison facilement reconnaissable est H2O, mieux connue sous le nom d'eau. Bien que la forme naturelle puisse être renouvelable et tout aussi non polluante que celles fabriquées avec de l'énergie renouvelable, elle ne peut pas être raisonnablement capturée sans d'autres processus pour l'extraire de là où elle a été combinée. Facilement reconnaissable est H2O, mieux connue sous le nom d'eau. Bien que la forme naturelle puisse être renouvelable et tout aussi non polluante que celles fabriquées avec de l'énergie renouvelable, elle ne peut pas être raisonnablement capturée sans d'autres processus pour l'extraire de là où elle a été combinée. En résumé, l'hydrogène blanc est une forme d'hydrogène naturellement présente dans l'air et dans les gisements souterrains, mais il est difficile à capturer et à utiliser comme source de carburant en raison de sa rareté sous forme pure et du processus d'extraction énergivore."
     },
     "white_hydrogen_details": {
-      "content": "Cette forme d'hydrogène est libérée des gisements souterrains par des processus. Cependant, même s'il est l'élément le plus abondant de l'univers, il est rare sous sa forme pure, c'est pourquoi il n'est pas envisagé d'être collecté pour être utilisé comme carburant sans émissions. Au lieu de cela, H2 est généralement combiné avec d'autres atomes pour créer d'autres molécules. Par exemple, une combinaison facilement reconnaissable est H2O, mieux connue sous le nom d'eau. Bien que la forme naturelle puisse être renouvelable et tout aussi non polluante que celles fabriquées avec de l'énergie renouvelable, elle ne peut pas être raisonnablement capturée sans d'autres processus pour l'extraire de là où elle a été combinée."
+      "content": "Présentement nous sommes sur le point d’octroyer un mandat d’expertise de faisabilité pour valider la teneur des réserves hydrogènes en souterrain pour la mise en place d’exploitation de ces réserves."
     },
     "white_hydrogen_extraction": {
-      "content": "Au lieu de cela, H2 est généralement combiné avec d'autres atomes pour créer d'autres molécules. Par exemple, une combinaison facilement reconnaissable est H2O, mieux connue sous le nom d'eau. Bien que la forme naturelle puisse être renouvelable et tout aussi non polluante que celles fabriquées avec de l'énergie renouvelable, elle ne peut pas être raisonnablement capturée sans d'autres processus pour l'extraire de là où elle a été combinée."
+      "content": "Concernant les secteurs forestiers nous sommes présentement à faire la gestion et l’accréditation des crédits carbones de forêt secteur Amazonie, Afrique et Amérique du sud permettant d’assainir les principaux polluants atmosphériques tel que oxydes de soufre, oxydes d’azote, composés organiques volatils, ammoniac et monoxyde de carbone."
     },
     "white_hydrogen_summary": {
-      "content": "En résumé, l'hydrogène blanc est une forme d'hydrogène naturellement présente dans l'air et dans les gisements souterrains, mais il est difficile à capturer et à utiliser comme source de carburant en raison de sa rareté sous forme pure et du processus d'extraction énergivore."
+      "content": "Lancement fin janvier 2025 d’une cryptomonnaie accréditée par la Finma."
     },
     "blue_methanol_intro": {
-      "content": "Le méthanol bleu est un type de méthanol produit à l'aide de la technologie de capture et de séquestration du carbone (CSC). Ce processus implique la capture et la compression du CO2 résiduel sur le site de l'usine et son injection dans des formations géologiques contenues où il est séquestré de manière permanente et sûre."
+      "content": ""
     },
     "blue_methanol_details": {
-      "content": "Le méthanol bleu sert de bloc de construction polyvalent pour d'innombrables produits de tous les jours, y compris les adhésifs et les matériaux de construction. Il est également en cours d'évaluation pour une utilisation comme carburant à faible teneur en carbone pour des industries telles que le transport maritime."
+      "content": ""
     },
     "blue_methanol_context": {
-      "content": "Dans le contexte de Waven3, le méthanol bleu est produit à partir d'hydrogène propre. La production de méthanol bleu remplace des produits plus carbonés fabriqués sans CSC ou d'autres technologies de réduction du carbone. Il a de multiples et croissantes applications dans les industries pétrochimiques et de transport."
+      "content": ""
     }
   },
 
@@ -129,8 +129,8 @@
 
   "cryptotoken": {
     "title": "JETON CRYPTO",
-    "text1": "Nous créerons la référence en matière de crypto-monnaie avec une interchangeabilité avec d'autres cryptos sur notre future bourse.",
-    "text2": "Notre jeton sera approuvé par l'organe gouvernemental suisse responsable de la réglementation financière.",
+    "text1": "Waven3 technologie est présentement à la création d’une cryptomonnaie rattachée aux performances de la compagnie afin de financer l’ensemble de ces projets. Cette même monnaie sera interchangeable avec d’autres cryptomonnaies. Le lancement de la monnaie est prévu pour janvier 2025 et sera offert à tous les citoyens du monde. Notre crypto monnaie sera approuvée par l'agence gouvernementale suisse Finma responsable de la réglementation financière.",
+    "text2": "",
     "image1": "La FINMA est l'organe gouvernemental suisse responsable de la réglementation financière. Cela comprend la supervision des banques, des compagnies d'assurance, des bourses et des courtiers en valeurs mobilières ainsi que d'autres intermédiaires financiers en Suisse.",
     "image2": "Tout passera par nos technologies propriétaires pour sécuriser et échanger les jetons et les crédits carbone sur la blockchain et éliminer la fraude et le double comptage et garantir la retraite. Pour la première fois, cela sera réalisé sur le web 3.0.",
     "data": [
@@ -214,7 +214,7 @@
     "afiancoltext": "Cessionnaire du paiement de la réassurance sur première demande sans territorialité.",
     "debtor": "Débiteur",
     "debtortext": "Débiteur inscrit",
-    "lendor": "Investisseurs",
+    "lendor": "Investisseurs ou Prêteurs",
     "lendortext": "Bénéficiaire de la caution et de la réassurance"
   },
   "residencypage": {
