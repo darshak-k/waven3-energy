@@ -12,14 +12,6 @@ const Contact = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = async (e) => {
-    console.log("~ e", e);
-    const isValid = await trigger();
-    if (!isValid) {
-      e.preventDefault();
-    }
-  };
-
   return (
     <section id="contact" className="contact py-48">
       {/* HEADINGS */}
@@ -63,8 +55,7 @@ const Contact = () => {
         >
           <form
             target="_blank"
-            onSubmit={onSubmit}
-            action="https://formsubmit.co/info@waven3global.com"
+            action="https://formsubmit.co/51c9e241c1783fd25c0cf4eb77f6c759 "
             method="POST"
           >
             <input
