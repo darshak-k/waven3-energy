@@ -98,16 +98,6 @@ const Footer = () => {
               <ul className="mt-6 space-y-4 font-semibold text-xl">
                 <li>
                   <a
-                    href="/aboutus"
-                    className="text-gray-700 transition hover:opacity-75"
-                  >
-                    {" "}
-                    {t("footer.about")}{" "}
-                  </a>
-                </li>
-
-                <li>
-                  <a
                     href="/projects"
                     className="text-gray-700 transition hover:opacity-75"
                   >
