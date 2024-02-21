@@ -124,7 +124,7 @@
     "identification": "IDENTIFICATION NUMBER",
     "validation1": "This field is required.",
     "validation2": "Max length is 100 char.",
-    "messaggebutton": "SEND ME A MESSAGE"
+    "messaggebutton": "SEND US A MESSAGE"
   },
 
   "cryptotoken": {
