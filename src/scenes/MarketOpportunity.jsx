@@ -84,7 +84,7 @@ const MarketOpportunity = () => {
     <section className="flex items-center">
       <div className="flex flex-col w-full justify-center items-center ">
         <div className="flex  w-full mt-10 py-20 justify-center items-center">
-          <p className="flex my=-10  font-bigshoulder justify-center items-center font-extrabold text-4xl sm:3xl  md:5xl ">
+          <p className="flex my=-10  font-bigshoulder justify-center text-center items-center font-extrabold text-5xl sm:3xl  md:5xl ">
             {t("marketopportunity.title")}
           </p>
         </div>

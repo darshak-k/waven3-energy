@@ -105,7 +105,7 @@ const OurOffices = () => {
               <p className="text-center text-orange-800 font-extrabold font-bigshoulder text-2xl  pb-10">
                 {t("offices.canadausa")}
               </p>
-              <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
+              <div className="flex text-center font-semibold font-bigshoulder text-xl">
                 <NavigationIcon />
                 <p> {t("offices.canadaaddress")}</p>
               </div>
@@ -134,7 +134,7 @@ const OurOffices = () => {
                 {t("offices.switzerlanduae")}
               </p>
 
-              <div className="flex text-center font-semibold font-bigshoulder text-xl gap-5">
+              <div className="flex text-center font-semibold font-bigshoulder text-xl">
                 <NavigationIcon />
                 <p> {t("offices.switzerlandaddress")}</p>
               </div>

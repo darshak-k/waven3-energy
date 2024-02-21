@@ -43,7 +43,7 @@ const OpenCards = () => {
   return (
     <section key="AccreditationProcess">
       <div className="py-10 pb-32">
-        <p className="my-10 flex justify-center font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
+        <p className="my-10 flex justify-center text-center font-bigshoulder font-extrabold text-5xl md:3xl sm:xl">
           {t("footer.accreditationprocess")}
         </p>
       </div>

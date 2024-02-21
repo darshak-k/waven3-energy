@@ -42,6 +42,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
     i18n.changeLanguage(lang_code);
     setSelectedLanguage(e.target.value);
   };
+  const customStyles = {
+    container: (provided) => ({
+      ...provided,
+      width: 150,
+    }),
+  };
 
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
@@ -162,17 +168,21 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 setSelectedPage={setSelectedPage}
               />
 
-              <select
-                value={selectedLanguage}
-                onChange={onChangeLang}
-                className="p-2 bg-transparent border-2 border-orange-800 rounded-md text-orange-800 focus:outline-none focus:border-orange-500"
-              >
-                {LANGUAGES.map(({ code, label }) => (
-                  <option key={code} value={code} className="bg-red">
-                    {label}
-                  </option>
-                ))}
-              </select>
+              <div>
+                <select
+                  styles={customStyles}
+                  value={selectedLanguage}
+                  autosize={true}
+                  onChange={onChangeLang}
+                  className="p-2 bg-transparent border-2 border-orange-800 rounded-md text-orange-800 focus:outline-none focus:border-orange-500"
+                >
+                  {LANGUAGES.map(({ code, label }) => (
+                    <option key={code} value={code} className="bg-red">
+                      {label}
+                    </option>
+                  ))}
+                </select>
+              </div>
             </div>
           </div>
         )}
