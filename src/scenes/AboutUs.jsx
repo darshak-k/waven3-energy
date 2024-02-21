@@ -37,7 +37,6 @@ const AboutUs = () => {
           </p>
           <p className="mt-4">{t("greenhydrogentext1")}</p>
           <p className="mt-4">{t("greenhydrogentext2")} </p>
-          <p className="mt-4">{t("greenhydrogentext3")}</p>
           <p className="mt-4">{t("greenhydrogentext4")}</p>
         </div>
       </div>
