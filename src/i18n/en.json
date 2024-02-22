@@ -26,31 +26,31 @@
     "title": "JOIN US CHANGING THE WORLD TODAY"
   },
   "theprojectspage": {
-    "title": "The Projects",
+    "title": "Projects",
     "ourproject": "Our Projects",
     "Waven3_technology_claim": {
-      "content": "Waven3 technology is in the process of securing claims ( DEC 2023 ) in the territory of Quebec that have been initially prospected and contain large pockets of White Hydrogen. We are also continuously working on securing partnerships to include projects dedicated to the production of Blue Methanol and clean energy."
+      "content": "Waven3 technology is currently securing claims (DEC 2023) in the Quebec territory that were initially prospected and contain large pockets of white hydrogen. White hydrogen, also known as natural hydrogen, is a form of hydrogen naturally occurring, found in underground reservoirs and in the air. It is the lightest chemical element and the first on the periodic table of elements."
     },
     "white_hydrogen_intro": {
-      "content": "White Hydrogen, also known as Natural Hydrogen, is a naturally occurring form of Hydrogen,that is found in underground deposits and in the air It is the lightest chemical element and the first on the periodic table of elements."
+      "content": "This form of hydrogen is released from underground reservoirs through processes. However, even though it is the most abundant element in the universe, it is rare in its pure form, which is why it is not considered for collection to be used as emission-free fuel. Instead, H2 is typically combined with other atoms to create other molecules. For example, a readily recognizable combination is H2O, better known as water. Although the natural form may be renewable and just as non-polluting as those made with renewable energy, it cannot be reasonably captured without further processes to extract it from where it has been combined. Easily recognizable is H2O, better known as water. Although the natural form may be renewable and just as non-polluting as those made with renewable energy, it cannot be reasonably captured without further processes to extract it from where it has been combined. In summary, white hydrogen is a form of hydrogen naturally present in the air and in underground reservoirs, but it is difficult to capture and use as a fuel source due to its rarity in pure form and the energy-intensive extraction process."
     },
     "white_hydrogen_details": {
-      "content": "This form of Hydrogen is released from underground deposits through processes . However, even though it is the most abundant, element in the universe, it is rare in its pure form. which is why it isn’t being considered for collection to be used as an emission-free fuel. Instead, H2 is usually combined with other atoms to create other molecules . For example, an easily recognizable combination is H2O, better known as water. While the natural form may be renewable and is just as non-polluting as those forms made with renewable energy, it cannot be reasonably captured without other processes to extract it from where it has been combined."
+      "content": "Currently, we are about to award a feasibility expertise mandate to validate the content of underground hydrogen reserves for the implementation of the exploitation of these reserves."
     },
     "white_hydrogen_extraction": {
-      "content": "Instead, H2 is usually combined with other atoms to create other molecules. For example, an easily recognizable combination is H2O, better known as water. While the natural form may be renewable and is just as non-polluting as those forms made with renewable energy, it cannot be reasonably captured without other processes to extract it from where it has been combined."
+      "content": "Regarding forest sectors, we are currently managing and accrediting forest carbon credits in the Amazon, Africa, and South America regions, helping to clean up major atmospheric pollutants such as sulfur oxides, nitrogen oxides, volatile organic compounds, ammonia, and carbon monoxide."
     },
     "white_hydrogen_summary": {
-      "content": "In summary, White Hydrogen is a naturally occurring form of Hydrogen that is found in the air and in underground deposits but it is challenging to capture and use as a fuel source due to its rarity in pure form and the energy-intensive extraction process"
+      "content": "Launch at the end of January 2025 of a cryptocurrency accredited by Finma."
     },
     "blue_methanol_intro": {
-      "content": "Blue Methanol is a type of methanol produced using Carbon Capture and Sequestration (CCS) technology. This process involves capturing and compressing waste CO2 at the plant site and injecting it deep into contained geological formations where it is. permanently and safely sequestered"
+      "content": ""
     },
     "blue_methanol_details": {
-      "content": "Blue Methanol serves as a versatile building block for countless everyday products, including adhesives and construction materials It is also being evaluated for use as a low-carbon fuel for industries such as shipping."
+      "content": ""
     },
     "blue_methanol_context": {
-      "content": "In the context of Waven3, Blue Methanol is produced from Clean Hydrogen. The production of Blue Methanol displaces more carbon-intensive gray or black products manufactured without CCS or other carbon reduction technologies. It has multiple and growing applications in both the petrochemical and transportation industries"
+      "content": ""
     }
   },
 
