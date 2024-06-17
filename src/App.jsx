@@ -78,10 +78,6 @@ function App() {
               element={<ProjectsFn setSelectedPage={setSelectedPage} />}
             />
             <Route
-              path="/crypto"
-              element={<CryptoFn setSelectedPage={setSelectedPage} />}
-            />
-            <Route
               path="/joinus"
               element={<JoinFn setSelectedPage={setSelectedPage} />}
             />
@@ -206,9 +202,6 @@ function Home({ setSelectedPage }) {
           <AccreditationProcess setSelectedPage={setSelectedPage} />
           <LineGradient />
           <MarketOpportunity setSelectedPage={setSelectedPage} />
-
-          <LineGradient />
-          <CryptoToken setSelectedPage={setSelectedPage} />
 
           <LineGradient />
           <ReinsuranceCompany setSelectedPage={setSelectedPage} />

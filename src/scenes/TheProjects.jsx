@@ -29,9 +29,6 @@ const TheProjects = () => {
           <p className="mt-10">
             {t("theprojectspage.white_hydrogen_extraction.content")}
           </p>
-          <p className="mt-10">
-            {t("theprojectspage.white_hydrogen_summary.content")}
-          </p>
 
           <p className="mt-10">
             {t("theprojectspage.blue_methanol_intro.content")}

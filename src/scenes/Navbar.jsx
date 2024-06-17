@@ -74,12 +74,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page={t("crypto")}
-              title="crypto"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            />
-            <Link
               page={t("joinus")}
               title="joinus"
               selectedPage={selectedPage}
@@ -134,12 +128,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               <Link
                 page={t("projects")}
                 title="projects"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-              <Link
-                page={t("crypto")}
-                title="crypto"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />

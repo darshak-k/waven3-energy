@@ -21,20 +21,20 @@ const OurOffices = () => {
     {
       flag: USAFlag,
       country: "USA",
-      person: "Michel Faille",
-      email: "mfaille@waven3global.com",
+      person: "Carlo D’anello",
+      email: "cdanello@waven3global.com",
     },
     {
       flag: UAEFlag,
       country: "UAE",
-      person: "Rafa Ren",
-      email: "rafaren@waven3global.com",
+      person: "Carlo D’anello",
+      email: "cdanello@waven3global.com",
     },
     {
       flag: SwitzerlandFlag,
       country: "SWITZERLAND",
       person: "Carlo D’anello",
-      email: "cdanello@waven3glogal.com",
+      email: "cdanello@waven3global.com",
     },
   ];
 

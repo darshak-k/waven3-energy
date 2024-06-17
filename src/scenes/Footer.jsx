@@ -141,15 +141,7 @@ const Footer = () => {
                     {t("footer.accreditationprocess")}{" "}
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="/crypto"
-                    className="text-gray-700 transition hover:opacity-75"
-                  >
-                    {" "}
-                    {t("footer.cryptotoken")}{" "}
-                  </a>
-                </li>
+
                 <li>
                   <a
                     href="/marketopportunity"
