@@ -2,7 +2,6 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import CarbonCapture from "../assets/CarbonCapture.png";
 import Hydrogen from "../assets/Hydrogen.png";
 import CleanFuel from "../assets/CleanFuel.png";
-import Blockchain from "../assets/Blockchain.png";
 import Education from "../assets/Education.png";
 import Fertilizer from "../assets/Fertilizer.png";
 import { motion } from "framer-motion";
@@ -45,7 +44,6 @@ const CarbonCredit = () => {
     { image: CarbonCapture, title: t("carboncredit.data.0") },
     { image: Hydrogen, title: t("carboncredit.data.1") },
     { image: CleanFuel, title: t("carboncredit.data.2") },
-    { image: Blockchain, title: t("carboncredit.data.3") },
     { image: Education, title: t("carboncredit.data.4") },
     { image: Fertilizer, title: t("carboncredit.data.5") },
   ];
